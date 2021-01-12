@@ -16,10 +16,6 @@ describe("nocache plugin", () => {
 			await server.ready();
 		});
 
-		beforeEach(() => {
-			jest.resetAllMocks();
-		});
-
 		afterAll(() => {
 			server.close();
 		});
