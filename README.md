@@ -39,10 +39,10 @@ fastify-disablecache's test scripts use yarn commands.
 
 ```js
 const Fastify = require("fastify");
-const nocache = require("fastify-disablecache");
+const disableCache = require("fastify-disablecache");
 
 const server = Fastify();
-server.register(nocache);
+server.register(disableCache);
 
 server.get("/", (req, res) => {
 	res.send("ok");
@@ -57,7 +57,8 @@ Please see [CONTRIBUTING.md](https://github.com/Fdawgs/fastify-disablecache/blob
 
 ## Acknowledgements
 
--   [**Evan Hahn**](https://github.com/EvanHahn) - [nocache](https://github.com/helmetjs/helmet) and [helmet](https://github.com/helmetjs/helmet) developer
+-   [**Evan Hahn**](https://github.com/EvanHahn) - [nocache](https://github.com/helmetjs/helmet) developer
+-   [**Matteo Collina**](https://github.com/mcollina) - Optimisation suggestions
 
 ## License
 

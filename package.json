@@ -1,6 +1,6 @@
 {
 	"name": "fastify-disablecache",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Fastify plugin wrapper for nocache to disable client-side caching",
 	"keywords": [
 		"cache",
@@ -51,7 +51,7 @@
 		"eslint-config-prettier": "^7.1.0",
 		"eslint-plugin-import": "^2.22.1",
 		"eslint-plugin-jest": "^24.1.3",
-		"eslint-plugin-jsdoc": "^31.0.2",
+		"eslint-plugin-jsdoc": "^31.0.3",
 		"eslint-plugin-promise": "^4.2.1",
 		"eslint-plugin-security": "^1.4.0",
 		"fastify": "^3.9.2",
