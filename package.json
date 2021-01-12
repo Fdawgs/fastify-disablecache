@@ -4,6 +4,8 @@
 	"description": "Fastify plugin wrapper for nocache to disable client-side caching",
 	"keywords": [
 		"cache",
+		"disable",
+		"disablecache",
 		"expires",
 		"fastify",
 		"headers",
@@ -57,7 +59,6 @@
 		"prettier": "2.2.1"
 	},
 	"dependencies": {
-		"fastify-plugin": "^3.0.0",
-		"nocache": "^2.1.0"
+		"fastify-plugin": "^3.0.0"
 	}
 }
