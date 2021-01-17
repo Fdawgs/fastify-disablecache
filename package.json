@@ -16,7 +16,7 @@
 	],
 	"main": "src/index.js",
 	"repository": "git+https://github.com/Fdawgs/fastify-disablecache.git",
-	"author": "Frazer Smith",
+	"author": "Frazer Smith <frazer.dev@outlook.com>",
 	"license": "MIT",
 	"engines": {
 		"node": ">=10.22.0"
