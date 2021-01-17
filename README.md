@@ -21,19 +21,19 @@ You can read more about these response headers on [MDN here](https://developer.m
 
 ## Installation
 
-Install using [`yarn`](https://yarnpkg.com/en/package/fastify-disablecache):
-
-```bash
-yarn add fastify-disablecache
-```
-
-Or [`npm`](https://www.npmjs.com/package/fastify-disablecache):
+Install using [`npm`](https://www.npmjs.com/package/fastify-disablecache):
 
 ```bash
 npm install fastify-disablecache
 ```
 
-fastify-disablecache's test scripts use yarn commands.
+Or [`yarn`](https://yarnpkg.com/en/package/fastify-disablecache):
+
+```bash
+yarn add fastify-disablecache
+```
+
+fastify-disablecache's test scripts use npm commands.
 
 ## Example usage
 
