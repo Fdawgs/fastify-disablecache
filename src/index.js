@@ -6,7 +6,7 @@ const fp = require("fastify-plugin");
  * @param {Function} server - Fastify instance.
  */
 async function plugin(server) {
-	server.addHook("onRequest", (req, reply, next) => {
+	server.addHook("onRequest", async (req, reply) => {
 		reply.headers({
 			"Surrogate-Control": "no-store",
 			"Cache-Control":
@@ -14,7 +14,6 @@ async function plugin(server) {
 			Pragma: "no-cache",
 			Expires: "0",
 		});
-		next();
 	});
 }
 
