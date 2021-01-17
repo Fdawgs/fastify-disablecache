@@ -28,7 +28,7 @@
 		"lint": "eslint . --cache --ext js,jsx --ignore-path .gitignore",
 		"lint:prettier": "prettier . --write --ignore-path .gitignore",
 		"lint:prettier:ci": "prettier . --check --ignore-path .gitignore",
-		"test": "yarn lint && yarn jest"
+		"test": "npm run lint && npm run jest"
 	},
 	"jest": {
 		"clearMocks": true,
