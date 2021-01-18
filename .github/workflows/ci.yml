@@ -32,7 +32,7 @@ jobs:
                   restore-keys: |
                       ${{ runner.os }}-node-
             - name: Install
-              run: npm ci --ignore-scripts
+              run: npm install --ignore-scripts
             - name: Run ESLint
               run: npm run lint
             - name: Run Prettier
@@ -64,7 +64,7 @@ jobs:
                   restore-keys: |
                       ${{ runner.os }}-node-
             - name: Install
-              run: npm ci --ignore-scripts
+              run: npm install --ignore-scripts
             - name: Run Tests
               run: npm run jest-coverage
             - name: Coveralls Parallel
