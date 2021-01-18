@@ -1,6 +1,6 @@
 {
 	"name": "fastify-disablecache",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Fastify plugin wrapper for nocache to disable client-side caching",
 	"keywords": [
 		"cache",

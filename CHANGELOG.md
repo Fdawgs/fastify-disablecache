@@ -1,3 +1,9 @@
+## <small>1.0.3 (2021-01-18)</small>
+
+-   fix: remove lockfile ([956b481](https://github.com/Fdawgs/fastify-disablecache/commit/956b481))
+-   ci: ignore scripts on publish ([fb7546c](https://github.com/Fdawgs/fastify-disablecache/commit/fb7546c))
+-   ci(typo-ci): add `ydh` to list of excluded words ([9f17731](https://github.com/Fdawgs/fastify-disablecache/commit/9f17731))
+
 ## <small>1.0.2 (2021-01-17)</small>
 
 -   build: remove `yarn` as package manager, revert to `npm` ([fcc1463](https://github.com/Fdawgs/fastify-disablecache/commit/fcc1463))
