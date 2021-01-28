@@ -35,7 +35,7 @@ yarn add fastify-disablecache
 
 fastify-disablecache's test scripts use npm commands.
 
-## Example usage
+## Example Usage
 
 ```js
 const Fastify = require("fastify");
