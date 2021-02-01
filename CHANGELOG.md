@@ -1,3 +1,21 @@
+## <small>1.0.4 (2021-02-01)</small>
+
+-   ci: add production license checking ([d32c299](https://github.com/Fdawgs/fastify-disablecache/commit/d32c299))
+-   ci: remove cache actions as they use lock file ([3893a36](https://github.com/Fdawgs/fastify-disablecache/commit/3893a36))
+-   ci: remove cache actions as they use lock file ([333782f](https://github.com/Fdawgs/fastify-disablecache/commit/333782f))
+-   ci(github-actions): set `flag-name` for parallel coverage tests ([b8f2df5](https://github.com/Fdawgs/fastify-disablecache/commit/b8f2df5))
+-   ci(github-actions): set semver for coverallsapp ([cec67d4](https://github.com/Fdawgs/fastify-disablecache/commit/cec67d4))
+-   docs: bump coc from v1.4.0 to v2.0.0 ([f038609](https://github.com/Fdawgs/fastify-disablecache/commit/f038609))
+-   docs(readme): reorder intro paragraph ([45c1de5](https://github.com/Fdawgs/fastify-disablecache/commit/45c1de5))
+-   docs(readme): sentence restructure ([2dfdcc0](https://github.com/Fdawgs/fastify-disablecache/commit/2dfdcc0))
+-   chore: stop excess coverage files being generated ([f2b8925](https://github.com/Fdawgs/fastify-disablecache/commit/f2b8925))
+-   build(deps-dev): add husky for git hook handling ([776cd18](https://github.com/Fdawgs/fastify-disablecache/commit/776cd18))
+-   build(deps-dev): remove coveralls, replaced by github action ([170ee64](https://github.com/Fdawgs/fastify-disablecache/commit/170ee64))
+-   style: capitalise headings correctly ([be8a2bf](https://github.com/Fdawgs/fastify-disablecache/commit/be8a2bf))
+-   style(ci): capitalise jobs and job step names ([74b2796](https://github.com/Fdawgs/fastify-disablecache/commit/74b2796))
+-   style(readme): capitalise headings correctly ([73f94aa](https://github.com/Fdawgs/fastify-disablecache/commit/73f94aa))
+-   style(readme): prettier badge shape ([1379c12](https://github.com/Fdawgs/fastify-disablecache/commit/1379c12))
+
 ## <small>1.0.3 (2021-01-18)</small>
 
 -   fix: remove lockfile ([956b481](https://github.com/Fdawgs/fastify-disablecache/commit/956b481))
