@@ -1,6 +1,7 @@
 # fastify-disablecache
 
 [![GitHub Release](https://img.shields.io/github/release/Fdawgs/fastify-disablecache.svg)](https://github.com/Fdawgs/fastify-disablecache/releases/latest/) [![npm version](https://img.shields.io/npm/v/fastify-disablecache)](https://www.npmjs.com/package/fastify-disablecache) ![Build Status](https://github.com/Fdawgs/fastify-disablecache/workflows/CI/badge.svg?branch=master) [![Coverage Status](https://coveralls.io/repos/github/Fdawgs/fastify-disablecache/badge.svg?branch=master)](https://coveralls.io/github/Fdawgs/fastify-disablecache?branch=master) [![Known Vulnerabilities](https://snyk.io/test/github/Fdawgs/fastify-disablecache/badge.svg)](https://snyk.io/test/github/Fdawgs/fastify-disablecache) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat)](https://github.com/prettier/prettier)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FFdawgs%2Ffastify-disablecache.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FFdawgs%2Ffastify-disablecache?ref=badge_shield)
 
 > Fastify plugin to disable client-side caching
 
@@ -63,3 +64,6 @@ Please see [CONTRIBUTING.md](https://github.com/Fdawgs/fastify-disablecache/blob
 ## License
 
 `fastify-disablecache` is licensed under the [MIT](https://github.com/Fdawgs/fastify-disablecache/blob/master/LICENSE) license.
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FFdawgs%2Ffastify-disablecache.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FFdawgs%2Ffastify-disablecache?ref=badge_large)
