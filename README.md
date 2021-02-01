@@ -6,9 +6,7 @@
 
 ## Intro
 
-The fastify-disablecache plugin was created out of a need for an easy way for client-side caching to be disabled for backend APIs at [Yeovil District Hospital NHS Foundation Trust](https://yeovilhospital.co.uk/). This ensures patient data is always current when called by applications.
-
-This plugin, inspired by [nocache](https://github.com/helmetjs/nocache), sets the following response headers and values:
+Inspired by [nocache](https://github.com/helmetjs/nocache), the `fastify-disablecache` plugin sets the following response headers and values to disable client-side caching:
 
 ```
 Surrogate-Control: no-store
@@ -18,6 +16,8 @@ Expires: 0
 ```
 
 You can read more about these response headers on [MDN here](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers#caching).
+
+This plugin was created out of a need for an easy way to disable client-side caching for data recieved from backend APIs at [Yeovil District Hospital NHS Foundation Trust](https://yeovilhospital.co.uk/). This ensures patient data is always current when called by applications.
 
 ## Installation
 
