@@ -30,6 +30,7 @@
 		"jest": "jest --detectOpenHandles --runInBand",
 		"jest-coverage": "jest --coverage --runInBand",
 		"lint": "eslint . --cache --ext js,jsx --ignore-path .gitignore",
+		"lint:licenses": "license-checker --production --onlyAllow=\"MIT;ISC;BSD-3-Clause;BSD-2-Clause\"",
 		"lint:prettier": "prettier . --write --ignore-path .gitignore",
 		"lint:prettier:ci": "prettier . --check --ignore-path .gitignore",
 		"test": "npm run lint && npm run jest"
@@ -69,6 +70,7 @@
 		"fastify": "^3.10.1",
 		"husky": "^4.3.8",
 		"jest": "^26.6.3",
+		"license-checker": "^25.0.1",
 		"prettier": "2.2.1"
 	},
 	"dependencies": {

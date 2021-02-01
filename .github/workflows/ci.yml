@@ -26,6 +26,8 @@ jobs:
               run: npm run lint
             - name: Run Prettier
               run: npm run lint:prettier:ci
+            - name: Run License Checker
+              run: npm run lint:licenses
 
     unit-tests:
         name: Unit Tests
