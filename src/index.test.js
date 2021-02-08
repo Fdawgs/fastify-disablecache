@@ -1,8 +1,8 @@
 const Fastify = require("fastify");
 const plugin = require(".");
 
-describe("nocache plugin", () => {
-	describe("Response headers", () => {
+describe("Nocache Plugin", () => {
+	describe("Response Headers", () => {
 		let server;
 
 		beforeAll(async () => {
