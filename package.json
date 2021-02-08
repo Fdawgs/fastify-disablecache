@@ -30,7 +30,7 @@
 		"jest": "jest --detectOpenHandles --runInBand",
 		"jest:coverage": "jest --coverage --runInBand",
 		"lint": "eslint . --cache --ext js,jsx --ignore-path .gitignore",
-		"lint:licenses": "license-checker --direct --onlyAllow=\"MIT;ISC;BSD-3-Clause;BSD-2-Clause\" --production --summary",
+		"lint:licenses": "license-checker --direct --onlyAllow=\"Apache-2.0;BSD-2-Clause;BSD-3-Clause;ISC;MIT\" --production --summary",
 		"lint:prettier": "prettier . --write --ignore-path .gitignore",
 		"lint:prettier:ci": "prettier . --check --ignore-path .gitignore",
 		"test": "npm run lint && npm run jest"
