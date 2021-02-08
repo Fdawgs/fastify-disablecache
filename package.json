@@ -28,7 +28,7 @@
 	"scripts": {
 		"changelog": "conventional-changelog -p @commitlint/config-conventional -s -i CHANGELOG.md && prettier CHANGELOG.md --write",
 		"jest": "jest --detectOpenHandles --runInBand",
-		"jest-coverage": "jest --coverage --runInBand",
+		"jest:coverage": "jest --coverage --runInBand",
 		"lint": "eslint . --cache --ext js,jsx --ignore-path .gitignore",
 		"lint:licenses": "license-checker --direct --onlyAllow=\"MIT;ISC;BSD-3-Clause;BSD-2-Clause\" --production --summary",
 		"lint:prettier": "prettier . --write --ignore-path .gitignore",

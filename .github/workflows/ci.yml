@@ -46,7 +46,7 @@ jobs:
             - name: Install
               run: npm install --ignore-scripts
             - name: Run Tests
-              run: npm run jest-coverage
+              run: npm run jest:coverage
             - name: Coveralls Parallel
               uses: coverallsapp/github-action@v1.1.2
               with:
