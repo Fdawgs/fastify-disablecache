@@ -22,7 +22,7 @@ Expires: 0
 
 You can read more about these response headers on [MDN here](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers#caching).
 
-This plugin was created out of a need for an easy way to disable client-side caching for data recieved from backend APIs at [Yeovil District Hospital NHS Foundation Trust](https://yeovilhospital.co.uk/). This ensures patient data is always current when called by applications.
+This plugin was created out of a need for an easy way to disable client-side caching for data received from backend APIs at [Yeovil District Hospital NHS Foundation Trust](https://yeovilhospital.co.uk/). This ensures patient data is always current when called by applications.
 
 ## Installation
 
