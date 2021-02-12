@@ -29,6 +29,18 @@ jobs:
             - name: Run License Checker
               run: npm run lint:licenses
 
+    commit-lint:
+        name: Lint Commit Messages
+        if: github.event.pull_request.draft == false
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2
+              with:
+                  fetch-depth: 0
+            - uses: wagoid/commitlint-github-action@v2.0.3
+              with:
+                  configFile: ./package.json
+
     unit-tests:
         name: Unit Tests
         if: github.event.pull_request.draft == false
