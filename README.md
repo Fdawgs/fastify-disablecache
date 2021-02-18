@@ -58,7 +58,7 @@ server.listen(3000);
 
 ## Contributing
 
-Please see [CONTRIBUTING.md](https://github.com/Fdawgs/fastify-disablecache/blob/master/CONTRIBUTING.md) for more details regarding contributing to this project.
+Please see [CONTRIBUTING.md](./CONTRIBUTING) for more details regarding contributing to this project.
 
 ## Acknowledgements
 
@@ -67,4 +67,4 @@ Please see [CONTRIBUTING.md](https://github.com/Fdawgs/fastify-disablecache/blob
 
 ## License
 
-`fastify-disablecache` is licensed under the [MIT](https://github.com/Fdawgs/fastify-disablecache/blob/master/LICENSE) license.
+`fastify-disablecache` is licensed under the [MIT](./LICENSE) license.
