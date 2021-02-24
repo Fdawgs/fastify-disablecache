@@ -58,7 +58,7 @@ server.listen(3000);
 
 ## Contributing
 
-Please see [CONTRIBUTING.md](./CONTRIBUTING) for more details regarding contributing to this project.
+Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for more details regarding contributing to this project.
 
 ## Acknowledgements
 
