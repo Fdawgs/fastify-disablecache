@@ -26,13 +26,12 @@
 		"node": ">=10.22.0"
 	},
 	"scripts": {
-		"changelog": "conventional-changelog -p @commitlint/config-conventional -s -i CHANGELOG.md && prettier CHANGELOG.md --write",
 		"jest": "jest --detectOpenHandles --runInBand",
 		"jest:coverage": "jest --coverage --runInBand",
 		"lint": "eslint . --cache --ext js,jsx --ignore-path .gitignore",
 		"lint:licenses": "license-checker --direct --onlyAllow=\"0BSD;Apache-2.0;BSD-2-Clause;BSD-3-Clause;ISC;MIT;Unlicense\" --production --summary",
-		"lint:prettier": "prettier . --write --ignore-path .gitignore",
-		"lint:prettier:ci": "prettier . --check --ignore-path .gitignore",
+		"lint:prettier": "prettier \"**/!(CHANGELOG.md|package.json)\" --write --ignore-path .gitignore --ignore-unknown",
+		"lint:prettier:ci": "prettier \"**/!(CHANGELOG.md|package.json)\"  --check --ignore-path .gitignore --ignore-unknown",
 		"test": "npm run lint && npm run jest"
 	},
 	"commitlint": {
@@ -65,7 +64,6 @@
 	"devDependencies": {
 		"@commitlint/cli": "^11.0.0",
 		"@commitlint/config-conventional": "^11.0.0",
-		"conventional-changelog-cli": "^2.1.1",
 		"eslint": "^7.18.0",
 		"eslint-config-airbnb-base": "^14.2.1",
 		"eslint-config-prettier": "^7.1.0",
