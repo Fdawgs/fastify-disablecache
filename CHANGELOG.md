@@ -2,6 +2,40 @@
 
 All notable changes to this project will be documented in this file.
 
+### [1.0.6](https://www.github.com/Fdawgs/fastify-disablecache/compare/v1.0.5...v1.0.6) (2021-03-30)
+
+
+### Documentation
+
+* **changelog:** add h1 header ([d9ab1ff](https://www.github.com/Fdawgs/fastify-disablecache/commit/d9ab1fffac083e2589161d9c89d8f735c6f6f30f))
+
+
+### Miscellaneous
+
+* **package:** move prettier config to separate file ([6acf338](https://www.github.com/Fdawgs/fastify-disablecache/commit/6acf338b6952cde7dd7392bd7226dedfe7e410f0))
+* **prettier:** create .prettierignore ([6e7a390](https://www.github.com/Fdawgs/fastify-disablecache/commit/6e7a390a322d82213202b74b3b39c9cd0fc2ce57))
+* **prettierignore:** add lock files ([d739db1](https://www.github.com/Fdawgs/fastify-disablecache/commit/d739db165e63d084dee6e07bfabf89420f4a4edc))
+* **workflows:** rename ci and perf sections ([60783a0](https://www.github.com/Fdawgs/fastify-disablecache/commit/60783a0d5d95c10e4492de996f8026fd93a43f7d))
+
+
+### Continuous Integration
+
+* **automerge:** move automerge job into new workflow ([f16c26f](https://www.github.com/Fdawgs/fastify-disablecache/commit/f16c26f528c153175cf00d57d40433a0507c65b6))
+* **ci:** ignore dependabot prs for commit message linting ([38fcc82](https://www.github.com/Fdawgs/fastify-disablecache/commit/38fcc82605942da4027f6a52f63c18a5f47cac16))
+* **stale:** shorten workflow name ([c5d7ab5](https://www.github.com/Fdawgs/fastify-disablecache/commit/c5d7ab5a2f1a1de165ed9b810fe0b4d6fb64e6a7))
+* **workflows:** fix release types to account for bots ([915459f](https://www.github.com/Fdawgs/fastify-disablecache/commit/915459f08b2ecabd3f406a006684c9a2a29f3f08))
+* **workflows:** move release steps into `cd` workflow ([b8743a3](https://www.github.com/Fdawgs/fastify-disablecache/commit/b8743a393242ae2584bfe4a6fb9364711f335861))
+* **workflows:** run only on push and pulls to master branch ([d4f685e](https://www.github.com/Fdawgs/fastify-disablecache/commit/d4f685ef5deb87693005efa87fc1c0b7b72ed51b))
+
+
+### Dependencies
+
+* **deps-dev:** bump husky from 4.3.8 to 6.0.0 ([b23680a](https://www.github.com/Fdawgs/fastify-disablecache/commit/b23680a954f4a1a22957a0cd41d5113e597ab1c9))
+* **deps:** bump actions/stale from v3.0.17 to v3.0.18 ([f641b97](https://www.github.com/Fdawgs/fastify-disablecache/commit/f641b9704cf737d2ea0e03ef583c66529132dac1))
+* **deps:** bump GoogleCloudPlatform/release-please-action ([5ad997a](https://www.github.com/Fdawgs/fastify-disablecache/commit/5ad997a4f5df664966ec811adb8563590bbf786d))
+* **deps:** bump typoci/spellcheck-action from v0.3.0 to v0.4.0 ([0f2b264](https://www.github.com/Fdawgs/fastify-disablecache/commit/0f2b2643e4578b8640ccc70724662d6933ef94fe))
+* **deps:** bump wagoid/commitlint-github-action from v3.0.1 to v3.0.6 ([eab4a3c](https://www.github.com/Fdawgs/fastify-disablecache/commit/eab4a3ce13c0568fa01a118b4095d3e5c990c39f))
+
 ### [1.0.5](https://www.github.com/Fdawgs/fastify-disablecache/compare/v1.0.4...v1.0.5) (2021-03-01)
 
 ### Documentation
