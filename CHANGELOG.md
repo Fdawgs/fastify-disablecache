@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file.
 
+### [1.0.7](https://www.github.com/Fdawgs/fastify-disablecache/compare/v1.0.6...v1.0.7) (2021-04-14)
+
+
+### Dependencies
+
+* **deps:** bump actions/github-script from v3.1.0 to v3.1.1 ([6b53317](https://www.github.com/Fdawgs/fastify-disablecache/commit/6b5331738aeec0d4536c9df35638f8464cb21ab8))
+
+
+### Continuous Integration
+
+* add cleanup-run job ([c67a547](https://www.github.com/Fdawgs/fastify-disablecache/commit/c67a5473fbc0392bca9fa50befabd8734588dbf7))
+* do not run coveralls steps/jobs on forks ([80b41a8](https://www.github.com/Fdawgs/fastify-disablecache/commit/80b41a8b2169340aa80cb953f6749a77a3780e8c))
+* **link-check:** fix skip regex ([1e28e0e](https://www.github.com/Fdawgs/fastify-disablecache/commit/1e28e0e253e1efde49290590d7f0137ede089b94))
+
 ### [1.0.6](https://www.github.com/Fdawgs/fastify-disablecache/compare/v1.0.5...v1.0.6) (2021-03-30)
 
 
