@@ -1,7 +1,7 @@
 const Fastify = require("fastify");
 const plugin = require(".");
 
-describe("Nocache Plugin", () => {
+describe("Disablecache Plugin", () => {
 	describe("Response Headers", () => {
 		let server;
 
