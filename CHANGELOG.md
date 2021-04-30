@@ -2,6 +2,43 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.0](https://www.github.com/Fdawgs/fastify-disablecache/compare/v1.0.6...v2.0.0) (2021-04-30)
+
+
+### ⚠ BREAKING CHANGES
+
+* remove support for nodejs v10, as it is EOL as of 2021-04-30
+
+### Continuous Integration
+
+* add cleanup-run job ([c67a547](https://www.github.com/Fdawgs/fastify-disablecache/commit/c67a5473fbc0392bca9fa50befabd8734588dbf7))
+* add nodejs v16 to unit test matrix ([1edc6e6](https://www.github.com/Fdawgs/fastify-disablecache/commit/1edc6e6567e9d32015b118a43ed827924d86ea59))
+* do not run coveralls steps/jobs on forks ([80b41a8](https://www.github.com/Fdawgs/fastify-disablecache/commit/80b41a8b2169340aa80cb953f6749a77a3780e8c))
+* **link-check:** fix skip regex ([1e28e0e](https://www.github.com/Fdawgs/fastify-disablecache/commit/1e28e0e253e1efde49290590d7f0137ede089b94))
+
+
+### Miscellaneous
+
+* remove support for nodejs v10 ([b9d8df6](https://www.github.com/Fdawgs/fastify-disablecache/commit/b9d8df6437b6585a9ad89a8642aff457fa500a6e))
+* update descriptions ([2ebb643](https://www.github.com/Fdawgs/fastify-disablecache/commit/2ebb643643ac5950fbe2d4b51be991763374cd72))
+
+
+### Documentation
+
+* grammar and readability fixes ([3b94c36](https://www.github.com/Fdawgs/fastify-disablecache/commit/3b94c36fa79b1c07917f5d9f2b5910cdd2538134))
+
+
+### Dependencies
+
+* **deps-dev:** bump eslint-plugin-jsdoc from 32.3.4 to 33.0.0 ([2b6db53](https://www.github.com/Fdawgs/fastify-disablecache/commit/2b6db53b4b2d718ee7469e62d63832bfd72655c1))
+* **deps-dev:** bump eslint-plugin-promise from 4.3.1 to 5.1.0 ([2450e9f](https://www.github.com/Fdawgs/fastify-disablecache/commit/2450e9f43edd1b24c473323389a3957ae14294fd))
+* **deps:** bump actions/github-script from v3.1.0 to v3.1.1 ([6b53317](https://www.github.com/Fdawgs/fastify-disablecache/commit/6b5331738aeec0d4536c9df35638f8464cb21ab8))
+* **deps:** bump actions/github-script from v3.1.1 to v4.0.2 ([b352e90](https://www.github.com/Fdawgs/fastify-disablecache/commit/b352e9002258aa6d7e755ec91044c5d1505d8e70))
+* **deps:** bump actions/upload-artifact from v2.2.2 to v2.2.3 ([fdd2b61](https://www.github.com/Fdawgs/fastify-disablecache/commit/fdd2b611b19036f9deffc76375aa5953b15d542d))
+* **deps:** bump GoogleCloudPlatform/release-please-action ([7fc4c9c](https://www.github.com/Fdawgs/fastify-disablecache/commit/7fc4c9c2f638efe5f9a24024648beff4dd45cdb5))
+* **deps:** bump typoci/spellcheck-action from v0.4.0 to v1.1.0 ([0ae1b92](https://www.github.com/Fdawgs/fastify-disablecache/commit/0ae1b928de8e5eb559b91ebbb2ac42ec14fe248f))
+* **deps:** bump wagoid/commitlint-github-action from v3.0.6 to v3.1.0 ([b370d57](https://www.github.com/Fdawgs/fastify-disablecache/commit/b370d57007557ad66d6337b431576e02ad1bf395))
+
 ### [1.0.6](https://www.github.com/Fdawgs/fastify-disablecache/compare/v1.0.5...v1.0.6) (2021-03-30)
 
 
