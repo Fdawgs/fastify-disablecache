@@ -16,8 +16,8 @@ describe("Disablecache Plugin", () => {
 			await server.ready();
 		});
 
-		afterAll(() => {
-			server.close();
+		afterAll(async () => {
+			await server.close();
 		});
 
 		test("Should set relevant cache response headers", async () => {
