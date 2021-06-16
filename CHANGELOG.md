@@ -2,6 +2,41 @@
 
 All notable changes to this project will be documented in this file.
 
+### [2.0.1](https://www.github.com/Fdawgs/fastify-disablecache/compare/v2.0.0...v2.0.1) (2021-06-16)
+
+
+### Bug Fixes
+
+* **index:** update `Cache-Control` directives to disable cache ([#58](https://www.github.com/Fdawgs/fastify-disablecache/issues/58)) ([b8cb7dd](https://www.github.com/Fdawgs/fastify-disablecache/commit/b8cb7ddd7b8533735a6e7c69b975994958d356b9))
+
+
+### Miscellaneous
+
+* **ci:** replace `node-version` key with shorter `node` ([#50](https://www.github.com/Fdawgs/fastify-disablecache/issues/50)) ([6f1451b](https://www.github.com/Fdawgs/fastify-disablecache/commit/6f1451b033b17b6760c1874897ecf7b8393e294b))
+* **workflows:** remove `stale.yml` ([052321b](https://www.github.com/Fdawgs/fastify-disablecache/commit/052321b7287abacf8e8f4f9365f1f95d370358f3))
+
+
+### Continuous Integration
+
+* **cd:** move perf optimizations and refactoring into same section ([af8f6c9](https://www.github.com/Fdawgs/fastify-disablecache/commit/af8f6c9cfeb10bc206a5bd556801afa82e3867f5))
+* fix key usage in `action/setup-node` ([76e1063](https://www.github.com/Fdawgs/fastify-disablecache/commit/76e1063b4353437447f9e50e2e1890aab9524d69))
+
+
+### Documentation
+
+* **readme:** grammar and wordiness fixes ([4897d71](https://www.github.com/Fdawgs/fastify-disablecache/commit/4897d710f6be74d3b5be280d377d86f3961973ff))
+* **readme:** update contributing section ([6784210](https://www.github.com/Fdawgs/fastify-disablecache/commit/67842109b95b9ed12adb197ba9961083e1c970a7))
+
+
+### Dependencies
+
+* **deps-dev:** bump eslint-plugin-jsdoc from 33.3.0 to 35.1.2 ([ca27f43](https://www.github.com/Fdawgs/fastify-disablecache/commit/ca27f4329545a1079f706fe357dd69218d29d4e8))
+* **deps-dev:** bump jest from 26.6.3 to 27.0.3 ([8f443d6](https://www.github.com/Fdawgs/fastify-disablecache/commit/8f443d6991e60df2c3c9a34d620a3d2ab3b2da76))
+* **deps-dev:** bump prettier from 2.2.1 to 2.3.0 ([ccb6c1b](https://www.github.com/Fdawgs/fastify-disablecache/commit/ccb6c1b4f295c61d61e4dba2491e38db73af5346))
+* **deps-dev:** bump prettier from 2.3.0 to 2.3.1 ([be6d0d8](https://www.github.com/Fdawgs/fastify-disablecache/commit/be6d0d8342b2c592b64bedc5866d23805084bd2b))
+* **deps:** bump GoogleCloudPlatform/release-please-action ([7d05ec5](https://www.github.com/Fdawgs/fastify-disablecache/commit/7d05ec59242f1725e204dcca35f49c08e6b41994))
+* **deps:** bump wagoid/commitlint-github-action from 3.1.0 to 3.1.4 ([32fd2b0](https://www.github.com/Fdawgs/fastify-disablecache/commit/32fd2b03a98ee74be123314d0f583b97393de81d))
+
 ## [2.0.0](https://www.github.com/Fdawgs/fastify-disablecache/compare/v1.0.6...v2.0.0) (2021-04-30)
 
 
