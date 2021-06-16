@@ -15,7 +15,7 @@ Inspired by [nocache](https://github.com/helmetjs/nocache), the `fastify-disable
 
 ```
 Surrogate-Control: no-store
-Cache-Control: no-store, no-cache, must-revalidate, proxy-revalidate
+Cache-Control: no-store, max-age=0
 Pragma: no-cache
 Expires: 0
 ```
