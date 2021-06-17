@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+### [2.0.2](https://www.github.com/Fdawgs/fastify-disablecache/compare/v2.0.1...v2.0.2) (2021-06-17)
+
+
+### Bug Fixes
+
+* **index:** re-add 'must-revalidate' to `cache-control` header ([#61](https://www.github.com/Fdawgs/fastify-disablecache/issues/61)) ([2b814aa](https://www.github.com/Fdawgs/fastify-disablecache/commit/2b814aa45720d2ea4877a9928376e80511089486)), thanks @anthony-telljohann
+
+
+### Dependencies
+
+* **deps:** bump actions/upload-artifact from 2.2.3 to 2.2.4 ([3fb08a1](https://www.github.com/Fdawgs/fastify-disablecache/commit/3fb08a14835934a6eabbbfe8bc539c4aaf427ee0))
+
 ### [2.0.1](https://www.github.com/Fdawgs/fastify-disablecache/compare/v2.0.0...v2.0.1) (2021-06-16)
 
 
