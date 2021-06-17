@@ -30,7 +30,7 @@ describe("Disablecache Plugin", () => {
 			expect(response.headers).toEqual(
 				expect.objectContaining({
 					"surrogate-control": "no-store",
-					"cache-control": "no-store, max-age=0",
+					"cache-control": "no-store, max-age=0, must-revalidate",
 					pragma: "no-cache",
 					expires: "0",
 				})
