@@ -7,7 +7,7 @@ All notable changes to this project will be documented in this file.
 
 ### Bug Fixes
 
-* **index:** re-add 'must-revalidate' to `cache-control` header ([#61](https://www.github.com/Fdawgs/fastify-disablecache/issues/61)) ([2b814aa](https://www.github.com/Fdawgs/fastify-disablecache/commit/2b814aa45720d2ea4877a9928376e80511089486))
+* **index:** re-add 'must-revalidate' to `cache-control` header ([#61](https://www.github.com/Fdawgs/fastify-disablecache/issues/61)) ([2b814aa](https://www.github.com/Fdawgs/fastify-disablecache/commit/2b814aa45720d2ea4877a9928376e80511089486)), thanks @anthony-telljohann
 
 
 ### Dependencies
