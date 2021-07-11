@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file.
 
+### [2.0.3](https://www.github.com/Fdawgs/fastify-disablecache/compare/v2.0.2...v2.0.3) (2021-07-11)
+
+
+### Continuous Integration
+
+* **link-check:** reduce frequency from daily to monthly ([#64](https://www.github.com/Fdawgs/fastify-disablecache/issues/64)) ([daae963](https://www.github.com/Fdawgs/fastify-disablecache/commit/daae963b1452102b401f7c162925cd84c9fa1b8d))
+
+
+### Dependencies
+
+* **deps-dev:** bump husky from 6.0.0 to 7.0.0 ([e871e22](https://www.github.com/Fdawgs/fastify-disablecache/commit/e871e225a1e83d9f14db5f9b664c1a195431f267))
+* **deps-dev:** bump prettier from 2.3.1 to 2.3.2 ([ce2a3ec](https://www.github.com/Fdawgs/fastify-disablecache/commit/ce2a3ec788178914676c0ae8330e62fa31272312))
+* **deps:** bump actions/setup-node from 2.1.5 to 2.2.0 ([3a8d2ab](https://www.github.com/Fdawgs/fastify-disablecache/commit/3a8d2ab24a8e6965b89b8ecafa77589ab59fc6e1))
+
+
+### Miscellaneous
+
+* **vscode:** disable red hat telemetry ([044e7c8](https://www.github.com/Fdawgs/fastify-disablecache/commit/044e7c8e640b826744767c40b3114976bd82e028))
+* **vscode:** remove user space config setting ([d654d6a](https://www.github.com/Fdawgs/fastify-disablecache/commit/d654d6a73d04a3b92ceea4cf1aa366c44366c84d))
+
 ### [2.0.2](https://www.github.com/Fdawgs/fastify-disablecache/compare/v2.0.1...v2.0.2) (2021-06-17)
 
 
