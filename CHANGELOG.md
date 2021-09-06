@@ -2,6 +2,38 @@
 
 All notable changes to this project will be documented in this file.
 
+### [2.0.3](https://www.github.com/Fdawgs/fastify-disablecache/compare/v2.0.2...v2.0.3) (2021-09-06)
+
+
+### Miscellaneous
+
+* **.github:** use new YAML configured GitHub issue forms ([#79](https://www.github.com/Fdawgs/fastify-disablecache/issues/79)) ([8111d0f](https://www.github.com/Fdawgs/fastify-disablecache/commit/8111d0fa35f207ef71b5fc253396c831e236b716))
+* **vscode:** disable red hat telemetry ([044e7c8](https://www.github.com/Fdawgs/fastify-disablecache/commit/044e7c8e640b826744767c40b3114976bd82e028))
+* **vscode:** remove user space config setting ([d654d6a](https://www.github.com/Fdawgs/fastify-disablecache/commit/d654d6a73d04a3b92ceea4cf1aa366c44366c84d))
+
+
+### Continuous Integration
+
+* **ci:** replace workflow-run-cleanup-action with github concurrency ([#80](https://www.github.com/Fdawgs/fastify-disablecache/issues/80)) ([660aeb2](https://www.github.com/Fdawgs/fastify-disablecache/commit/660aeb2db5e0a99eca45d63c99baf6bc0a01c408))
+* **link-check:** reduce frequency from daily to monthly ([#64](https://www.github.com/Fdawgs/fastify-disablecache/issues/64)) ([daae963](https://www.github.com/Fdawgs/fastify-disablecache/commit/daae963b1452102b401f7c162925cd84c9fa1b8d))
+
+
+### Dependencies
+
+* add .npmignore; reduce package size from 18.9kB to 8.7kB ([#81](https://www.github.com/Fdawgs/fastify-disablecache/issues/81)) ([dd849f8](https://www.github.com/Fdawgs/fastify-disablecache/commit/dd849f88ddeb1826ef86b70018465d23f9fbc6cb))
+* **deps-dev:** bump @commitlint/cli from 12.1.4 to 13.1.0 ([986fe61](https://www.github.com/Fdawgs/fastify-disablecache/commit/986fe614f7df22de9d2041a515df73bf1515001c))
+* **deps-dev:** bump @commitlint/config-conventional ([6885d7c](https://www.github.com/Fdawgs/fastify-disablecache/commit/6885d7cfdef0be72ed67f1fc4de66b169838671a))
+* **deps-dev:** bump eslint-plugin-jsdoc from 35.5.1 to 36.0.6 ([0dea4f4](https://www.github.com/Fdawgs/fastify-disablecache/commit/0dea4f474f8ec6e08417ce02eb1eec2f2f6f610e))
+* **deps-dev:** bump husky from 6.0.0 to 7.0.0 ([e871e22](https://www.github.com/Fdawgs/fastify-disablecache/commit/e871e225a1e83d9f14db5f9b664c1a195431f267))
+* **deps-dev:** bump prettier from 2.3.1 to 2.3.2 ([ce2a3ec](https://www.github.com/Fdawgs/fastify-disablecache/commit/ce2a3ec788178914676c0ae8330e62fa31272312))
+* **deps:** bump actions/github-script from 4.0.2 to 4.1 ([6ddce4a](https://www.github.com/Fdawgs/fastify-disablecache/commit/6ddce4a06498771c04a8e0c3f08de6c6174e394c))
+* **deps:** bump actions/setup-node from 2.1.5 to 2.2.0 ([3a8d2ab](https://www.github.com/Fdawgs/fastify-disablecache/commit/3a8d2ab24a8e6965b89b8ecafa77589ab59fc6e1))
+* **deps:** bump actions/setup-node from 2.2.0 to 2.3.0 ([574c081](https://www.github.com/Fdawgs/fastify-disablecache/commit/574c081f2dc6ca08bc365e50d90df42b901b14af))
+* **deps:** bump actions/setup-node from 2.3.0 to 2.4.0 ([4f16c78](https://www.github.com/Fdawgs/fastify-disablecache/commit/4f16c7888e017aa0d8b517bc7ae1646f8cdc04a8))
+* **deps:** bump coverallsapp/github-action from 1.1.2 to 1.1.3 ([83505e3](https://www.github.com/Fdawgs/fastify-disablecache/commit/83505e3670574f74e32b41fb8f09c9a3149f080d))
+* **deps:** bump GoogleCloudPlatform/release-please-action ([3a62368](https://www.github.com/Fdawgs/fastify-disablecache/commit/3a623680eea7e7ff587d059de111869624b24ae7))
+* **deps:** bump wagoid/commitlint-github-action from 3.1.4 to 4.1.1 ([50a5f36](https://www.github.com/Fdawgs/fastify-disablecache/commit/50a5f364af3ba22a2cac7c55fe1ed2437053652a))
+
 ### [2.0.2](https://www.github.com/Fdawgs/fastify-disablecache/compare/v2.0.1...v2.0.2) (2021-06-17)
 
 
