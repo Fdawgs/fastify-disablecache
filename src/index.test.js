@@ -26,16 +26,16 @@ describe("Disablecache Plugin", () => {
 				url: "/",
 			});
 
-			expect(response.statusCode).toEqual(200);
+			expect(response.payload).toBe("ok");
 			expect(response.headers).toEqual(
 				expect.objectContaining({
-					"surrogate-control": "no-store",
 					"cache-control": "no-store, max-age=0, must-revalidate",
-					pragma: "no-cache",
 					expires: "0",
+					pragma: "no-cache",
+					"surrogate-control": "no-store",
 				})
 			);
-			expect(response.payload).toEqual("ok");
+			expect(response.statusCode).toBe(200);
 		});
 	});
 });
