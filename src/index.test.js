@@ -27,14 +27,12 @@ describe("Disablecache Plugin", () => {
 			});
 
 			expect(response.payload).toBe("ok");
-			expect(response.headers).toEqual(
-				expect.objectContaining({
-					"cache-control": "no-store, max-age=0, must-revalidate",
-					expires: "0",
-					pragma: "no-cache",
-					"surrogate-control": "no-store",
-				})
-			);
+			expect(response.headers).toMatchObject({
+				"cache-control": "no-store, max-age=0, must-revalidate",
+				expires: "0",
+				pragma: "no-cache",
+				"surrogate-control": "no-store",
+			});
 			expect(response.statusCode).toBe(200);
 		});
 	});
