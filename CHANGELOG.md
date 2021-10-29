@@ -2,6 +2,51 @@
 
 All notable changes to this project will be documented in this file.
 
+### [2.0.4](https://www.github.com/Fdawgs/fastify-disablecache/compare/v2.0.3...v2.0.4) (2021-10-29)
+
+
+### Continuous Integration
+
+* **automerge:** update location of octokit rest methods ([c489d5a](https://www.github.com/Fdawgs/fastify-disablecache/commit/c489d5af74f704049b2cf1fbf5c855400ada8f41))
+* **ci:** revert to workflow-run-clean-action from github concurrency ([370196e](https://www.github.com/Fdawgs/fastify-disablecache/commit/370196e54e17f84b4f1697e29073af1b40a8a3fd))
+
+
+### Improvements
+
+* **index:** sort headers alphabetically ascending ([3861633](https://www.github.com/Fdawgs/fastify-disablecache/commit/3861633f19e27ca6f25fcf287fb04f88a558852a))
+
+
+### Miscellaneous
+
+* **.eslintrc:** remove inaccurate sourcetype ([#93](https://www.github.com/Fdawgs/fastify-disablecache/issues/93)) ([becd14a](https://www.github.com/Fdawgs/fastify-disablecache/commit/becd14af2470ac6e5d0012ce4831ff47beaa187e))
+* **.eslintrc:** remove redundant `impliedStrict` option ([#95](https://www.github.com/Fdawgs/fastify-disablecache/issues/95)) ([d0d5c17](https://www.github.com/Fdawgs/fastify-disablecache/commit/d0d5c173e5101fcd01e967e2ab04b0d6645f4618))
+* **.eslintrc:** set correct ecmascript version ([#83](https://www.github.com/Fdawgs/fastify-disablecache/issues/83)) ([6041b8a](https://www.github.com/Fdawgs/fastify-disablecache/commit/6041b8af20f49011b359f0799f01a17081bc8788))
+* **.husky/.gitignore:** remove now redundant file ([6de6b0f](https://www.github.com/Fdawgs/fastify-disablecache/commit/6de6b0f5f96d08aa13c0f4dc2fc8cb215f24599d))
+* **.prettierrc:** enable `bracketsameline` option ([f94d54d](https://www.github.com/Fdawgs/fastify-disablecache/commit/f94d54d0d7d7f99b0abd5e04a6986b08c9f0e557))
+* **.prettierrc:** override defaults for html, css, and scss files ([#84](https://www.github.com/Fdawgs/fastify-disablecache/issues/84)) ([6cbb18f](https://www.github.com/Fdawgs/fastify-disablecache/commit/6cbb18fb0bece40271213a8778153b5c488f9f33))
+* **.vscode:** add `mhutchie.git-graph` extension ([ac4661e](https://www.github.com/Fdawgs/fastify-disablecache/commit/ac4661e366f8e7a7f9d3d47895cb270779036fad))
+* **.vscode:** remove deprecated settings ([#94](https://www.github.com/Fdawgs/fastify-disablecache/issues/94)) ([ae36f6c](https://www.github.com/Fdawgs/fastify-disablecache/commit/ae36f6ce90ae18d163ff5aa9f6b29691dfcecc08))
+
+
+### Documentation
+
+* bump coc from v2.0.0 to v2.1.0 ([#96](https://www.github.com/Fdawgs/fastify-disablecache/issues/96)) ([10a74fc](https://www.github.com/Fdawgs/fastify-disablecache/commit/10a74fc7f5f0ca2f350f81dfb5b9906fd4b600c8))
+
+
+### Dependencies
+
+* **deps-dev:** add eslint-plugin-security-node ([#85](https://www.github.com/Fdawgs/fastify-disablecache/issues/85)) ([cb43451](https://www.github.com/Fdawgs/fastify-disablecache/commit/cb43451f29b0dc0b52413fb684d6ba8bda986391))
+* **deps-dev:** bump dev dependencies ([#103](https://www.github.com/Fdawgs/fastify-disablecache/issues/103)) ([f6f03bb](https://www.github.com/Fdawgs/fastify-disablecache/commit/f6f03bbf658edb958483c7f8c7493db6cfa88163))
+* **deps-dev:** bump eslint-plugin-jest from 24.7.0 to 25.2.2 ([ffdf87c](https://www.github.com/Fdawgs/fastify-disablecache/commit/ffdf87cfd843bc630a108cbfc2fdacc910cf7c06))
+* **deps-dev:** bump eslint-plugin-jsdoc from 36.1.1 to 37.0.3 ([6903ce1](https://www.github.com/Fdawgs/fastify-disablecache/commit/6903ce196cd1177464b6c0894c563921f7f61bd7))
+* **deps-dev:** bump prettier from 2.3.2 to 2.4.1 ([5d09425](https://www.github.com/Fdawgs/fastify-disablecache/commit/5d09425833d65b49acbc71b21bc257ae1a06f0c0))
+* **deps:** bump actions/checkout from 2.3.4 to 2.3.5 ([06e070a](https://www.github.com/Fdawgs/fastify-disablecache/commit/06e070a84735bb73f339bbd3c4d1c76573468ba4))
+* **deps:** bump actions/setup-node from 2.4.0 to 2.4.1 ([aefdbb9](https://www.github.com/Fdawgs/fastify-disablecache/commit/aefdbb92b0aac1704d8ca8129d3b7b1d497368e7))
+* **deps:** bump GoogleCloudPlatform/release-please-action ([9977b09](https://www.github.com/Fdawgs/fastify-disablecache/commit/9977b09f542837010a42895a37ec52dd4dd0340a))
+* **deps:** bump GoogleCloudPlatform/release-please-action ([ee927de](https://www.github.com/Fdawgs/fastify-disablecache/commit/ee927de37c71971c5b378b082880c1e1dd2817cf))
+* **deps:** bump wagoid/commitlint-github-action from 4.1.1 to 4.1.5 ([c6b71d9](https://www.github.com/Fdawgs/fastify-disablecache/commit/c6b71d948c84323b770437a0e4d0b1e57dde9362))
+* **deps:** bump wagoid/commitlint-github-action from 4.1.5 to 4.1.9 ([429d412](https://www.github.com/Fdawgs/fastify-disablecache/commit/429d41286b8438cceb4f76d4a27ddb66ab88da4e))
+
 ### [2.0.3](https://www.github.com/Fdawgs/fastify-disablecache/compare/v2.0.2...v2.0.3) (2021-09-06)
 
 
