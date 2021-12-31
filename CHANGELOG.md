@@ -2,6 +2,44 @@
 
 All notable changes to this project will be documented in this file.
 
+### [2.0.5](https://www.github.com/Fdawgs/fastify-disablecache/compare/v2.0.4...v2.0.5) (2021-12-31)
+
+
+### Continuous Integration
+
+* **cd:** stop `prepare` script running ([#108](https://www.github.com/Fdawgs/fastify-disablecache/issues/108)) ([742e93f](https://www.github.com/Fdawgs/fastify-disablecache/commit/742e93f1d7404ded46a7d69bf9a752c4e393d6fe))
+* **ci:** do not run clean-up on draft prs ([35aa923](https://www.github.com/Fdawgs/fastify-disablecache/commit/35aa923ac1492f6501d2a57f4f56312271689200))
+* **spell-check:** do not run on draft prs ([c2a0cb5](https://www.github.com/Fdawgs/fastify-disablecache/commit/c2a0cb5f5adee4c2d62159088bff8108ea9177fb))
+* trigger workflows when drafts marked as "ready to review" ([#110](https://www.github.com/Fdawgs/fastify-disablecache/issues/110)) ([ad73015](https://www.github.com/Fdawgs/fastify-disablecache/commit/ad73015b6f85d10c2cb886d03df34a780b66eaf7))
+
+
+### Dependencies
+
+* **dependabot:** ignore minor and patch github-actions updates ([#111](https://www.github.com/Fdawgs/fastify-disablecache/issues/111)) ([a413612](https://www.github.com/Fdawgs/fastify-disablecache/commit/a4136123b1a8b18a1bc4a8e0a677fa6002c41595))
+* **dependabot:** ignore minor and patch release-please-action updates ([#120](https://www.github.com/Fdawgs/fastify-disablecache/issues/120)) ([c5a783c](https://www.github.com/Fdawgs/fastify-disablecache/commit/c5a783c6273ab8a897ccac15ffa2be6b6ff5a1d5))
+* **deps-dev:** bump @commitlint/cli from 13.2.1 to 14.1.0 ([bb90b84](https://www.github.com/Fdawgs/fastify-disablecache/commit/bb90b84a16de9d3a0e7d99bcfc0f5e6cfb3475ab))
+* **deps-dev:** bump @commitlint/cli from 14.1.0 to 15.0.0 ([8f8a797](https://www.github.com/Fdawgs/fastify-disablecache/commit/8f8a797ec70da855e40bf995c584dd28cbb1edaf))
+* **deps-dev:** bump @commitlint/config-conventional ([f72d44b](https://www.github.com/Fdawgs/fastify-disablecache/commit/f72d44b1bd07b21201c53acfa5ac23a4bbca4fe1))
+* **deps-dev:** bump @commitlint/config-conventional ([cf4d179](https://www.github.com/Fdawgs/fastify-disablecache/commit/cf4d179bec86998484b6f27ba1e98f094e69ec2c))
+* **deps-dev:** bump eslint-config-airbnb-base from 14.2.1 to 15.0.0 ([4163e42](https://www.github.com/Fdawgs/fastify-disablecache/commit/4163e425af6e848aebeb6c338cc876f50f759e01))
+* **deps-dev:** bump prettier from 2.4.1 to 2.5.0 ([efc5dbf](https://www.github.com/Fdawgs/fastify-disablecache/commit/efc5dbfd3857382cfe09e6c1c2b184910ad45b9b))
+* **deps:** bump GoogleCloudPlatform/release-please-action ([e33ed1e](https://www.github.com/Fdawgs/fastify-disablecache/commit/e33ed1e460a191fc41ed6bc4d3fc11987ad7f968))
+
+
+### Documentation
+
+* **coc:** reduce verbosity ([d144c77](https://www.github.com/Fdawgs/fastify-disablecache/commit/d144c77376c75ac5808064ea0d8ebafb308617b8))
+* **contributing:** add mention of husky pre-commit hook ([5aa3a70](https://www.github.com/Fdawgs/fastify-disablecache/commit/5aa3a700574882df1ab1d7f24da3f46d0e0ea1d8))
+* **contributing:** add step for `lint:licenses` script ([25075f8](https://www.github.com/Fdawgs/fastify-disablecache/commit/25075f83460808dd7a45a5fbb112092995f3578e))
+
+
+### Miscellaneous
+
+* **.prettierrc:** only enable `bracketSameLine` for html ([#106](https://www.github.com/Fdawgs/fastify-disablecache/issues/106)) ([929c7ff](https://www.github.com/Fdawgs/fastify-disablecache/commit/929c7ff944de92f4583e5d5d534e4539513bc2fd))
+* **husky/pre-commit:** add `lint:licenses` script ([#116](https://www.github.com/Fdawgs/fastify-disablecache/issues/116)) ([8478448](https://www.github.com/Fdawgs/fastify-disablecache/commit/8478448db70ca46382c9d405c74c7b1a0002fda2))
+* ignore `.yarnclean` ([#117](https://www.github.com/Fdawgs/fastify-disablecache/issues/117)) ([173db8e](https://www.github.com/Fdawgs/fastify-disablecache/commit/173db8ea516213482be0fd1a40866e4cb080efd3))
+* **index:** fix `server` jsdoc tag param type ([07befc1](https://www.github.com/Fdawgs/fastify-disablecache/commit/07befc13a6a45ad59b6ff9eb0831924df1edce3e))
+
 ### [2.0.4](https://www.github.com/Fdawgs/fastify-disablecache/compare/v2.0.3...v2.0.4) (2021-10-29)
 
 
