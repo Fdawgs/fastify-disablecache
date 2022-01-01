@@ -51,7 +51,7 @@
     "testTimeout": 10000
   },
   "devDependencies": {
-    "@commitlint/cli": "^15.0.0",
+    "@commitlint/cli": "^16.0.1",
     "@commitlint/config-conventional": "^16.0.0",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^15.0.0",
