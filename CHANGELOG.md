@@ -2,6 +2,51 @@
 
 All notable changes to this project will be documented in this file.
 
+### [2.0.5](https://github.com/Fdawgs/fastify-disablecache/compare/v2.0.4...v2.0.5) (2022-01-07)
+
+
+### Documentation
+
+* **coc:** reduce verbosity ([d144c77](https://github.com/Fdawgs/fastify-disablecache/commit/d144c77376c75ac5808064ea0d8ebafb308617b8))
+* **contributing:** add mention of husky pre-commit hook ([5aa3a70](https://github.com/Fdawgs/fastify-disablecache/commit/5aa3a700574882df1ab1d7f24da3f46d0e0ea1d8))
+* **contributing:** add step for `lint:licenses` script ([25075f8](https://github.com/Fdawgs/fastify-disablecache/commit/25075f83460808dd7a45a5fbb112092995f3578e))
+
+
+### Miscellaneous
+
+* **.prettierrc:** only enable `bracketSameLine` for html ([#106](https://github.com/Fdawgs/fastify-disablecache/issues/106)) ([929c7ff](https://github.com/Fdawgs/fastify-disablecache/commit/929c7ff944de92f4583e5d5d534e4539513bc2fd))
+* **husky/pre-commit:** add `lint:licenses` script ([#116](https://github.com/Fdawgs/fastify-disablecache/issues/116)) ([8478448](https://github.com/Fdawgs/fastify-disablecache/commit/8478448db70ca46382c9d405c74c7b1a0002fda2))
+* ignore `.yarnclean` ([#117](https://github.com/Fdawgs/fastify-disablecache/issues/117)) ([173db8e](https://github.com/Fdawgs/fastify-disablecache/commit/173db8ea516213482be0fd1a40866e4cb080efd3))
+* **index:** fix `server` jsdoc tag param type ([07befc1](https://github.com/Fdawgs/fastify-disablecache/commit/07befc13a6a45ad59b6ff9eb0831924df1edce3e))
+
+
+### Continuous Integration
+
+* **cd:** stop `prepare` script running ([#108](https://github.com/Fdawgs/fastify-disablecache/issues/108)) ([742e93f](https://github.com/Fdawgs/fastify-disablecache/commit/742e93f1d7404ded46a7d69bf9a752c4e393d6fe))
+* **ci:** do not run clean-up on draft prs ([35aa923](https://github.com/Fdawgs/fastify-disablecache/commit/35aa923ac1492f6501d2a57f4f56312271689200))
+* remove spellcheck workflow ([#128](https://github.com/Fdawgs/fastify-disablecache/issues/128)) ([cfb722f](https://github.com/Fdawgs/fastify-disablecache/commit/cfb722f70877357e120117e1ee0354ffeceea63c))
+* **spell-check:** do not run on draft prs ([c2a0cb5](https://github.com/Fdawgs/fastify-disablecache/commit/c2a0cb5f5adee4c2d62159088bff8108ea9177fb))
+* trigger workflows when drafts marked as "ready to review" ([#110](https://github.com/Fdawgs/fastify-disablecache/issues/110)) ([ad73015](https://github.com/Fdawgs/fastify-disablecache/commit/ad73015b6f85d10c2cb886d03df34a780b66eaf7))
+
+
+### Dependencies
+
+* **dependabot:** ignore minor and patch github-actions updates ([#111](https://github.com/Fdawgs/fastify-disablecache/issues/111)) ([a413612](https://github.com/Fdawgs/fastify-disablecache/commit/a4136123b1a8b18a1bc4a8e0a677fa6002c41595))
+* **dependabot:** ignore minor and patch release-please-action updates ([#120](https://github.com/Fdawgs/fastify-disablecache/issues/120)) ([c5a783c](https://github.com/Fdawgs/fastify-disablecache/commit/c5a783c6273ab8a897ccac15ffa2be6b6ff5a1d5))
+* **deps-dev:** bump @commitlint/cli from 13.2.1 to 14.1.0 ([bb90b84](https://github.com/Fdawgs/fastify-disablecache/commit/bb90b84a16de9d3a0e7d99bcfc0f5e6cfb3475ab))
+* **deps-dev:** bump @commitlint/cli from 14.1.0 to 15.0.0 ([8f8a797](https://github.com/Fdawgs/fastify-disablecache/commit/8f8a797ec70da855e40bf995c584dd28cbb1edaf))
+* **deps-dev:** bump @commitlint/cli from 15.0.0 to 16.0.1 ([d466f26](https://github.com/Fdawgs/fastify-disablecache/commit/d466f2633fc0e47dbb7f56dd694bc7d670f61e01))
+* **deps-dev:** bump @commitlint/config-conventional ([a90f6fd](https://github.com/Fdawgs/fastify-disablecache/commit/a90f6fd564265f1d09a26a3d0a28d2ba008e1d78))
+* **deps-dev:** bump @commitlint/config-conventional ([f72d44b](https://github.com/Fdawgs/fastify-disablecache/commit/f72d44b1bd07b21201c53acfa5ac23a4bbca4fe1))
+* **deps-dev:** bump @commitlint/config-conventional ([cf4d179](https://github.com/Fdawgs/fastify-disablecache/commit/cf4d179bec86998484b6f27ba1e98f094e69ec2c))
+* **deps-dev:** bump eslint from 7.32.0 to 8.6.0 ([48fa57c](https://github.com/Fdawgs/fastify-disablecache/commit/48fa57c486bfa80d06fafe164b8ca721f2bc013d))
+* **deps-dev:** bump eslint-config-airbnb-base from 14.2.1 to 15.0.0 ([4163e42](https://github.com/Fdawgs/fastify-disablecache/commit/4163e425af6e848aebeb6c338cc876f50f759e01))
+* **deps-dev:** bump eslint-plugin-promise from 5.2.0 to 6.0.0 ([d3756b7](https://github.com/Fdawgs/fastify-disablecache/commit/d3756b7ade1e8fc91d4121c8ae970b951cbf96ba))
+* **deps-dev:** bump prettier from 2.4.1 to 2.5.0 ([efc5dbf](https://github.com/Fdawgs/fastify-disablecache/commit/efc5dbfd3857382cfe09e6c1c2b184910ad45b9b))
+* **deps-dev:** bump prettier from 2.5.0 to 2.5.1 ([370af01](https://github.com/Fdawgs/fastify-disablecache/commit/370af01513d4e807a9da3af1b4c2f6e089bcddb9))
+* **deps:** bump GoogleCloudPlatform/release-please-action ([e33ed1e](https://github.com/Fdawgs/fastify-disablecache/commit/e33ed1e460a191fc41ed6bc4d3fc11987ad7f968))
+* **deps:** bump GoogleCloudPlatform/release-please-action from 2 to 3 ([5955c95](https://github.com/Fdawgs/fastify-disablecache/commit/5955c955a78c1e3f20b6d7ea45f8f0a680923139))
+
 ### [2.0.4](https://www.github.com/Fdawgs/fastify-disablecache/compare/v2.0.3...v2.0.4) (2021-10-29)
 
 
