@@ -14,13 +14,20 @@
 Inspired by [nocache](https://github.com/helmetjs/nocache), the `fastify-disablecache` plugin sets the following response headers and values to disable client-side caching:
 
 ```
-Surrogate-Control: no-store
 Cache-Control: no-store, max-age=0, must-revalidate
-Pragma: no-cache
 Expires: 0
+Pragma: no-cache
+Surrogate-Control: no-store
 ```
 
 You can read more about these response headers on [MDN here](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers#caching).
+
+### Why These Headers?
+
+-   `Cache-Control` - Primary response header for configuring cache controls [since HTTP/1.1](https://httpwg.org/specs/rfc7234.html#header.cache-control)
+-   `Expires` - Included for backwards compatibility with [HTTP/1.0 caches](https://www.w3.org/Protocols/HTTP/1.0/spec.html#Expires)
+-   `Pragma` - Included for backwards compatibility with [HTTP/1.0 caches](https://www.w3.org/Protocols/HTTP/1.0/spec.html#Pragma), was [used by Internet Explorer](https://docs.microsoft.com/en-us/troubleshoot/developer/browsers/connectivity-navigation/how-to-prevent-caching#the-pragma-no-cache-header)
+-   `Surrogate-Control` - Not a standardised response header but is [used by CDNs and reverse proxies](https://www.w3.org/TR/edge-arch/) for cache control
 
 This plugin was created out of a need for an easy way to disable client-side caching for data received from backend APIs at [Yeovil District Hospital NHS Foundation Trust](https://yeovilhospital.co.uk/). This ensures patient data is always current when called by applications.
 
@@ -65,7 +72,7 @@ Please adhere to this project's [Code of Conduct](./CODE_OF_CONDUCT.md) when con
 
 ## Acknowledgements
 
--   [**Evan Hahn**](https://github.com/EvanHahn) - [nocache](https://github.com/helmetjs/helmet) developer
+-   [**Evan Hahn**](https://github.com/EvanHahn) - [nocache](https://github.com/helmetjs/nocache) developer
 -   [**Matteo Collina**](https://github.com/mcollina) - Optimisation suggestions
 
 ## License
