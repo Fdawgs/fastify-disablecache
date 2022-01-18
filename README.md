@@ -20,7 +20,7 @@ Pragma: no-cache
 Surrogate-Control: no-store
 ```
 
-You can read more about these response headers on [MDN here](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers#caching).
+This plugin was created out of a need for an easy way to disable client-side caching for data received from backend APIs at [Yeovil District Hospital NHS Foundation Trust](https://yeovilhospital.co.uk/). This ensures patient data is always current when called by applications.
 
 ### Why These Headers?
 
@@ -29,7 +29,7 @@ You can read more about these response headers on [MDN here](https://developer.m
 -   `Pragma` - Included for backwards compatibility with [HTTP/1.0 caches](https://www.w3.org/Protocols/HTTP/1.0/spec.html#Pragma), was [used by Internet Explorer](https://docs.microsoft.com/en-us/troubleshoot/developer/browsers/connectivity-navigation/how-to-prevent-caching#the-pragma-no-cache-header)
 -   `Surrogate-Control` - Not a standardised response header but is [used by CDNs and reverse proxies](https://www.w3.org/TR/edge-arch/) for cache control
 
-This plugin was created out of a need for an easy way to disable client-side caching for data received from backend APIs at [Yeovil District Hospital NHS Foundation Trust](https://yeovilhospital.co.uk/). This ensures patient data is always current when called by applications.
+You can read more about these response headers on [MDN here](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers#caching).
 
 ## Installation
 
