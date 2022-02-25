@@ -2,6 +2,32 @@
 
 All notable changes to this project will be documented in this file.
 
+### [2.0.6](https://github.com/Fdawgs/fastify-disablecache/compare/v2.0.5...v2.0.6) (2022-02-25)
+
+
+### Documentation
+
+* **readme:** clarify on cache-control usage ([#136](https://github.com/Fdawgs/fastify-disablecache/issues/136)) ([370b589](https://github.com/Fdawgs/fastify-disablecache/commit/370b589763997d588135f821fd79340d06e20af6))
+* **readme:** fix nocache link; add header description section ([96bfe59](https://github.com/Fdawgs/fastify-disablecache/commit/96bfe5920cd5a8db535eb0d03ad94e46421289a7))
+* **readme:** reorder intro section for clarity ([aada401](https://github.com/Fdawgs/fastify-disablecache/commit/aada401d8277dee5bda7ac1eb492bbc71b0210d9))
+
+
+### Miscellaneous
+
+* **.github:** remove trailing whitespace ([46f4660](https://github.com/Fdawgs/fastify-disablecache/commit/46f4660b556e950d6ce3aa875ade05b4a6ac1a45))
+
+
+### Dependencies
+
+* **dependabot:** ignore minor and patch commit-lint updates ([#133](https://github.com/Fdawgs/fastify-disablecache/issues/133)) ([3a516ab](https://github.com/Fdawgs/fastify-disablecache/commit/3a516ab43232c5a0b7bc25cfd3841c576125ff4c))
+* **dependabot:** major tags no longer need ignore support ([3ede58b](https://github.com/Fdawgs/fastify-disablecache/commit/3ede58bc2b251e54281da2c4d32dfbd367cf84f9))
+* **dependabot:** use default open-pull-requests-limit value ([3702d8c](https://github.com/Fdawgs/fastify-disablecache/commit/3702d8c8fbab833c30adc31be2c3a8124be0cc70))
+* **deps-dev:** bump dev dependencies ([0e71bf0](https://github.com/Fdawgs/fastify-disablecache/commit/0e71bf0be01c2a85947e67516cb0c56578458198))
+* **deps-dev:** bump eslint-plugin-jest from 25.7.0 to 26.0.0 ([f6d8fad](https://github.com/Fdawgs/fastify-disablecache/commit/f6d8fad9f030a13c0418922a857368a31ebc9cd6))
+* **deps-dev:** unpin prettier version ([0887ec1](https://github.com/Fdawgs/fastify-disablecache/commit/0887ec1961adc0214cf26ddead40f95260ab0434))
+* **deps:** bump actions/github-script from 5 to 6 ([5731aa3](https://github.com/Fdawgs/fastify-disablecache/commit/5731aa3f0de0f04625771b740bde08ae4468ab32))
+* **deps:** bump actions/setup-node from 2 to 3 ([c8e7916](https://github.com/Fdawgs/fastify-disablecache/commit/c8e791634b2897e7c0becd3dc25a21ef0d34331d))
+
 ### [2.0.5](https://github.com/Fdawgs/fastify-disablecache/compare/v2.0.4...v2.0.5) (2022-01-07)
 
 
