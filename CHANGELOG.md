@@ -2,6 +2,35 @@
 
 All notable changes to this project will be documented in this file.
 
+### [2.0.7](https://github.com/Fdawgs/fastify-disablecache/compare/v2.0.6...v2.0.7) (2022-03-28)
+
+
+### Documentation
+
+* improve readability ([b312864](https://github.com/Fdawgs/fastify-disablecache/commit/b312864c7961f478bd9727765c3d04e0ed770538))
+
+
+### Continuous Integration
+
+* add job step names, workflow comments, and whitespace ([2ca950a](https://github.com/Fdawgs/fastify-disablecache/commit/2ca950ae53af22e3f19c9e39637fc91338653608))
+* **codeql-analysis:** remove unused autobuild step ([b507d07](https://github.com/Fdawgs/fastify-disablecache/commit/b507d07be21720b0e0e367bf6cba2521a04335c8))
+* **codeql:** grant minimum permissions to run; rename file ([#145](https://github.com/Fdawgs/fastify-disablecache/issues/145)) ([980a082](https://github.com/Fdawgs/fastify-disablecache/commit/980a082df5522fba458d57a977d08a81c06bf748))
+* only save pr number artifact for dependabot ([426767d](https://github.com/Fdawgs/fastify-disablecache/commit/426767db60766c678b074e754a263b7aabb170ec))
+
+
+### Dependencies
+
+* **deps-dev:** bump eslint-plugin-jsdoc from 37.9.7 to 38.0.6 ([620a0f1](https://github.com/Fdawgs/fastify-disablecache/commit/620a0f14067066e94a36b07037587682cc12c2d9))
+* **deps:** bump actions/checkout from 2 to 3 ([b1e5b7d](https://github.com/Fdawgs/fastify-disablecache/commit/b1e5b7d447d6f4adb9adc1bcb36dff45f5ce3d8b))
+* **deps:** bump actions/checkout from 2 to 3 ([96a9d84](https://github.com/Fdawgs/fastify-disablecache/commit/96a9d842e230a119f02fc6544d67d85aa98ca027))
+
+
+### Miscellaneous
+
+* **index:** use `res` instead of `reply` for response object ([#148](https://github.com/Fdawgs/fastify-disablecache/issues/148)) ([145c76d](https://github.com/Fdawgs/fastify-disablecache/commit/145c76d81b2b504918e68bc9a89fcba8992eff6b))
+* **scripts:** remove redundant gitkraken fix from prepare script ([168740e](https://github.com/Fdawgs/fastify-disablecache/commit/168740e1309e634f81ec4bd53631250faaa7998d))
+* **scripts:** use shorter arg aliases; remove debugging args from jest ([8cef653](https://github.com/Fdawgs/fastify-disablecache/commit/8cef6531aafe68a24cd2ae51b88033b94811871d))
+
 ### [2.0.6](https://github.com/Fdawgs/fastify-disablecache/compare/v2.0.5...v2.0.6) (2022-02-25)
 
 
