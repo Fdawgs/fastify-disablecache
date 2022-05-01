@@ -54,7 +54,7 @@ jobs:
                   node-version: 16
 
             - name: Install
-              run: npm install --ignore-scripts
+              run: npm i --ignore-scripts
 
             - name: Run ESLint
               run: npm run lint
@@ -100,7 +100,7 @@ jobs:
                   node-version: ${{ matrix.node }}
 
             - name: Install
-              run: npm install --ignore-scripts
+              run: npm i --ignore-scripts
 
             - name: Run tests
               run: npm run jest:coverage
