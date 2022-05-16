@@ -2,6 +2,47 @@
 
 All notable changes to this project will be documented in this file.
 
+### [2.0.8](https://github.com/Fdawgs/fastify-disablecache/compare/v2.0.7...v2.0.8) (2022-05-16)
+
+
+### Documentation
+
+* **readme:** remove snyk badge ([030c25b](https://github.com/Fdawgs/fastify-disablecache/commit/030c25bcf9191e927da748285307d6a3d8754c84))
+
+
+### Dependencies
+
+* **deps-dev:** bump eslint-plugin-jsdoc from 38.1.6 to 39.2.9 ([#157](https://github.com/Fdawgs/fastify-disablecache/issues/157)) ([13aceae](https://github.com/Fdawgs/fastify-disablecache/commit/13aceae50cf9d77f2be6e5ad9e01b77b1c0032e5))
+* **deps-dev:** bump jest from 27.5.1 to 28.0.3 ([#158](https://github.com/Fdawgs/fastify-disablecache/issues/158)) ([0b2fd9d](https://github.com/Fdawgs/fastify-disablecache/commit/0b2fd9df8f7c05b064b83c091e4f7756919ea3d5))
+* **deps:** bump actions/upload-artifact from 2 to 3 ([#156](https://github.com/Fdawgs/fastify-disablecache/issues/156)) ([c292991](https://github.com/Fdawgs/fastify-disablecache/commit/c2929916c4d302d14aa61986ec65ca52c673d0dd))
+* **deps:** bump github/codeql-action from 1 to 2 ([#155](https://github.com/Fdawgs/fastify-disablecache/issues/155)) ([04facf0](https://github.com/Fdawgs/fastify-disablecache/commit/04facf07f8af32e1e152cbde4e98426f9190eb50))
+
+
+### Miscellaneous
+
+* **.eslintrc:** enable `plugin:jest/style` rules ([#160](https://github.com/Fdawgs/fastify-disablecache/issues/160)) ([db557d3](https://github.com/Fdawgs/fastify-disablecache/commit/db557d34d9b2b381e6465a0dc405317a3fca5c28))
+* **.github/codeql-config:** remove quotation marks ([80aa591](https://github.com/Fdawgs/fastify-disablecache/commit/80aa59131e60fa993837a871e592c8292ab94220))
+* **.github/workflows/link-check:** use `skip` input ([17c0cd5](https://github.com/Fdawgs/fastify-disablecache/commit/17c0cd59db22ab55c467c95bf00167f5023c419b))
+* **ci:** remove quotation marks from step name ([6707b92](https://github.com/Fdawgs/fastify-disablecache/commit/6707b9235ec488b70eb85be18615428df1f97ee3))
+* use npm install alias ([a65f180](https://github.com/Fdawgs/fastify-disablecache/commit/a65f180540d9dc526a7b1fcd21bb01923cd11074))
+
+
+### Continuous Integration
+
+* add dependency-review job ([9cdc809](https://github.com/Fdawgs/fastify-disablecache/commit/9cdc809d8fbc638be0f47ff4b2459c83a0658ebe))
+* **automerge:** set correct `contents` permission level ([9d0cbb7](https://github.com/Fdawgs/fastify-disablecache/commit/9d0cbb7fd50b30d8a20df4438f984b00cae0cb2c))
+* **automerge:** squash automerge prs ([#149](https://github.com/Fdawgs/fastify-disablecache/issues/149)) ([fc83968](https://github.com/Fdawgs/fastify-disablecache/commit/fc8396821e4c7c2ef9d9d7d9b4267aa4c045febe))
+* **cd:** update org name for release-please-action ([e9fe464](https://github.com/Fdawgs/fastify-disablecache/commit/e9fe464bd28bc3e756545bbb35cb572b744185c5))
+* check `user.login` is dependabot instead of `actor` ([#162](https://github.com/Fdawgs/fastify-disablecache/issues/162)) ([5348042](https://github.com/Fdawgs/fastify-disablecache/commit/5348042f9f56fbb4c671558bb30f294b4052280d))
+* **ci:** require `unit-tests` job to pass for `save-pr-number` job to run ([74d92fb](https://github.com/Fdawgs/fastify-disablecache/commit/74d92fb224663f008f7f158ba3ef98652e60e36f))
+* **codeql:** only run on pr changes to `.html`, `.js`, and `.yml` files ([142d5e7](https://github.com/Fdawgs/fastify-disablecache/commit/142d5e7e4ee49f0ad740804454348a65aab35e65))
+* **codeql:** resolve missing analyses ([199198e](https://github.com/Fdawgs/fastify-disablecache/commit/199198e4f2b86524aa965d83db6114db392616fc))
+* **codeql:** specify which files to scan during analysis ([6b3ebc7](https://github.com/Fdawgs/fastify-disablecache/commit/6b3ebc7af617195278f356a86c499480f043ea54))
+* **link-check:** replace `npx linkinator` call with github action ([16110d7](https://github.com/Fdawgs/fastify-disablecache/commit/16110d7c088779ec179ce4bd25b9d422c9a5167f))
+* only trigger dependency-review on pr ([166d402](https://github.com/Fdawgs/fastify-disablecache/commit/166d402fa27263caf565e5929f3eee3c3146c3a1))
+* reduce workflow permissions to minimum ([afd110d](https://github.com/Fdawgs/fastify-disablecache/commit/afd110daec0c35db54b084893e090cffab6978b9))
+* replace workflow-run-cleanup-action with github concurrency ([97a73a9](https://github.com/Fdawgs/fastify-disablecache/commit/97a73a9c4db37a41a206d67d5cd6f82a5186058e))
+
 ### [2.0.7](https://github.com/Fdawgs/fastify-disablecache/compare/v2.0.6...v2.0.7) (2022-03-28)
 
 
