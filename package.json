@@ -63,7 +63,7 @@
 		"eslint-plugin-security": "^1.4.0",
 		"eslint-plugin-security-node": "^1.1.1",
 		"fastify": "^3.27.2",
-		"husky": "^7.0.4",
+		"husky": "^8.0.1",
 		"jest": "^28.0.3",
 		"license-checker": "^25.0.1",
 		"prettier": "^2.5.1"
