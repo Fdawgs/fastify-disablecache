@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.0.0](https://github.com/Fdawgs/fastify-disablecache/compare/v2.0.8...v3.0.0) (2022-05-26)
+
+
+### ⚠ BREAKING CHANGES
+
+* * feat!: support fastify v4.x
+
+### Features
+
+* support fastify v4.x ([#169](https://github.com/Fdawgs/fastify-disablecache/issues/169)) ([7dfd02c](https://github.com/Fdawgs/fastify-disablecache/commit/7dfd02c2fd781329606f890b28bc54c433ac3992))
+
 ### [2.0.8](https://github.com/Fdawgs/fastify-disablecache/compare/v2.0.7...v2.0.8) (2022-05-25)
 
 
