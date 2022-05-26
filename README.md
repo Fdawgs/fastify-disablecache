@@ -42,6 +42,8 @@ Or [`yarn`](https://yarnpkg.com/en/package/fastify-disablecache):
 yarn add fastify-disablecache
 ```
 
+For Fastify v3.x support, use `fastify-disablecache@2.0.8`.
+
 fastify-disablecache's test scripts use npm commands.
 
 ## Example Usage
