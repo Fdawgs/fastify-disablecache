@@ -16,4 +16,4 @@ async function plugin(server) {
 	});
 }
 
-module.exports = fp(plugin, { fastify: "3.x", name: "fastify-disablecache" });
+module.exports = fp(plugin, { fastify: "4.x", name: "fastify-disablecache" });
