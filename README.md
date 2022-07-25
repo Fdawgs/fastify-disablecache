@@ -53,13 +53,11 @@ const Fastify = require("fastify");
 const disableCache = require("fastify-disablecache");
 
 const server = Fastify();
-server.register(disableCache);
+await server.register(disableCache);
 
-server.get("/", (req, res) => {
-	res.send("ok");
-});
+server.get("/", () => "ok");
 
-server.listen(3000);
+await server.listen({ port: 3000 });
 ```
 
 ## Contributing
