@@ -2,6 +2,30 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.0.1](https://github.com/Fdawgs/fastify-disablecache/compare/v3.0.0...v3.0.1) (2022-07-25)
+
+
+### Miscellaneous
+
+* **.github/funding:** remove unused keys ([f5a9dd8](https://github.com/Fdawgs/fastify-disablecache/commit/f5a9dd86c77317be466e06f8c18d52576cbaebfd))
+* **.github:** add `FUNDING.yml` ([a07ef55](https://github.com/Fdawgs/fastify-disablecache/commit/a07ef55e9be399a057e4c3a5d3cae11a795859da))
+* **.gitignore:** use latest github ignore template ([ae02f4f](https://github.com/Fdawgs/fastify-disablecache/commit/ae02f4f5c63cb8b7b1e96c1f146a8cb547e9f43e))
+* **.prettierignore:** add new paths from `.gitignore` ([15b3075](https://github.com/Fdawgs/fastify-disablecache/commit/15b3075fd4f49beed30b5abbb36d8bade85c8113))
+* ignore pnpm lock file ([25d16e3](https://github.com/Fdawgs/fastify-disablecache/commit/25d16e3a1fed651494c0df418ac26f504d7825c0))
+
+
+### Dependencies
+
+* **dependabot:** increase `open-pull-requests-limit` from 5 to 20 ([932f0cb](https://github.com/Fdawgs/fastify-disablecache/commit/932f0cb74e67c4239fb70834ec3f9809175295a3))
+* **deps:** bump actions/dependency-review-action from 1 to 2 ([#173](https://github.com/Fdawgs/fastify-disablecache/issues/173)) ([6006239](https://github.com/Fdawgs/fastify-disablecache/commit/6006239b96e86c1a56a75b8c2b85652fcca392c9))
+* **deps:** bump fastify-plugin from 3.0.1 to 4.0.0 ([#174](https://github.com/Fdawgs/fastify-disablecache/issues/174)) ([1de5fd1](https://github.com/Fdawgs/fastify-disablecache/commit/1de5fd133834e41fc91fa2859e41cf5944bd29cf))
+* **deps:** bump wagoid/commitlint-github-action from 4 to 5 ([#172](https://github.com/Fdawgs/fastify-disablecache/issues/172)) ([418a2ee](https://github.com/Fdawgs/fastify-disablecache/commit/418a2ee2a5f5a7c60392c0851fea718cc79a77b9))
+
+
+### Documentation
+
+* **readme:** update example for fastify v4 ([fb33821](https://github.com/Fdawgs/fastify-disablecache/commit/fb33821ec5900402d57bbc338cda007e2af7ee65))
+
 ## [3.0.0](https://github.com/Fdawgs/fastify-disablecache/compare/v2.0.8...v3.0.0) (2022-05-26)
 
 
