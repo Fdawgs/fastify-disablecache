@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.0.2](https://github.com/Fdawgs/fastify-disablecache/compare/v3.0.1...v3.0.2) (2022-08-09)
+
+
+### Miscellaneous
+
+* **.npmrc:** disable package-lock generation ([#175](https://github.com/Fdawgs/fastify-disablecache/issues/175)) ([773710d](https://github.com/Fdawgs/fastify-disablecache/commit/773710d8cc132d69dfa3b2b851669f67480a9b50))
+
+
+### Dependencies
+
+* **.npmignore:** add `CHANGELOG.md`; reduce package size by ~86% ([#177](https://github.com/Fdawgs/fastify-disablecache/issues/177)) ([587aeaa](https://github.com/Fdawgs/fastify-disablecache/commit/587aeaa83e8dcb32acc63f3c32ca6fec8b53425b))
+* **deps:** bump dependencies ([#178](https://github.com/Fdawgs/fastify-disablecache/issues/178)) ([224b215](https://github.com/Fdawgs/fastify-disablecache/commit/224b215adf03b5f38f52f2bcf3f89a645202f9ac))
+
 ## [3.0.1](https://github.com/Fdawgs/fastify-disablecache/compare/v3.0.0...v3.0.1) (2022-07-25)
 
 
