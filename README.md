@@ -1,7 +1,7 @@
 # fastify-disablecache
 
 [![GitHub Release](https://img.shields.io/github/release/Fdawgs/fastify-disablecache.svg)](https://github.com/Fdawgs/fastify-disablecache/releases/latest/)
-[![npm version](https://img.shields.io/npm/v/fastify-disablecache)](https://www.npmjs.com/package/fastify-disablecache)
+[![npm version](https://img.shields.io/npm/v/fastify-disablecache)](https://npmjs.com/package/fastify-disablecache)
 ![Build Status](https://github.com/Fdawgs/fastify-disablecache/workflows/CI/badge.svg?branch=master)
 [![Coverage Status](https://coveralls.io/repos/github/Fdawgs/fastify-disablecache/badge.svg?branch=master)](https://coveralls.io/github/Fdawgs/fastify-disablecache?branch=master)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat)](https://github.com/prettier/prettier)
@@ -23,28 +23,22 @@ This plugin was created out of a need for an easy way to disable client-side cac
 
 ### Why These Headers?
 
--   `Cache-Control` - Primary response header for configuring cache controls [since HTTP/1.1](https://httpwg.org/specs/rfc7234.html#header.cache-control); whilst `no-store` is the directive to disable caching, certain clients (such as [Internet Explorer](https://docs.microsoft.com/en-us/troubleshoot/developer/browsers/connectivity-navigation/how-to-prevent-caching#the-cache-control-header)) did not use it, thus the addition of `max-age=0, must-revalidate`
--   `Expires` - Included for backwards compatibility with [HTTP/1.0 caches](https://www.w3.org/Protocols/HTTP/1.0/spec.html#Expires)
--   `Pragma` - Included for backwards compatibility with [HTTP/1.0 caches](https://www.w3.org/Protocols/HTTP/1.0/spec.html#Pragma), was [used by Internet Explorer](https://docs.microsoft.com/en-us/troubleshoot/developer/browsers/connectivity-navigation/how-to-prevent-caching#the-pragma-no-cache-header)
--   `Surrogate-Control` - Not a standardised response header but is [used by CDNs and reverse proxies](https://www.w3.org/TR/edge-arch/) for cache control
+-   `Cache-Control` - Primary response header for configuring cache controls [since HTTP/1.1](https://httpwg.org/specs/rfc7234.html#header.cache-control); whilst `no-store` is the directive to disable caching, certain clients (such as [Internet Explorer](https://learn.microsoft.com/en-us/troubleshoot/developer/browsers/connectivity-navigation/how-to-prevent-caching#the-cache-control-header)) did not use it, thus the addition of `max-age=0, must-revalidate`
+-   `Expires` - Included for backwards compatibility with [HTTP/1.0 caches](https://w3.org/Protocols/HTTP/1.0/spec.html#Expires)
+-   `Pragma` - Included for backwards compatibility with [HTTP/1.0 caches](https://w3.org/Protocols/HTTP/1.0/spec.html#Pragma), was [used by Internet Explorer](https://docs.microsoft.com/en-us/troubleshoot/developer/browsers/connectivity-navigation/how-to-prevent-caching#the-pragma-no-cache-header)
+-   `Surrogate-Control` - Not a standardised response header but is [used by CDNs and reverse proxies](https://w3.org/TR/edge-arch/) for cache control
 
 ## Installation
 
-Install using [`npm`](https://www.npmjs.com/package/fastify-disablecache):
+Install using `npm`:
 
 ```bash
 npm i fastify-disablecache
 ```
 
-Or [`yarn`](https://yarnpkg.com/en/package/fastify-disablecache):
-
-```bash
-yarn add fastify-disablecache
-```
-
 For Fastify v3.x support, use `fastify-disablecache@2.0.8`.
 
-fastify-disablecache's test scripts use npm commands.
+fastify-disablecache's test scripts use `npm` commands.
 
 ## Example Usage
 
