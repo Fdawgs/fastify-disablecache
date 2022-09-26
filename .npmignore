@@ -1,28 +1,5 @@
-# Development and CI/CD config
-.github
-.husky
-.vscode
-
-# Coverage directory used by tools like istanbul
-coverage
-
-# Optional eslint cache
-.eslintcache
-
-# eslint config
-.eslintrc.js
-
-# Prettier config
-.prettierignore
-.prettierrc
-
-# Documentation
-CHANGELOG.md
-CODE_OF_CONDUCT.md
-CONTRIBUTING.md
-SECURITY.md
-
-# Test files
-src/**/*.test.js
-test_files
-test_resources
+# `package.json` is published to npm, so everything we add is included in the installed tarball.
+# Removing the `files` key and replacing it with this `.npmignore` saves some bytes, which
+# should improve installation performance slightly
+*
+!src/index.js
