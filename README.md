@@ -38,8 +38,6 @@ npm i fastify-disablecache
 
 For Fastify v3.x support, use `fastify-disablecache@2.0.8`.
 
-fastify-disablecache's test scripts use `npm` commands.
-
 ## Example Usage
 
 ```js
