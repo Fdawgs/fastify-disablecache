@@ -2,6 +2,32 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.0.3](https://github.com/Fdawgs/fastify-disablecache/compare/v3.0.2...v3.0.3) (2022-10-03)
+
+
+### Documentation
+
+* **readme:** convert sync async example to sync only ([9d2c340](https://github.com/Fdawgs/fastify-disablecache/commit/9d2c340b9751c28af85049afd109aede81cbd524))
+* **readme:** remove redundant statement ([cec6cbb](https://github.com/Fdawgs/fastify-disablecache/commit/cec6cbbb52288acca019e2fcd8f364b05f7b09f0))
+* use shorter urls; remove yarn install guidance ([cd5825b](https://github.com/Fdawgs/fastify-disablecache/commit/cd5825b135b709560cf7e965c5b1af7ab1888e03))
+
+
+### Miscellaneous
+
+* **.husky:** shell path and arg updates ([#179](https://github.com/Fdawgs/fastify-disablecache/issues/179)) ([de8048c](https://github.com/Fdawgs/fastify-disablecache/commit/de8048cc197102b08c85dc0849a61e26f8998701))
+* **.npmignore:** reduce entries ([8b15a2a](https://github.com/Fdawgs/fastify-disablecache/commit/8b15a2a8421d2a131ae04d274ade770c1ecf4145))
+* **.vscode/extensions:** remove unmaintained extension ([1f0b967](https://github.com/Fdawgs/fastify-disablecache/commit/1f0b967c37ee73f915a9a533a5450a4dcd2f48b1))
+* ***.ignore:** add clinicjs directory ([87af308](https://github.com/Fdawgs/fastify-disablecache/commit/87af3087c4507b87c701aea4af2800667711a64b))
+* **LICENSE:** remove trailing whitespace ([8d4b41d](https://github.com/Fdawgs/fastify-disablecache/commit/8d4b41d9278bc19a7d6b8d7ce736d8ec15599beb))
+* prefer object destructuring ([#184](https://github.com/Fdawgs/fastify-disablecache/issues/184)) ([3f203ad](https://github.com/Fdawgs/fastify-disablecache/commit/3f203add47e065be608ae6afed15653bb941b1c0))
+
+
+### Dependencies
+
+* **deps-dev:** bump eslint-plugin-jest from 26.9.0 to 27.0.1 ([#182](https://github.com/Fdawgs/fastify-disablecache/issues/182)) ([ca37cd4](https://github.com/Fdawgs/fastify-disablecache/commit/ca37cd446579066ac096ffa7ffae22ca8eb714a7))
+* **deps-dev:** bump jest from 28.1.3 to 29.0.1 ([#181](https://github.com/Fdawgs/fastify-disablecache/issues/181)) ([0b7ef81](https://github.com/Fdawgs/fastify-disablecache/commit/0b7ef812294e5c385951ce43755fcc533a6d7f01))
+* **deps:** bump dependencies ([9a098db](https://github.com/Fdawgs/fastify-disablecache/commit/9a098db5e29da207deca0f19ce8a826a1c1fb92b))
+
 ## [3.0.2](https://github.com/Fdawgs/fastify-disablecache/compare/v3.0.1...v3.0.2) (2022-08-09)
 
 
