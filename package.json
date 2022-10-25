@@ -69,6 +69,6 @@
 		"prettier": "^2.7.1"
 	},
 	"dependencies": {
-		"fastify-plugin": "^4.2.1"
+		"fastify-plugin": "^4.3.0"
 	}
 }
