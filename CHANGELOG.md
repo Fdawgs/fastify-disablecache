@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.0.4](https://github.com/Fdawgs/fastify-disablecache/compare/v3.0.3...v3.0.4) (2022-10-25)
+
+
+### Continuous Integration
+
+* **cd:** remove dev values from `package.json` ([a35b600](https://github.com/Fdawgs/fastify-disablecache/commit/a35b60042d7374bcc5462dc03f5ea1edb42568c3))
+
+
+### Dependencies
+
+* **deps-dev:** bump dev dependencies ([67ccddf](https://github.com/Fdawgs/fastify-disablecache/commit/67ccddfc6c989f0ef61e00b491e968d85e65a703))
+* **deps:** bump fastify-plugin from 4.2.1 to 4.3.0 ([44b2403](https://github.com/Fdawgs/fastify-disablecache/commit/44b24037dac696d54a0ef63ad1b2d88903a71e45))
+
 ## [3.0.3](https://github.com/Fdawgs/fastify-disablecache/compare/v3.0.2...v3.0.3) (2022-10-03)
 
 
