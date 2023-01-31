@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.0.5](https://github.com/Fdawgs/fastify-disablecache/compare/v3.0.4...v3.0.5) (2023-01-31)
+
+
+### Miscellaneous
+
+* **license:** update license year ([b8af84f](https://github.com/Fdawgs/fastify-disablecache/commit/b8af84f0d39a71a12d7e5ddecc8fa483bd7567f1))
+
+
+### Documentation
+
+* **contributing:** update min node version ([e9ba604](https://github.com/Fdawgs/fastify-disablecache/commit/e9ba604e782ab2eec21f8be87f1dcff99c063a50))
+* grammar and clarity fixes ([c1082e9](https://github.com/Fdawgs/fastify-disablecache/commit/c1082e99955402691cd3837b18973d9e6b184af6))
+* **readme:** remove fluff ([9349198](https://github.com/Fdawgs/fastify-disablecache/commit/93491989b43585dba27d08176affa0f5ed7aa808))
+
+
+### Dependencies
+
+* **deps-dev:** bump dev dependencies ([0a15f73](https://github.com/Fdawgs/fastify-disablecache/commit/0a15f734ec4e540ef91bcf62e099a4427bb08051))
+* **deps:** bump actions/dependency-review-action from 2 to 3 ([#187](https://github.com/Fdawgs/fastify-disablecache/issues/187)) ([9566dcb](https://github.com/Fdawgs/fastify-disablecache/commit/9566dcb531b7b1d1f4129e8f39f653de6424a4da))
+* **deps:** bump fastify-plugin from 4.3.0 to 4.5.0 ([3a520f6](https://github.com/Fdawgs/fastify-disablecache/commit/3a520f67c54c56992307226556a22f943d32376f))
+
 ## [3.0.4](https://github.com/Fdawgs/fastify-disablecache/compare/v3.0.3...v3.0.4) (2022-10-25)
 
 
