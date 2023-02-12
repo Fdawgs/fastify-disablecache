@@ -8,7 +8,7 @@
 
 > Fastify plugin to disable client-side caching
 
-## Intro
+## Overview
 
 Inspired by [nocache](https://github.com/helmetjs/nocache), the `fastify-disablecache` plugin sets the following response headers and values to disable client-side caching:
 
@@ -21,7 +21,7 @@ Surrogate-Control: no-store
 
 This plugin was created out of a need for an easy way to disable client-side caching for data received from backend APIs. This ensures data is always current when called by applications.
 
-### Why These Headers?
+### Why these headers?
 
 -   `Cache-Control` - Primary response header for configuring cache controls [since HTTP/1.1](https://httpwg.org/specs/rfc7234.html#header.cache-control); whilst `no-store` is the directive to disable caching, clients such as [Internet Explorer](https://learn.microsoft.com/en-us/troubleshoot/developer/browsers/connectivity-navigation/how-to-prevent-caching#the-cache-control-header) did not use it, thus the addition of `max-age=0, must-revalidate`
 -   `Expires` - Included for backwards compatibility with [HTTP/1.0 caches](https://w3.org/Protocols/HTTP/1.0/spec.html#Expires)

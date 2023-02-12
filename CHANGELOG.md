@@ -26,7 +26,7 @@ All notable changes to this project will be documented in this file.
 ## [3.0.4](https://github.com/Fdawgs/fastify-disablecache/compare/v3.0.3...v3.0.4) (2022-10-25)
 
 
-### Continuous Integration
+### Continuous integration
 
 * **cd:** remove dev values from `package.json` ([a35b600](https://github.com/Fdawgs/fastify-disablecache/commit/a35b60042d7374bcc5462dc03f5ea1edb42568c3))
 
@@ -128,7 +128,7 @@ All notable changes to this project will be documented in this file.
 * use npm install alias ([a65f180](https://github.com/Fdawgs/fastify-disablecache/commit/a65f180540d9dc526a7b1fcd21bb01923cd11074))
 
 
-### Continuous Integration
+### Continuous integration
 
 * add dependency-review job ([9cdc809](https://github.com/Fdawgs/fastify-disablecache/commit/9cdc809d8fbc638be0f47ff4b2459c83a0658ebe))
 * **automerge:** fix context ([d993a4f](https://github.com/Fdawgs/fastify-disablecache/commit/d993a4f40634ca8de46a18518cb84264f53ac196))
@@ -169,7 +169,7 @@ All notable changes to this project will be documented in this file.
 * improve readability ([b312864](https://github.com/Fdawgs/fastify-disablecache/commit/b312864c7961f478bd9727765c3d04e0ed770538))
 
 
-### Continuous Integration
+### Continuous integration
 
 * add job step names, workflow comments, and whitespace ([2ca950a](https://github.com/Fdawgs/fastify-disablecache/commit/2ca950ae53af22e3f19c9e39637fc91338653608))
 * **codeql-analysis:** remove unused autobuild step ([b507d07](https://github.com/Fdawgs/fastify-disablecache/commit/b507d07be21720b0e0e367bf6cba2521a04335c8))
@@ -234,7 +234,7 @@ All notable changes to this project will be documented in this file.
 * **index:** fix `server` jsdoc tag param type ([07befc1](https://github.com/Fdawgs/fastify-disablecache/commit/07befc13a6a45ad59b6ff9eb0831924df1edce3e))
 
 
-### Continuous Integration
+### Continuous integration
 
 * **cd:** stop `prepare` script running ([#108](https://github.com/Fdawgs/fastify-disablecache/issues/108)) ([742e93f](https://github.com/Fdawgs/fastify-disablecache/commit/742e93f1d7404ded46a7d69bf9a752c4e393d6fe))
 * **ci:** do not run clean-up on draft prs ([35aa923](https://github.com/Fdawgs/fastify-disablecache/commit/35aa923ac1492f6501d2a57f4f56312271689200))
@@ -264,7 +264,7 @@ All notable changes to this project will be documented in this file.
 ### [2.0.4](https://github.com/Fdawgs/fastify-disablecache/compare/v2.0.3...v2.0.4) (2021-10-29)
 
 
-### Continuous Integration
+### Continuous integration
 
 * **automerge:** update location of octokit rest methods ([c489d5a](https://github.com/Fdawgs/fastify-disablecache/commit/c489d5af74f704049b2cf1fbf5c855400ada8f41))
 * **ci:** revert to workflow-run-clean-action from github concurrency ([370196e](https://github.com/Fdawgs/fastify-disablecache/commit/370196e54e17f84b4f1697e29073af1b40a8a3fd))
@@ -316,7 +316,7 @@ All notable changes to this project will be documented in this file.
 * **vscode:** remove user space config setting ([d654d6a](https://github.com/Fdawgs/fastify-disablecache/commit/d654d6a73d04a3b92ceea4cf1aa366c44366c84d))
 
 
-### Continuous Integration
+### Continuous integration
 
 * **ci:** replace workflow-run-cleanup-action with github concurrency ([#80](https://github.com/Fdawgs/fastify-disablecache/issues/80)) ([660aeb2](https://github.com/Fdawgs/fastify-disablecache/commit/660aeb2db5e0a99eca45d63c99baf6bc0a01c408))
 * **link-check:** reduce frequency from daily to monthly ([#64](https://github.com/Fdawgs/fastify-disablecache/issues/64)) ([daae963](https://github.com/Fdawgs/fastify-disablecache/commit/daae963b1452102b401f7c162925cd84c9fa1b8d))
@@ -341,7 +341,7 @@ All notable changes to this project will be documented in this file.
 ### [2.0.2](https://github.com/Fdawgs/fastify-disablecache/compare/v2.0.1...v2.0.2) (2021-06-17)
 
 
-### Bug Fixes
+### Bug fixes
 
 * **index:** re-add 'must-revalidate' to `cache-control` header ([#61](https://github.com/Fdawgs/fastify-disablecache/issues/61)) ([2b814aa](https://github.com/Fdawgs/fastify-disablecache/commit/2b814aa45720d2ea4877a9928376e80511089486)), thanks @anthony-telljohann
 
@@ -353,7 +353,7 @@ All notable changes to this project will be documented in this file.
 ### [2.0.1](https://github.com/Fdawgs/fastify-disablecache/compare/v2.0.0...v2.0.1) (2021-06-16)
 
 
-### Bug Fixes
+### Bug fixes
 
 * **index:** update `Cache-Control` directives to disable cache ([#58](https://github.com/Fdawgs/fastify-disablecache/issues/58)) ([b8cb7dd](https://github.com/Fdawgs/fastify-disablecache/commit/b8cb7ddd7b8533735a6e7c69b975994958d356b9))
 
@@ -364,7 +364,7 @@ All notable changes to this project will be documented in this file.
 * **workflows:** remove `stale.yml` ([052321b](https://github.com/Fdawgs/fastify-disablecache/commit/052321b7287abacf8e8f4f9365f1f95d370358f3))
 
 
-### Continuous Integration
+### Continuous integration
 
 * **cd:** move perf optimizations and refactoring into same section ([af8f6c9](https://github.com/Fdawgs/fastify-disablecache/commit/af8f6c9cfeb10bc206a5bd556801afa82e3867f5))
 * fix key usage in `action/setup-node` ([76e1063](https://github.com/Fdawgs/fastify-disablecache/commit/76e1063b4353437447f9e50e2e1890aab9524d69))
@@ -392,7 +392,7 @@ All notable changes to this project will be documented in this file.
 
 * remove support for nodejs v10, as it is EOL as of 2021-04-30
 
-### Continuous Integration
+### Continuous integration
 
 * add cleanup-run job ([c67a547](https://github.com/Fdawgs/fastify-disablecache/commit/c67a5473fbc0392bca9fa50befabd8734588dbf7))
 * add nodejs v16 to unit test matrix ([1edc6e6](https://github.com/Fdawgs/fastify-disablecache/commit/1edc6e6567e9d32015b118a43ed827924d86ea59))
@@ -438,7 +438,7 @@ All notable changes to this project will be documented in this file.
 * **workflows:** rename ci and perf sections ([60783a0](https://github.com/Fdawgs/fastify-disablecache/commit/60783a0d5d95c10e4492de996f8026fd93a43f7d))
 
 
-### Continuous Integration
+### Continuous integration
 
 * **automerge:** move automerge job into new workflow ([f16c26f](https://github.com/Fdawgs/fastify-disablecache/commit/f16c26f528c153175cf00d57d40433a0507c65b6))
 * **ci:** ignore dependabot prs for commit message linting ([38fcc82](https://github.com/Fdawgs/fastify-disablecache/commit/38fcc82605942da4027f6a52f63c18a5f47cac16))
