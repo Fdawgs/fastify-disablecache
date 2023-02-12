@@ -8,7 +8,7 @@
 
 > Fastify plugin to disable client-side caching
 
-## Intro
+## Overview
 
 Inspired by [nocache](https://github.com/helmetjs/nocache), the `fastify-disablecache` plugin sets the following response headers and values to disable client-side caching:
 
