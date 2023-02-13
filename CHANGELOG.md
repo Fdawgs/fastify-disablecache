@@ -2,6 +2,29 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.0.6](https://github.com/Fdawgs/fastify-disablecache/compare/v3.0.5...v3.0.6) (2023-02-13)
+
+
+### Documentation
+
+* **readme:** rename intro to overview ([5cc350b](https://github.com/Fdawgs/fastify-disablecache/commit/5cc350b5478a46ce472e7f18d49dea8531821eed))
+
+
+### Continuous integration
+
+* **cd:** use sentence case for changelog headings ([474ad97](https://github.com/Fdawgs/fastify-disablecache/commit/474ad976d9f855786964ea1efb36f33a412cd527))
+
+
+### Miscellaneous
+
+* rename master branch to main ([a83d2cc](https://github.com/Fdawgs/fastify-disablecache/commit/a83d2ccf07dddd7b6c5fdf64565eddb47b750ff6))
+* use sentence case over ap style for titles and headings ([4df886d](https://github.com/Fdawgs/fastify-disablecache/commit/4df886ddf0cec7ceac3baf4d0946cabaf677b57f))
+
+
+### Dependencies
+
+* **deps-dev:** bump dev dependencies ([8f32d55](https://github.com/Fdawgs/fastify-disablecache/commit/8f32d55391704d86702d137c5242d505295b123f))
+
 ## [3.0.5](https://github.com/Fdawgs/fastify-disablecache/compare/v3.0.4...v3.0.5) (2023-01-31)
 
 
