@@ -2,8 +2,8 @@
 
 [![GitHub Release](https://img.shields.io/github/release/Fdawgs/fastify-disablecache.svg)](https://github.com/Fdawgs/fastify-disablecache/releases/latest/)
 [![npm version](https://img.shields.io/npm/v/fastify-disablecache)](https://npmjs.com/package/fastify-disablecache)
-![Build Status](https://github.com/Fdawgs/fastify-disablecache/workflows/CI/badge.svg?branch=master)
-[![Coverage Status](https://coveralls.io/repos/github/Fdawgs/fastify-disablecache/badge.svg?branch=master)](https://coveralls.io/github/Fdawgs/fastify-disablecache?branch=master)
+![Build Status](https://github.com/Fdawgs/fastify-disablecache/workflows/CI/badge.svg?branch=main)
+[![Coverage Status](https://coveralls.io/repos/github/Fdawgs/fastify-disablecache/badge.svg?branch=main)](https://coveralls.io/github/Fdawgs/fastify-disablecache?branch=main)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat)](https://github.com/prettier/prettier)
 
 > Fastify plugin to disable client-side caching
@@ -38,7 +38,7 @@ npm i fastify-disablecache
 
 For Fastify v3.x support, use `fastify-disablecache@2.0.8`.
 
-## Example Usage
+## Example usage
 
 ```js
 const Fastify = require("fastify");

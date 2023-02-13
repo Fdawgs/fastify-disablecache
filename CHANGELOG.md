@@ -445,7 +445,7 @@ All notable changes to this project will be documented in this file.
 * **stale:** shorten workflow name ([c5d7ab5](https://github.com/Fdawgs/fastify-disablecache/commit/c5d7ab5a2f1a1de165ed9b810fe0b4d6fb64e6a7))
 * **workflows:** fix release types to account for bots ([915459f](https://github.com/Fdawgs/fastify-disablecache/commit/915459f08b2ecabd3f406a006684c9a2a29f3f08))
 * **workflows:** move release steps into `cd` workflow ([b8743a3](https://github.com/Fdawgs/fastify-disablecache/commit/b8743a393242ae2584bfe4a6fb9364711f335861))
-* **workflows:** run only on push and pulls to master branch ([d4f685e](https://github.com/Fdawgs/fastify-disablecache/commit/d4f685ef5deb87693005efa87fc1c0b7b72ed51b))
+* **workflows:** run only on push and pulls to main branch ([d4f685e](https://github.com/Fdawgs/fastify-disablecache/commit/d4f685ef5deb87693005efa87fc1c0b7b72ed51b))
 
 
 ### Dependencies
