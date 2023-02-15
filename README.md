@@ -65,6 +65,7 @@ Please adhere to this project's [Code of Conduct](./CODE_OF_CONDUCT.md) when con
 
 -   [**Evan Hahn**](https://github.com/EvanHahn) - [nocache](https://github.com/helmetjs/nocache) developer
 -   [**Matteo Collina**](https://github.com/mcollina) - Optimisation suggestions
+-   [**Uzlopak**](https://github.com/uzlopak) - TypeScript support
 
 ## License
 
