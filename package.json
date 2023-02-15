@@ -15,6 +15,7 @@
 		"surrogate"
 	],
 	"main": "src/index.js",
+	"types": "types/index.d.ts",
 	"repository": "git+https://github.com/Fdawgs/fastify-disablecache.git",
 	"homepage": "https://github.com/Fdawgs/fastify-disablecache",
 	"bugs": {
