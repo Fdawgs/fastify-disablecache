@@ -3,3 +3,4 @@
 # should improve installation performance slightly
 *
 !src/index.js
+!types/index.d.ts
