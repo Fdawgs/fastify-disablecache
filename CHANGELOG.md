@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.1.0](https://github.com/Fdawgs/fastify-disablecache/compare/v3.0.6...v3.1.0) (2023-02-15)
+
+
+### Features
+
+* add nodenext compatiblity ([#196](https://github.com/Fdawgs/fastify-disablecache/issues/196)) ([5be072f](https://github.com/Fdawgs/fastify-disablecache/commit/5be072ff77ce54b039e8f1cd6ac568cb59f6dbd9))
+
+
+### Dependencies
+
+* **.npmignore:** exclude type file ([e03c8c9](https://github.com/Fdawgs/fastify-disablecache/commit/e03c8c97cd185c5ace5cf0369c49931fc9c31b40))
+
+
+### Documentation
+
+* **readme:** update acknowledgements section ([2009401](https://github.com/Fdawgs/fastify-disablecache/commit/2009401fe5a734b8fefc154d7d0ba8f25b76ad7e))
+
 ## [3.0.6](https://github.com/Fdawgs/fastify-disablecache/compare/v3.0.5...v3.0.6) (2023-02-13)
 
 
