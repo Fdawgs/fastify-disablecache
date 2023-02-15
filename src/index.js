@@ -16,10 +16,9 @@ async function fastifyDisablecache(server) {
 	});
 }
 
-module.exports = fp(fastifyDisablecache,{
-		fastify: "4.x",
-		name: "fastify-disablecache"
-	}
-);
+module.exports = fp(fastifyDisablecache, {
+	fastify: "4.x",
+	name: "fastify-disablecache",
+});
 module.exports.default = fastifyDisablecache;
 module.exports.fastifyDisablecache = fastifyDisablecache;
