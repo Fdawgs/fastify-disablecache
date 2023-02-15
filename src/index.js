@@ -5,8 +5,8 @@ const fp = require("fastify-plugin");
  * by setting the relevant response headers.
  * @param {object} server - Fastify instance.
  */
-async function plugin(server) {
-	server.addHook("onRequest", async (req, res) => {
+async function fastifyDisablecache(server) {
+	server.addHook("onRequest", async (_req, res) => {
 		res.headers({
 			"Cache-Control": "no-store, max-age=0, must-revalidate",
 			Expires: "0",
@@ -16,4 +16,9 @@ async function plugin(server) {
 	});
 }
 
-module.exports = fp(plugin, { fastify: "4.x", name: "fastify-disablecache" });
+module.exports = fp(fastifyDisablecache, {
+	fastify: "4.x",
+	name: "fastify-disablecache",
+});
+module.exports.default = fastifyDisablecache;
+module.exports.fastifyDisablecache = fastifyDisablecache;
