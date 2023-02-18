@@ -7,7 +7,7 @@ All notable changes to this project will be documented in this file.
 
 ### Features
 
-* add nodenext compatiblity ([#196](https://github.com/Fdawgs/fastify-disablecache/issues/196)) ([5be072f](https://github.com/Fdawgs/fastify-disablecache/commit/5be072ff77ce54b039e8f1cd6ac568cb59f6dbd9))
+* add nodenext compatibility ([#196](https://github.com/Fdawgs/fastify-disablecache/issues/196)) ([5be072f](https://github.com/Fdawgs/fastify-disablecache/commit/5be072ff77ce54b039e8f1cd6ac568cb59f6dbd9))
 
 
 ### Dependencies
