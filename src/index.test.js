@@ -20,7 +20,7 @@ describe("Disablecache plugin", () => {
 			await server.close();
 		});
 
-		test("Should set relevant cache response headers", async () => {
+		it("Sets relevant cache response headers", async () => {
 			const response = await server.inject({
 				method: "GET",
 				url: "/",
