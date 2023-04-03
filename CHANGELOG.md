@@ -2,6 +2,38 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.1.1](https://github.com/Fdawgs/fastify-disablecache/compare/v3.1.0...v3.1.1) (2023-04-03)
+
+
+### Documentation
+
+* **changelog:** spelling mistake ([6316a65](https://github.com/Fdawgs/fastify-disablecache/commit/6316a65578edac8a83194a6fbf0a855d9dcbb263))
+* **contributing:** add link to conventional config ([#205](https://github.com/Fdawgs/fastify-disablecache/issues/205)) ([05abfb9](https://github.com/Fdawgs/fastify-disablecache/commit/05abfb90b89312d2fd04a02c3c8991be2849384f))
+
+
+### Continuous integration
+
+* **dependabot:** change commit message prefix for gh actions to `ci` ([#204](https://github.com/Fdawgs/fastify-disablecache/issues/204)) ([a64a242](https://github.com/Fdawgs/fastify-disablecache/commit/a64a24262e9eb07ed0d800ba9109a1b79814f600))
+* **deps:** bump coverallsapp/github-action from 1.2.4 to 2.0.0 ([#206](https://github.com/Fdawgs/fastify-disablecache/issues/206)) ([07fd161](https://github.com/Fdawgs/fastify-disablecache/commit/07fd161020f9a8765d111771422f4ad03af1013a))
+
+
+### Miscellaneous
+
+* **.prettierrc:** enable `arrowParens` option ([#208](https://github.com/Fdawgs/fastify-disablecache/issues/208)) ([115fa90](https://github.com/Fdawgs/fastify-disablecache/commit/115fa9040b6b05f20645f91f7bd845755a9b015d))
+* ignore bun lockfile ([#202](https://github.com/Fdawgs/fastify-disablecache/issues/202)) ([0f08b3b](https://github.com/Fdawgs/fastify-disablecache/commit/0f08b3be53db73cf03680c1cbec1490019622a47))
+* **package:** add funding url ([387a6cb](https://github.com/Fdawgs/fastify-disablecache/commit/387a6cba373d4aa59bb948bddb8565a860cd4a29))
+* **scripts:** add eslint rule file ([d7ac237](https://github.com/Fdawgs/fastify-disablecache/commit/d7ac237ffbbd3d6ae0b6b00b5ff9a51a1a7320d1))
+* **scripts:** remove redundant export ([0651021](https://github.com/Fdawgs/fastify-disablecache/commit/0651021a70fd45f0455fb865a76d82dda37f6e86))
+* **scripts:** sort eslint comments alphabetically ([ff8f707](https://github.com/Fdawgs/fastify-disablecache/commit/ff8f707fd97d1f3edd451cb9e2b321f5d92d5c4b))
+* **scripts:** use js script to check licenses ([#203](https://github.com/Fdawgs/fastify-disablecache/issues/203)) ([2ec4610](https://github.com/Fdawgs/fastify-disablecache/commit/2ec461026a1b660d4347365b0c9e1f0be23d69da))
+
+
+### Dependencies
+
+* **deps-dev:** bump dev dependencies ([3437b36](https://github.com/Fdawgs/fastify-disablecache/commit/3437b360423e68191d5796aa64f5b472409afa6d))
+* **deps:** bump coverallsapp/github-action from 1.1.3 to 1.2.3 ([#200](https://github.com/Fdawgs/fastify-disablecache/issues/200)) ([97aea4a](https://github.com/Fdawgs/fastify-disablecache/commit/97aea4afd8f0c9db9fc81c10e8c4be8d312c6787))
+* **deps:** bump coverallsapp/github-action from 1.2.3 to 1.2.4 ([#201](https://github.com/Fdawgs/fastify-disablecache/issues/201)) ([e324311](https://github.com/Fdawgs/fastify-disablecache/commit/e324311fecb9e49eea1892f87d90dc66ea59b47a))
+
 ## [3.1.0](https://github.com/Fdawgs/fastify-disablecache/compare/v3.0.6...v3.1.0) (2023-02-15)
 
 
