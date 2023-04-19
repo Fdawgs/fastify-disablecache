@@ -12,6 +12,7 @@ on:
 
 permissions:
     contents: write
+    id-token: write
     pull-requests: write
 
 jobs:
@@ -47,4 +48,4 @@ jobs:
               # Remove dev values from package.json
               run: |
                   npm pkg delete commitlint devDependencies jest scripts
-                  npm publish --ignore-scripts
+                  npm publish --ignore-scripts --provenance
