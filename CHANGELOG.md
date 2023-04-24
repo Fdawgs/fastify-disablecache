@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.1.2](https://github.com/Fdawgs/fastify-disablecache/compare/v3.1.1...v3.1.2) (2023-04-24)
+
+
+### Dependencies
+
+* **deps-dev:** bump eslint-plugin-jsdoc from 40.3.0 to 43.0.7 ([#211](https://github.com/Fdawgs/fastify-disablecache/issues/211)) ([cd03cb1](https://github.com/Fdawgs/fastify-disablecache/commit/cd03cb17204dc43db5eed4bcdbec9b9b10e03adf))
+
+
+### Continuous integration
+
+* **cd:** publish to npm with provenance ([#209](https://github.com/Fdawgs/fastify-disablecache/issues/209)) ([b4675eb](https://github.com/Fdawgs/fastify-disablecache/commit/b4675eb52848c00d8f7c5d284ba322b09c58703a))
+* **ci:** add node 20 to test matrix ([#212](https://github.com/Fdawgs/fastify-disablecache/issues/212)) ([7d68044](https://github.com/Fdawgs/fastify-disablecache/commit/7d68044e48031819448e39a2aec69700d7da9438))
+* **deps:** bump coverallsapp/github-action from 2.0.0 to 2.1.2 ([#210](https://github.com/Fdawgs/fastify-disablecache/issues/210)) ([4c8d11d](https://github.com/Fdawgs/fastify-disablecache/commit/4c8d11da4bb87f096ef2345fc23e363bff9bcdc8))
+
 ## [3.1.1](https://github.com/Fdawgs/fastify-disablecache/compare/v3.1.0...v3.1.1) (2023-04-03)
 
 
