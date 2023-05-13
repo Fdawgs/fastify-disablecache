@@ -44,6 +44,9 @@
 	},
 	"jest": {
 		"clearMocks": true,
+		"collectCoverageFrom": [
+			"src/**/*.js"
+		],
 		"coverageReporters": [
 			"text",
 			"lcovonly"
