@@ -26,7 +26,7 @@ describe("Disablecache plugin", () => {
 				url: "/",
 			});
 
-			expect(response.payload).toBe("ok");
+			expect(response.body).toBe("ok");
 			expect(response.headers).toMatchObject({
 				"cache-control": "no-store, max-age=0, must-revalidate",
 				expires: "0",
