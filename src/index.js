@@ -3,7 +3,7 @@ const fp = require("fastify-plugin");
  * @author Frazer Smith
  * @description Simple plugin that adds an `onRequest` hook to disable client-side caching
  * by setting the relevant response headers.
- * @param {object} server - Fastify instance.
+ * @param {import("fastify").FastifyInstance} server - Fastify instance.
  */
 async function fastifyDisablecache(server) {
 	server.addHook("onRequest", async (_req, res) => {
