@@ -2,6 +2,34 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.1.3](https://github.com/Fdawgs/fastify-disablecache/compare/v3.1.2...v3.1.3) (2023-06-24)
+
+
+### Continuous integration
+
+* **deps:** bump coverallsapp/github-action from 2.1.2 to 2.2.0 ([#222](https://github.com/Fdawgs/fastify-disablecache/issues/222)) ([708c0ce](https://github.com/Fdawgs/fastify-disablecache/commit/708c0ce61bda4248200ae93380e6232f47d48ee5))
+
+
+### Miscellaneous
+
+* **.eslintrc:** enable additional jest plugin rules ([826b147](https://github.com/Fdawgs/fastify-disablecache/commit/826b147e104080a0e0a2548a414c9be47a0f811d))
+* **.eslintrc:** enable additional jsdoc plugin rules ([42bcdc8](https://github.com/Fdawgs/fastify-disablecache/commit/42bcdc8fb17b87062b817e48a80a9b457e638843))
+* **.eslintrc:** only use jest plugin to lint test-related files ([ebe852a](https://github.com/Fdawgs/fastify-disablecache/commit/ebe852ac60aa90625074eb4eef580781a81c2862))
+* **.eslintrc:** update ecmascript version ([7496afa](https://github.com/Fdawgs/fastify-disablecache/commit/7496afa07d3ef688470ccaf11e65f8d4e2f0a849))
+* import fastify type for server jsdoc param ([51e3290](https://github.com/Fdawgs/fastify-disablecache/commit/51e32909c0011d4fdec8178b8a830d49784fcda8))
+* **package:** remove global jest mock config values ([8eb8785](https://github.com/Fdawgs/fastify-disablecache/commit/8eb8785b5e9f05fd976ad647e5a4b0a1eaa36bf6))
+* **package:** set jest coverage threshold ([2be3725](https://github.com/Fdawgs/fastify-disablecache/commit/2be3725d02c0849878f53f9659c0f4000387ecf6))
+* **scripts/license-checker:** resolve eslint jsdoc warning ([#214](https://github.com/Fdawgs/fastify-disablecache/issues/214)) ([49964b0](https://github.com/Fdawgs/fastify-disablecache/commit/49964b0d0b30bd13f0b88af0b1e12c620d2a7601))
+* **scripts:** fix inline comment style ([930f92d](https://github.com/Fdawgs/fastify-disablecache/commit/930f92dedc9ce235d27e26dde250a96576732dc3))
+* use nouns for leading word in function description tags ([#216](https://github.com/Fdawgs/fastify-disablecache/issues/216)) ([fbf9b16](https://github.com/Fdawgs/fastify-disablecache/commit/fbf9b16e5341bb02a2b565cba037129ea443e042))
+
+
+### Dependencies
+
+* **deps-dev:** bump dev dependencies ([#218](https://github.com/Fdawgs/fastify-disablecache/issues/218)) ([065c1fa](https://github.com/Fdawgs/fastify-disablecache/commit/065c1fac1c1ad07b5bd8f4e971f3e00f960df12e))
+* **deps-dev:** bump dev dependencies ([#223](https://github.com/Fdawgs/fastify-disablecache/issues/223)) ([22f1481](https://github.com/Fdawgs/fastify-disablecache/commit/22f14819b343e902c71420102e130ac269e1eaa9))
+* **deps-dev:** bump eslint-plugin-jsdoc from 44.2.7 to 46.1.0 ([#219](https://github.com/Fdawgs/fastify-disablecache/issues/219)) ([cf08fb1](https://github.com/Fdawgs/fastify-disablecache/commit/cf08fb1e8ee859463d8dfa9b8a047b748fa00a8d))
+
 ## [3.1.2](https://github.com/Fdawgs/fastify-disablecache/compare/v3.1.1...v3.1.2) (2023-04-24)
 
 
