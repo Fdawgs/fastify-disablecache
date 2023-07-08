@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.1.4](https://github.com/Fdawgs/fastify-disablecache/compare/v3.1.3...v3.1.4) (2023-07-08)
+
+
+### Miscellaneous
+
+* **.eslintrc:** sort `extends` array ([85c67cd](https://github.com/Fdawgs/fastify-disablecache/commit/85c67cd58841c0a5b2cfa855026459e2bef94913))
+
+
+### Dependencies
+
+* **deps-dev:** add eslint-plugin-regexp ([188fc18](https://github.com/Fdawgs/fastify-disablecache/commit/188fc180652839ef8490c5a0354789ce36cadb97))
+* **deps-dev:** bump dev dependencies ([0729fed](https://github.com/Fdawgs/fastify-disablecache/commit/0729fed72b9b12031e33cc8f08bbf0868138ab65))
+
+
+### Bug fixes
+
+* add missing strict mode directives ([#227](https://github.com/Fdawgs/fastify-disablecache/issues/227)) ([13988bc](https://github.com/Fdawgs/fastify-disablecache/commit/13988bc639b2c3ae1656892805b48585e3243e69))
+
 ## [3.1.3](https://github.com/Fdawgs/fastify-disablecache/compare/v3.1.2...v3.1.3) (2023-06-24)
 
 
