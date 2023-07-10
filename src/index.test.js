@@ -8,10 +8,10 @@ describe("Disablecache plugin", () => {
 		let server;
 
 		beforeAll(async () => {
-			server = Fastify();
+			server = Fastify({ pluginTimeout: 0 });
 			server.register(plugin);
 
-			server.get("/", (req, res) => {
+			server.get("/", (_req, res) => {
 				res.send("ok");
 			});
 
