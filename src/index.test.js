@@ -11,7 +11,7 @@ describe("Disablecache plugin", () => {
 			server = Fastify({ pluginTimeout: 0 });
 			server.register(plugin);
 
-			server.get("/", (req, res) => {
+			server.get("/", (_req, res) => {
 				res.send("ok");
 			});
 
