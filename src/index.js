@@ -1,6 +1,7 @@
 "use strict";
 
 const fp = require("fastify-plugin");
+
 /**
  * @author Frazer Smith
  * @description Simple plugin that adds an `onRequest` hook to disable client-side caching
