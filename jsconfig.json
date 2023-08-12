@@ -1,0 +1,9 @@
+{
+	"compilerOptions": {
+		"checkJs": true,
+		"lib": ["ES2019"],
+		"moduleResolution": "nodenext",
+		"resolveJsonModule": true
+	},
+	"exclude": ["dist", "node_modules"]
+}

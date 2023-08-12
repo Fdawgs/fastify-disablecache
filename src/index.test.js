@@ -5,6 +5,9 @@ const plugin = require(".");
 
 describe("Disablecache plugin", () => {
 	describe("Response headers", () => {
+		/**
+		 * @type {Fastify.FastifyInstance}
+		 */
 		let server;
 
 		beforeAll(async () => {
