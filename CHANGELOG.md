@@ -2,6 +2,36 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.1.5](https://github.com/Fdawgs/fastify-disablecache/compare/v3.1.4...v3.1.5) (2023-08-16)
+
+
+### Dependencies
+
+* **deps-dev:** bump dev dependencies ([8248c8b](https://github.com/Fdawgs/fastify-disablecache/commit/8248c8b41aac9d73a95bf24188658c388d4e87f7))
+* **deps-dev:** bump eslint-config-prettier from 8.10.0 to 9.0.0 ([#234](https://github.com/Fdawgs/fastify-disablecache/issues/234)) ([81fa53e](https://github.com/Fdawgs/fastify-disablecache/commit/81fa53eaefe918cb9b479285d9fa165a19475d11))
+* **deps:** bump fastify-plugin from 4.5.0 to 4.5.1 ([a052d38](https://github.com/Fdawgs/fastify-disablecache/commit/a052d38ebf24731b3839a98715908059ba858940))
+
+
+### Miscellaneous
+
+* **.eslintrc:** error on google closure jsdoc syntax ([39d51b4](https://github.com/Fdawgs/fastify-disablecache/commit/39d51b47985135f3629b5404885f09e29b2d041c))
+* add jsconfig; type check js ([#236](https://github.com/Fdawgs/fastify-disablecache/issues/236)) ([b5e9aa0](https://github.com/Fdawgs/fastify-disablecache/commit/b5e9aa087333977a382ec431ba3621310c6d2f11))
+* **index:** add whitespace between import and comment ([a6c22db](https://github.com/Fdawgs/fastify-disablecache/commit/a6c22db81fd9aa8c703c58853f3debf45b8ee6b8))
+* **jsconfig:** add target ([f583380](https://github.com/Fdawgs/fastify-disablecache/commit/f583380146e3f29639c6d4467926c0a0c7a615d6))
+* rename `lint:prettier` scripts to reflect their function ([#230](https://github.com/Fdawgs/fastify-disablecache/issues/230)) ([2fe80ca](https://github.com/Fdawgs/fastify-disablecache/commit/2fe80ca2ba395c29f23fe85926715d8d0ed3a9a1))
+* **scripts/license-checker:** use `console.error()` to log failures ([a73d068](https://github.com/Fdawgs/fastify-disablecache/commit/a73d068f581f54f88808f7516bcaaf7afdfd1335))
+
+
+### Continuous integration
+
+* **ci:** error on new jest snapshot ([945eb72](https://github.com/Fdawgs/fastify-disablecache/commit/945eb722f4fc1b0254dd0fd878651800ff0689cd))
+* **deps:** bump coverallsapp/github-action from 2.2.0 to 2.2.1 ([#232](https://github.com/Fdawgs/fastify-disablecache/issues/232)) ([7f1210c](https://github.com/Fdawgs/fastify-disablecache/commit/7f1210c481f953caedbc1b459e2c8f8db646990b))
+
+
+### Improvements
+
+* **scripts/license-checker:** deconstruct imports ([72ae982](https://github.com/Fdawgs/fastify-disablecache/commit/72ae9825d1e159fb7b106161d1124e136d3e4355))
+
 ## [3.1.4](https://github.com/Fdawgs/fastify-disablecache/compare/v3.1.3...v3.1.4) (2023-07-08)
 
 
