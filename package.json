@@ -84,6 +84,6 @@
 		"upath": "^2.0.1"
 	},
 	"dependencies": {
-		"fastify-plugin": "^4.5.0"
+		"fastify-plugin": "^4.5.1"
 	}
 }
