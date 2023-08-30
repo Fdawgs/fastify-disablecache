@@ -25,7 +25,7 @@
 	"author": "Frazer Smith <frazer.dev@outlook.com>",
 	"funding": "https://github.com/sponsors/Fdawgs",
 	"engines": {
-		"node": ">=14.0.0"
+		"node": ">=14.18.0"
 	},
 	"scripts": {
 		"jest": "jest",
