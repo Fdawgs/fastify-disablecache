@@ -2,7 +2,8 @@
 	"compilerOptions": {
 		"checkJs": true,
 		"lib": ["ES2019"],
-		"moduleResolution": "nodenext",
+		"module": "NodeNext",
+		"moduleResolution": "NodeNext",
 		"resolveJsonModule": true,
 		"target": "ES2019"
 	},
