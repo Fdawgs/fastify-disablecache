@@ -2,6 +2,40 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.1.6](https://github.com/Fdawgs/fastify-disablecache/compare/v3.1.5...v3.1.6) (2023-09-23)
+
+
+### Miscellaneous
+
+* **.gitattributes:** auto lf eol all files ([eb57f24](https://github.com/Fdawgs/fastify-disablecache/commit/eb57f24e3ba02bcaf70b1d080c721b1e3c4d85d6))
+* add missing `.gitattributes` file ([e2ae2a4](https://github.com/Fdawgs/fastify-disablecache/commit/e2ae2a4d2d5103d523c0d1430a00df7148e17008))
+* change comment blocks with one line into single block ([278c87a](https://github.com/Fdawgs/fastify-disablecache/commit/278c87a6879c2cd38fabaa083f857a8b29b63d37))
+* **eslintrc:** bump ecma version to 2023 ([92b2f77](https://github.com/Fdawgs/fastify-disablecache/commit/92b2f77330c851f8e63f6037c4c3a895c62f122a))
+* **jsconfig:** set module to nodenext ([12ba813](https://github.com/Fdawgs/fastify-disablecache/commit/12ba8139ab0226b52e4daa5ad96d5d80c3384420))
+* **jsconfig:** target es2022 ([ff4daf0](https://github.com/Fdawgs/fastify-disablecache/commit/ff4daf030d86c3cf399f1c6c7760cd54de597230))
+* **package:** explicitly declare js module type ([8dc3dc0](https://github.com/Fdawgs/fastify-disablecache/commit/8dc3dc0dd659d76ccf1b5676b2bb82e6a7a800a7))
+* **scripts/license-checker:** declare `copyLeftLicenses` type ([bb35149](https://github.com/Fdawgs/fastify-disablecache/commit/bb35149e34f3d9939fa123c9d80d2df3ae3a5a48))
+* **scripts/license-checker:** destruct upath module import ([#241](https://github.com/Fdawgs/fastify-disablecache/issues/241)) ([36577f6](https://github.com/Fdawgs/fastify-disablecache/commit/36577f6cd4a4d31967d4cad89bb8ec642132fb61))
+* **scripts/license-checker:** ignore invalid ts error ([07bee77](https://github.com/Fdawgs/fastify-disablecache/commit/07bee77ca6bf0f62c0bc58bbb585d76db6f848cf))
+* use `[@see](https://github.com/see)` jsdoc tag for inline comment links ([96237f6](https://github.com/Fdawgs/fastify-disablecache/commit/96237f68cc44903af98400b92e2349bc75311555))
+
+
+### Continuous integration
+
+* **dependabot:** group dependabot updates ([c13c290](https://github.com/Fdawgs/fastify-disablecache/commit/c13c2905918f57f2851ca4cf247dbd7d43a99d92))
+* **deps:** bump actions/checkout from 3 to 4 ([#243](https://github.com/Fdawgs/fastify-disablecache/issues/243)) ([dd967c7](https://github.com/Fdawgs/fastify-disablecache/commit/dd967c7bfc6999d7dd1707a6e37fa7c9fa394f4d))
+* **deps:** bump coverallsapp/github-action from 2.2.1 to 2.2.3 ([#244](https://github.com/Fdawgs/fastify-disablecache/issues/244)) ([a828ccc](https://github.com/Fdawgs/fastify-disablecache/commit/a828ccc0b85d3b6aeed768319a95f5fed00a1b5f))
+
+
+### Improvements
+
+* use `node:` prefix to bypass require.cache call for builtins ([451c618](https://github.com/Fdawgs/fastify-disablecache/commit/451c618ba7a34d4379b7c78a98cd8a5aa3e0e3b9))
+
+
+### Documentation
+
+* **readme:** update acknowledgements ([4c96c1d](https://github.com/Fdawgs/fastify-disablecache/commit/4c96c1d80236e94141e2282e1897e78ee39ca730))
+
 ## [3.1.5](https://github.com/Fdawgs/fastify-disablecache/compare/v3.1.4...v3.1.5) (2023-08-16)
 
 
