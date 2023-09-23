@@ -63,9 +63,9 @@ Please adhere to this project's [Code of Conduct](./CODE_OF_CONDUCT.md) when con
 
 ## Acknowledgements
 
+-   [**Aras Abbasi**](https://github.com/uzlopak) - TypeScript support
 -   [**Evan Hahn**](https://github.com/EvanHahn) - [nocache](https://github.com/helmetjs/nocache) developer
 -   [**Matteo Collina**](https://github.com/mcollina) - Optimisation suggestions
--   [**Aras Abbasi**](https://github.com/uzlopak) - TypeScript support
 
 ## License
 
