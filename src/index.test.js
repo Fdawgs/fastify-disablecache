@@ -19,9 +19,7 @@ describe("Disablecache plugin", () => {
 			await server.ready();
 		});
 
-		afterAll(async () => {
-			await server.close();
-		});
+		afterAll(async () => server.close());
 
 		it("Sets relevant cache response headers", async () => {
 			const response = await server.inject({
