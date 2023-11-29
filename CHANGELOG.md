@@ -2,6 +2,38 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.1.7](https://github.com/Fdawgs/fastify-disablecache/compare/v3.1.6...v3.1.7) (2023-11-29)
+
+
+### Dependencies
+
+* **deps-dev:** add eslint-community/eslint-plugin-eslint-comments ([e787a9f](https://github.com/Fdawgs/fastify-disablecache/commit/e787a9f8c3948e29b8641b5bc7c9ac39702c4687))
+* **deps-dev:** bump dev dependencies ([ceb5228](https://github.com/Fdawgs/fastify-disablecache/commit/ceb5228be17f9a7014333dcc104166debd1e2553))
+* **deps-dev:** bump the commitlint group with 2 updates ([#249](https://github.com/Fdawgs/fastify-disablecache/issues/249)) ([dfdbbab](https://github.com/Fdawgs/fastify-disablecache/commit/dfdbbab692e0f7408fe63efc56620fc2eed394b2))
+* **deps-dev:** bump the eslint group with 1 update ([#250](https://github.com/Fdawgs/fastify-disablecache/issues/250)) ([e80a458](https://github.com/Fdawgs/fastify-disablecache/commit/e80a458971a8f47e7ca019dde1a278a73a22c850))
+* **deps-dev:** remove broken eslint-plugin-security-node ([a4996ca](https://github.com/Fdawgs/fastify-disablecache/commit/a4996cada167bc5fc9acd79640ef74d26efad79d))
+
+
+### Miscellaneous
+
+* **.vscode:** add github-markdown-preview to recommended extension ([deaeec8](https://github.com/Fdawgs/fastify-disablecache/commit/deaeec8ddd90b00b908ab9b09bb9f26058c33ea0))
+* **.vscode:** add gitlens to recommended extensions ([f3f207b](https://github.com/Fdawgs/fastify-disablecache/commit/f3f207bed8a546e2aeca57ce097dfa762f72bfb0))
+* **jsconfig:** use es2022 lib ([b1bb1c1](https://github.com/Fdawgs/fastify-disablecache/commit/b1bb1c1fe619d73747a2b095cd2ee6cffc2197ae))
+* **scripts/license-checker:** update link to deprecated list ([76ea680](https://github.com/Fdawgs/fastify-disablecache/commit/76ea6807952e7d7801991a934fae192d71eca399))
+
+
+### Continuous integration
+
+* **deps:** bump actions/github-script from 6 to 7 ([#251](https://github.com/Fdawgs/fastify-disablecache/issues/251)) ([5099a42](https://github.com/Fdawgs/fastify-disablecache/commit/5099a4221bd5d6cfcee6ebea81045f1b827b2eb2))
+* **deps:** bump actions/setup-node from 3 to 4 ([#248](https://github.com/Fdawgs/fastify-disablecache/issues/248)) ([f57d3ea](https://github.com/Fdawgs/fastify-disablecache/commit/f57d3ea08358057f1f96c6f5e1a2921f234e79c8))
+
+
+### Documentation
+
+* **readme:** fix broken ci badge link ([bbf6152](https://github.com/Fdawgs/fastify-disablecache/commit/bbf6152b928eb33e99f5218b8446d93642946de5))
+* **readme:** sort acknowledgements section ([84bf370](https://github.com/Fdawgs/fastify-disablecache/commit/84bf370dac344acde0d7e0520c801b99ab0a4701))
+* **readme:** use full cjs for example ([9d6e702](https://github.com/Fdawgs/fastify-disablecache/commit/9d6e702a611d7689b393e77bfff9ae7acf9abacd))
+
 ## [3.1.6](https://github.com/Fdawgs/fastify-disablecache/compare/v3.1.5...v3.1.6) (2023-09-23)
 
 
