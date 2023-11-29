@@ -51,7 +51,10 @@ server.get("/", (_req, res) => {
 	res.send("ok");
 });
 
-await server.listen({ port: 3000 });
+server.listen(3000, (err) => {
+	if (err) throw err;
+	console.log("Server listening on 3000");
+});
 ```
 
 ## Contributing
