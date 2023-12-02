@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.1.8](https://github.com/Fdawgs/fastify-disablecache/compare/v3.1.7...v3.1.8) (2023-12-02)
+
+
+### Miscellaneous
+
+* **.eslintrc:** update no-param-reassign rule to ignore obj refs ([f5a541a](https://github.com/Fdawgs/fastify-disablecache/commit/f5a541a3414ca5e868c5c83e1634dd4084cfd747))
+
+
+### Continuous integration
+
+* **dependabot:** ignore release-please-action major updates ([f39eb56](https://github.com/Fdawgs/fastify-disablecache/commit/f39eb56abeb9ba0d29a61831308e4aae2e46c70d))
+
 ## [3.1.7](https://github.com/Fdawgs/fastify-disablecache/compare/v3.1.6...v3.1.7) (2023-11-29)
 
 
