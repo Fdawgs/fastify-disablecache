@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.1.8](https://github.com/Fdawgs/fastify-disablecache/compare/v3.1.7...v3.1.8) (2023-12-12)
+
+
+### Continuous integration
+
+* **dependabot:** ignore release-please-action major updates ([0963ae5](https://github.com/Fdawgs/fastify-disablecache/commit/0963ae50f138230e947a2bce01f55fc50c70d387))
+
 ## [3.1.7](https://github.com/Fdawgs/fastify-disablecache/compare/v3.1.6...v3.1.7) (2023-11-29)
 
 
