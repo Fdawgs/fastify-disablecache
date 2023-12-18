@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.1.8](https://github.com/Fdawgs/fastify-disablecache/compare/v3.1.7...v3.1.8) (2023-12-18)
+
+
+### Miscellaneous
+
+* jsdoc comments must be complete sentences ([a663853](https://github.com/Fdawgs/fastify-disablecache/commit/a663853fed596b9b6c123018cfbe8e974890c79e))
+
+
+### Continuous integration
+
+* **dependabot:** ignore release-please-action major updates ([0963ae5](https://github.com/Fdawgs/fastify-disablecache/commit/0963ae50f138230e947a2bce01f55fc50c70d387))
+* **deps:** bump actions/upload-artifact from 3 to 4 ([#257](https://github.com/Fdawgs/fastify-disablecache/issues/257)) ([f4cafd3](https://github.com/Fdawgs/fastify-disablecache/commit/f4cafd3c388b2f4a34c3d3095d91573e047ce6b9))
+* **deps:** bump github/codeql-action from 2 to 3 ([#256](https://github.com/Fdawgs/fastify-disablecache/issues/256)) ([063a2c0](https://github.com/Fdawgs/fastify-disablecache/commit/063a2c09c30479535b681e2643c710bc8a2ce650))
+
 ## [3.1.7](https://github.com/Fdawgs/fastify-disablecache/compare/v3.1.6...v3.1.7) (2023-11-29)
 
 
