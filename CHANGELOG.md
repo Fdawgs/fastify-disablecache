@@ -2,6 +2,35 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.1.8](https://github.com/Fdawgs/fastify-disablecache/compare/v3.1.7...v3.1.8) (2024-01-09)
+
+
+### Dependencies
+
+* **deps-dev:** bump dev dependencies ([40d544c](https://github.com/Fdawgs/fastify-disablecache/commit/40d544cb555cfc0478cfb28037e51c1302046289))
+
+
+### Miscellaneous
+
+* jsdoc comments must be complete sentences ([a663853](https://github.com/Fdawgs/fastify-disablecache/commit/a663853fed596b9b6c123018cfbe8e974890c79e))
+* **license:** update license year ([4414368](https://github.com/Fdawgs/fastify-disablecache/commit/44143682ba14661fc15f57796f3e747d0acbc06f))
+* **package:** add `lint:fix` script ([18c6e66](https://github.com/Fdawgs/fastify-disablecache/commit/18c6e66883e9333534bf7581afdedb50c05c3e09))
+* **package:** run `lint:prettier` in `test` script ([c267b3c](https://github.com/Fdawgs/fastify-disablecache/commit/c267b3c210c93c3601182919a6d5a1adf9de72cd))
+* use shared files from `fdawgs/.github` ([19727b5](https://github.com/Fdawgs/fastify-disablecache/commit/19727b5c45633f93d091c579332a1b15a773b328))
+
+
+### Continuous integration
+
+* **cd:** add github packages publish job ([aedfd9a](https://github.com/Fdawgs/fastify-disablecache/commit/aedfd9a540a4893d39b20730a83999089285be7d))
+* **dependabot:** ignore release-please-action major updates ([0963ae5](https://github.com/Fdawgs/fastify-disablecache/commit/0963ae50f138230e947a2bce01f55fc50c70d387))
+* **deps:** bump actions/upload-artifact from 3 to 4 ([#257](https://github.com/Fdawgs/fastify-disablecache/issues/257)) ([f4cafd3](https://github.com/Fdawgs/fastify-disablecache/commit/f4cafd3c388b2f4a34c3d3095d91573e047ce6b9))
+* **deps:** bump github/codeql-action from 2 to 3 ([#256](https://github.com/Fdawgs/fastify-disablecache/issues/256)) ([063a2c0](https://github.com/Fdawgs/fastify-disablecache/commit/063a2c09c30479535b681e2643c710bc8a2ce650))
+
+
+### Documentation
+
+* **readme:** update links ([9a7647f](https://github.com/Fdawgs/fastify-disablecache/commit/9a7647fc5c6b6593101f464653102531aa1467d4))
+
 ## [3.1.7](https://github.com/Fdawgs/fastify-disablecache/compare/v3.1.6...v3.1.7) (2023-11-29)
 
 
