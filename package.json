@@ -17,7 +17,10 @@
 	"main": "src/index.js",
 	"type": "commonjs",
 	"types": "types/index.d.ts",
-	"repository": "git+https://github.com/Fdawgs/fastify-disablecache.git",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Fdawgs/fastify-disablecache.git"
+	},
 	"homepage": "https://github.com/Fdawgs/fastify-disablecache",
 	"bugs": {
 		"url": "https://github.com/Fdawgs/fastify-disablecache/issues"
