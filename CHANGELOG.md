@@ -2,6 +2,28 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.1.9](https://github.com/Fdawgs/fastify-disablecache/compare/v3.1.8...v3.1.9) (2024-01-25)
+
+
+### Dependencies
+
+* **deps-dev:** bump dev dependencies ([e136202](https://github.com/Fdawgs/fastify-disablecache/commit/e136202beda779e436fbc71126c0cab32279a881))
+
+
+### Miscellaneous
+
+* **.vscode:** use local prettier version ([32977ab](https://github.com/Fdawgs/fastify-disablecache/commit/32977ab0b42b28c54f6c6eab04f0902260710063))
+* **jsconfig:** remove `lib`; `target` will be used in absence ([c7271cd](https://github.com/Fdawgs/fastify-disablecache/commit/c7271cdea528d3c41c0691d4e98a02da3080ddbc))
+* **package:** fix `repository` structure ([d9c248f](https://github.com/Fdawgs/fastify-disablecache/commit/d9c248f308c7af0b9595e51db2f81ff4b1db9843))
+* **scripts/license-checker:** handle old license arrays or missing ([1ba9d6a](https://github.com/Fdawgs/fastify-disablecache/commit/1ba9d6a5c88cbc8d42ca29816234dea7840e8619))
+
+
+### Continuous integration
+
+* **automerge:** optimise inline js scripts ([12e618f](https://github.com/Fdawgs/fastify-disablecache/commit/12e618fe9a1db4cc92c9b2c37a7cc2b77b727abe))
+* **cd:** publish to github packages with provenance ([bf45214](https://github.com/Fdawgs/fastify-disablecache/commit/bf452148800232f49044b27cda4f7cac0fb54add))
+* **cd:** use `main` environment for publish-npm job ([ef73844](https://github.com/Fdawgs/fastify-disablecache/commit/ef738446e7d806e5b5aa90b582859eb9eae3a3df))
+
 ## [3.1.8](https://github.com/Fdawgs/fastify-disablecache/compare/v3.1.7...v3.1.8) (2024-01-09)
 
 
