@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.1.10](https://github.com/Fdawgs/fastify-disablecache/compare/v3.1.9...v3.1.10) (2024-02-22)
+
+
+### Dependencies
+
+* **deps-dev:** bump dev dependencies ([#269](https://github.com/Fdawgs/fastify-disablecache/issues/269)) ([6be0699](https://github.com/Fdawgs/fastify-disablecache/commit/6be069920d6a63032d024b4f20423ff53cac7f4f))
+* **deps-dev:** bump husky from 8.0.3 to 9.0.6 ([#266](https://github.com/Fdawgs/fastify-disablecache/issues/266)) ([0b723dc](https://github.com/Fdawgs/fastify-disablecache/commit/0b723dc297144ee94a7875f55bb811b441544d29))
+
+
+### Miscellaneous
+
+* **.husky:** migrate hooks to v9 style ([2b43de1](https://github.com/Fdawgs/fastify-disablecache/commit/2b43de1c49e0d86da4d5a8debcdf0e2db99502a2))
+* **.vscode:** fix `prettier.prettierPath` setting ([9514d9d](https://github.com/Fdawgs/fastify-disablecache/commit/9514d9d228bf7e57c3823f75afcd4eb2c2b39871))
+
+
+### Continuous integration
+
+* **deps:** bump actions/dependency-review-action from 3 to 4 ([#265](https://github.com/Fdawgs/fastify-disablecache/issues/265)) ([1617313](https://github.com/Fdawgs/fastify-disablecache/commit/16173132f77b5c40d20d123296fd30b60ad4c56c))
+
 ## [3.1.9](https://github.com/Fdawgs/fastify-disablecache/compare/v3.1.8...v3.1.9) (2024-01-25)
 
 
