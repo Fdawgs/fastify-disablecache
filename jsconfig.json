@@ -4,6 +4,7 @@
 		"module": "NodeNext",
 		"moduleResolution": "NodeNext",
 		"resolveJsonModule": true,
+		"strict": true,
 		"target": "ES2022"
 	},
 	"exclude": ["dist", "node_modules"]
