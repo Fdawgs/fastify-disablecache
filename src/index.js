@@ -22,6 +22,6 @@ async function fastifyDisablecache(server) {
 module.exports = fp(fastifyDisablecache, {
 	fastify: "4.x",
 	name: "fastify-disablecache",
-});
-module.exports.default = fastifyDisablecache;
-module.exports.fastifyDisablecache = fastifyDisablecache;
+}); // CommonJS export
+module.exports.default = fastifyDisablecache; // ESM default export
+module.exports.fastifyDisablecache = fastifyDisablecache; // TypeScript and named export
