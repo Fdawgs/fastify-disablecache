@@ -69,6 +69,9 @@ jobs:
             - name: Run License Checker
               run: npm run lint:licenses
 
+            - name: Run Build
+              run: npm run build --if-present
+
     commit-lint:
         name: Lint Commit Messages
         if: >
