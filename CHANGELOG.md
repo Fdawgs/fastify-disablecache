@@ -2,6 +2,34 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.1.10](https://github.com/Fdawgs/fastify-disablecache/compare/v3.1.9...v3.1.10) (2024-05-03)
+
+
+### Dependencies
+
+* **deps-dev:** bump dev dependencies ([#269](https://github.com/Fdawgs/fastify-disablecache/issues/269)) ([6be0699](https://github.com/Fdawgs/fastify-disablecache/commit/6be069920d6a63032d024b4f20423ff53cac7f4f))
+* **deps-dev:** bump husky from 8.0.3 to 9.0.6 ([#266](https://github.com/Fdawgs/fastify-disablecache/issues/266)) ([0b723dc](https://github.com/Fdawgs/fastify-disablecache/commit/0b723dc297144ee94a7875f55bb811b441544d29))
+* **deps-dev:** bump the commitlint group with 2 updates ([#270](https://github.com/Fdawgs/fastify-disablecache/issues/270)) ([9957b68](https://github.com/Fdawgs/fastify-disablecache/commit/9957b680beb8bb2a55617f8624e5f378707d6304))
+
+
+### Miscellaneous
+
+* **.husky:** migrate hooks to v9 style ([2b43de1](https://github.com/Fdawgs/fastify-disablecache/commit/2b43de1c49e0d86da4d5a8debcdf0e2db99502a2))
+* **.vscode:** fix `prettier.prettierPath` setting ([9514d9d](https://github.com/Fdawgs/fastify-disablecache/commit/9514d9d228bf7e57c3823f75afcd4eb2c2b39871))
+* **index:** inline comment re export types ([7b33ad1](https://github.com/Fdawgs/fastify-disablecache/commit/7b33ad13faf9937791aedc85280911d8306a21af))
+* **jsconfig:** enable strict type checking ([0261ede](https://github.com/Fdawgs/fastify-disablecache/commit/0261ede4f0b345ea5004f251ec44c216f4e3a0e6))
+
+
+### Continuous integration
+
+* **cd:** standardise [@fdawgs](https://github.com/fdawgs) cd workflows ([7805d50](https://github.com/Fdawgs/fastify-disablecache/commit/7805d50e0abe69fbe4142eeb48657621b8cb2e56))
+* **ci:** audit package signatures and provenance attestations ([9834618](https://github.com/Fdawgs/fastify-disablecache/commit/9834618c4278e3cce3c5ccb81f7bc26ba06ba55e))
+* **ci:** standardise [@fdawgs](https://github.com/fdawgs) ci workflows ([9338478](https://github.com/Fdawgs/fastify-disablecache/commit/933847831acd26a15c794f6d34c684448b949a4b))
+* **dependabot:** add `[@eslint-community](https://github.com/eslint-community)` scoped deps to eslint group ([25bc7a3](https://github.com/Fdawgs/fastify-disablecache/commit/25bc7a30955a1823301856ec0f148d7076ec9570))
+* **deps:** bump actions/dependency-review-action from 3 to 4 ([#265](https://github.com/Fdawgs/fastify-disablecache/issues/265)) ([1617313](https://github.com/Fdawgs/fastify-disablecache/commit/16173132f77b5c40d20d123296fd30b60ad4c56c))
+* **deps:** bump wagoid/commitlint-github-action from 5 to 6 ([#271](https://github.com/Fdawgs/fastify-disablecache/issues/271)) ([ded4173](https://github.com/Fdawgs/fastify-disablecache/commit/ded4173dab1ebe2cd5bae795900fe9845fb74526))
+* use latest node lts version ([b66b26f](https://github.com/Fdawgs/fastify-disablecache/commit/b66b26f9ca32c2e4d3fec078fb7c2a61835ac741))
+
 ## [3.1.9](https://github.com/Fdawgs/fastify-disablecache/compare/v3.1.8...v3.1.9) (2024-01-25)
 
 
