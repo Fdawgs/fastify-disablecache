@@ -1,37 +1,56 @@
 {
-	"name": "fastify-disablecache",
-	"version": "3.1.9",
-	"description": "Fastify plugin to disable client-side caching",
+	"name": "node-poppler",
+	"version": "7.2.0",
+	"description": "Asynchronous node.js wrapper for the Poppler PDF rendering library",
 	"keywords": [
-		"cache",
-		"disable",
-		"disablecache",
-		"expires",
-		"fastify",
-		"headers",
-		"nocache",
-		"plugin",
-		"pragma",
-		"surrogate"
+		"async",
+		"attach",
+		"cairo",
+		"converter",
+		"detach",
+		"eps",
+		"html",
+		"jpg",
+		"jpeg",
+		"pdf",
+		"pdf-converter",
+		"pdf-to-cairo",
+		"pdf-to-html",
+		"pdf-to-image",
+		"pdf-to-ppm",
+		"pdf-to-ps",
+		"pdf-to-text",
+		"png",
+		"poppler",
+		"ppm",
+		"ps",
+		"separate",
+		"svg",
+		"text",
+		"tif",
+		"tiff",
+		"txt",
+		"unite"
 	],
 	"main": "src/index.js",
 	"type": "commonjs",
 	"types": "types/index.d.ts",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/Fdawgs/fastify-disablecache.git"
+		"url": "git+https://github.com/Fdawgs/node-poppler.git"
 	},
-	"homepage": "https://github.com/Fdawgs/fastify-disablecache",
+	"homepage": "https://github.com/Fdawgs/node-poppler",
 	"bugs": {
-		"url": "https://github.com/Fdawgs/fastify-disablecache/issues"
+		"url": "https://github.com/Fdawgs/node-poppler/issues"
 	},
 	"license": "MIT",
-	"author": "Frazer Smith <frazer.dev@outlook.com>",
+	"author": "Frazer Smith <frazer.dev@icloud.com>",
 	"funding": "https://github.com/sponsors/Fdawgs",
 	"engines": {
-		"node": ">=14.18.0"
+		"node": ">=18.0.0"
 	},
 	"scripts": {
+		"build": "tsc",
 		"jest": "jest",
 		"jest:coverage": "jest --coverage",
 		"lint": "eslint . --cache --ext js,jsx --ignore-path .gitignore",
@@ -57,38 +76,40 @@
 		],
 		"coverageThreshold": {
 			"global": {
-				"branches": 100,
+				"branches": 90,
 				"functions": 100,
-				"lines": 100,
-				"statements": 100
+				"lines": 90,
+				"statements": 90
 			}
 		},
 		"testEnvironment": "node",
-		"testTimeout": 10000
+		"testTimeout": 60000
 	},
 	"devDependencies": {
-		"@commitlint/cli": "^19.0.3",
-		"@commitlint/config-conventional": "^19.0.3",
+		"@commitlint/cli": "^19.1.0",
+		"@commitlint/config-conventional": "^19.1.0",
 		"@eslint-community/eslint-plugin-eslint-comments": "^4.1.0",
 		"@types/jest": "^29.5.12",
-		"eslint": "^8.56.0",
+		"eslint": "^8.57.0",
 		"eslint-config-airbnb-base": "^15.0.0",
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-import": "^2.29.1",
 		"eslint-plugin-jest": "^27.9.0",
-		"eslint-plugin-jsdoc": "^48.1.0",
+		"eslint-plugin-jsdoc": "^48.2.1",
 		"eslint-plugin-promise": "^6.1.1",
-		"eslint-plugin-regexp": "^2.2.0",
+		"eslint-plugin-regexp": "^2.3.0",
 		"eslint-plugin-security": "^2.1.1",
-		"fastify": "^4.26.1",
+		"glob": "^10.3.10",
 		"husky": "^9.0.11",
 		"jest": "^29.7.0",
 		"license-checker": "^25.0.1",
 		"prettier": "^3.2.5",
 		"spdx-copyleft": "^1.0.0",
-		"upath": "^2.0.1"
+		"typescript": "^5.4.2"
 	},
 	"dependencies": {
-		"fastify-plugin": "^4.5.1"
+		"camelcase": "^6.3.0",
+		"semver": "^7.6.0",
+		"upath": "^2.0.1"
 	}
 }
