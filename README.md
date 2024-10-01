@@ -36,7 +36,7 @@ Install using `npm`:
 npm i fastify-disablecache
 ```
 
-For Fastify v3.x support, use `fastify-disablecache@2.0.8`.
+For Fastify v4.x support, use `fastify-disablecache@3.1.9`.
 
 ## Example usage
 
