@@ -20,7 +20,7 @@ async function fastifyDisablecache(server) {
 }
 
 module.exports = fp(fastifyDisablecache, {
-	fastify: "4.x",
+	fastify: "5.x",
 	name: "fastify-disablecache",
 }); // CommonJS export
 module.exports.default = fastifyDisablecache; // ESM default export
