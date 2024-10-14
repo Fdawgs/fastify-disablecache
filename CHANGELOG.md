@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [4.0.1](https://github.com/Fdawgs/fastify-disablecache/compare/v4.0.0...v4.0.1) (2024-10-14)
+
+
+### Continuous integration
+
+* **cd:** migrate to manifest config ([63c39df](https://github.com/Fdawgs/fastify-disablecache/commit/63c39df77e412ed8826ddf0f2769657818bd11a9))
+
 ## [4.0.0](https://github.com/Fdawgs/fastify-disablecache/compare/v3.1.9...v4.0.0) (2024-10-02)
 
 
