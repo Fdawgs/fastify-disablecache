@@ -2,7 +2,7 @@
 
 [![GitHub Release](https://img.shields.io/github/release/Fdawgs/fastify-disablecache.svg)](https://github.com/Fdawgs/fastify-disablecache/releases/latest/)
 [![npm version](https://img.shields.io/npm/v/fastify-disablecache)](https://npmjs.com/package/fastify-disablecache)
-[![Build status](https://github.com/Fdawgs/fastify-disablecache/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Fdawgs/fastify-disablecache/actions/workflows/ci.yml)
+[![CI](https://github.com/Fdawgs/fastify-disablecache/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Fdawgs/fastify-disablecache/actions/workflows/ci.yml)
 [![Coverage status](https://coveralls.io/repos/github/Fdawgs/fastify-disablecache/badge.svg?branch=main)](https://coveralls.io/github/Fdawgs/fastify-disablecache?branch=main)
 [![code style: Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat)](https://github.com/prettier/prettier)
 
