@@ -23,10 +23,10 @@ This plugin was created out of a need for an easy way to disable client-side cac
 
 ### Why these headers?
 
--   `Cache-Control` - Primary response header for configuring cache controls [since HTTP/1.1](https://httpwg.org/specs/rfc7234.html#header.cache-control); whilst `no-store` is the directive to disable caching, clients such as [Internet Explorer](https://learn.microsoft.com/en-us/troubleshoot/developer/browsers/connectivity-navigation/how-to-prevent-caching#the-cache-control-header) did not use it, thus the addition of `max-age=0, must-revalidate`
--   `Expires` - Included for backwards compatibility with [HTTP/1.0 caches](https://w3.org/Protocols/HTTP/1.0/spec.html#Expires)
--   `Pragma` - Included for backwards compatibility with [HTTP/1.0 caches](https://w3.org/Protocols/HTTP/1.0/spec.html#Pragma), was [used by Internet Explorer](https://docs.microsoft.com/en-us/troubleshoot/developer/browsers/connectivity-navigation/how-to-prevent-caching#the-pragma-no-cache-header)
--   `Surrogate-Control` - Not a standardised response header but is [used by CDNs and reverse proxies](https://w3.org/TR/edge-arch/) for cache control
+- `Cache-Control` - Primary response header for configuring cache controls [since HTTP/1.1](https://httpwg.org/specs/rfc7234.html#header.cache-control); whilst `no-store` is the directive to disable caching, clients such as [Internet Explorer](https://learn.microsoft.com/en-us/troubleshoot/developer/browsers/connectivity-navigation/how-to-prevent-caching#the-cache-control-header) did not use it, thus the addition of `max-age=0, must-revalidate`
+- `Expires` - Included for backwards compatibility with [HTTP/1.0 caches](https://w3.org/Protocols/HTTP/1.0/spec.html#Expires)
+- `Pragma` - Included for backwards compatibility with [HTTP/1.0 caches](https://w3.org/Protocols/HTTP/1.0/spec.html#Pragma), was [used by Internet Explorer](https://docs.microsoft.com/en-us/troubleshoot/developer/browsers/connectivity-navigation/how-to-prevent-caching#the-pragma-no-cache-header)
+- `Surrogate-Control` - Not a standardised response header but is [used by CDNs and reverse proxies](https://w3.org/TR/edge-arch/) for cache control
 
 ## Installation
 
@@ -66,9 +66,9 @@ Please adhere to this project's [Code of Conduct](https://github.com/Fdawgs/.git
 
 ## Acknowledgements
 
--   [**Aras Abbasi**](https://github.com/uzlopak) - TypeScript support
--   [**Evan Hahn**](https://github.com/EvanHahn) - [nocache](https://github.com/helmetjs/nocache) developer
--   [**Matteo Collina**](https://github.com/mcollina) - Optimisation suggestions
+- [**Aras Abbasi**](https://github.com/uzlopak) - TypeScript support
+- [**Evan Hahn**](https://github.com/EvanHahn) - [nocache](https://github.com/helmetjs/nocache) developer
+- [**Matteo Collina**](https://github.com/mcollina) - Optimisation suggestions
 
 ## License
 
