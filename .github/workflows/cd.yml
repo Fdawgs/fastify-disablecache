@@ -57,7 +57,7 @@ jobs:
               run: |
                   npm i --ignore-scripts
                   npm run build --if-present
-                  npm pkg delete commitlint devDependencies jest scripts
+                  npm pkg delete commitlint devDependencies scripts
                   npm publish --access public --ignore-scripts --provenance
 
     publish-ghp:
@@ -97,5 +97,5 @@ jobs:
               run: |
                   npm i --ignore-scripts
                   npm run build --if-present
-                  npm pkg delete commitlint devDependencies jest scripts
+                  npm pkg delete commitlint devDependencies scripts
                   npm publish --access public --ignore-scripts --provenance
