@@ -2,6 +2,34 @@
 
 All notable changes to this project will be documented in this file.
 
+## [4.0.1](https://github.com/Fdawgs/fastify-disablecache/compare/v4.0.0...v4.0.1) (2025-01-13)
+
+
+### Continuous integration
+
+* **cd:** migrate to manifest config ([63c39df](https://github.com/Fdawgs/fastify-disablecache/commit/63c39df77e412ed8826ddf0f2769657818bd11a9))
+* **ci:** use major tag for coverallsapp/github-action ([8b7afda](https://github.com/Fdawgs/fastify-disablecache/commit/8b7afda0b3bd766011e51939d58c79ed7a74232a))
+* **deps:** bump coverallsapp/github-action from 2.3.0 to 2.3.1 ([#290](https://github.com/Fdawgs/fastify-disablecache/issues/290)) ([dec22db](https://github.com/Fdawgs/fastify-disablecache/commit/dec22db4cc8408525c1e292002e66d8257fb9cce))
+* **deps:** bump coverallsapp/github-action from 2.3.1 to 2.3.4 ([#293](https://github.com/Fdawgs/fastify-disablecache/issues/293)) ([284c5f2](https://github.com/Fdawgs/fastify-disablecache/commit/284c5f2c9b6ecc542f1cb6e927649bfd3687eed2))
+* **release-please:** declare schema ([c524887](https://github.com/Fdawgs/fastify-disablecache/commit/c524887a170355204564c801b11e876ad380e645))
+
+
+### Dependencies
+
+* **deps-dev:** bump dev dependencies ([ed7b649](https://github.com/Fdawgs/fastify-disablecache/commit/ed7b649def5b45d8d06fa194e683f37426861cd4))
+* migrate from jest to native node:test ([3c8c12e](https://github.com/Fdawgs/fastify-disablecache/commit/3c8c12ef0a625623fe2712ef5843adfd75c28650))
+
+
+### Documentation
+
+* **readme:** rename ci badge to reflect workflow ([50bd691](https://github.com/Fdawgs/fastify-disablecache/commit/50bd691d9cda649a96d5648aa8fc0c38e563f25a))
+
+
+### Miscellaneous
+
+* **jsconfig:** set schema ([ce4e0fc](https://github.com/Fdawgs/fastify-disablecache/commit/ce4e0fcde4a5e2d95f97a59da7a6bf117ec91e23))
+* **license:** update license year ([76ddfbc](https://github.com/Fdawgs/fastify-disablecache/commit/76ddfbc990de5b7b30c7b7c44c06e5c5dafbf645))
+
 ## [4.0.0](https://github.com/Fdawgs/fastify-disablecache/compare/v3.1.9...v4.0.0) (2024-10-02)
 
 
