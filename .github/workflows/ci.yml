@@ -117,7 +117,7 @@ jobs:
               run: npm i --ignore-scripts
 
             - name: Run tests
-              run: npm run jest:coverage -- --ci
+              run: npm run test:unit:coverage
 
             - name: Coveralls parallel
               if: github.repository == 'Fdawgs/fastify-disablecache'
