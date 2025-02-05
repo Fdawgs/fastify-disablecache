@@ -2,6 +2,28 @@
 
 All notable changes to this project will be documented in this file.
 
+## [4.0.2](https://github.com/Fdawgs/fastify-disablecache/compare/v4.0.1...v4.0.2) (2025-02-05)
+
+
+### Continuous integration
+
+* **automerge:** flush buffer to disk ([b0ff268](https://github.com/Fdawgs/fastify-disablecache/commit/b0ff268df615a0cff9d1311039b5cbf9a90c70b1))
+
+
+### Dependencies
+
+* **deps-dev:** remove upath ([cf16f95](https://github.com/Fdawgs/fastify-disablecache/commit/cf16f9595f4e2ea55c401f16338bb3e7fd9f7b88))
+
+
+### Documentation
+
+* **readme:** change tense ([97be76b](https://github.com/Fdawgs/fastify-disablecache/commit/97be76b658a1192926d86a0e99bdfea6b847eea5))
+
+
+### Miscellaneous
+
+* use impersonal language ([a371c73](https://github.com/Fdawgs/fastify-disablecache/commit/a371c73b6b51facf9a913f856478c65eca0bf9e5))
+
 ## [4.0.1](https://github.com/Fdawgs/fastify-disablecache/compare/v4.0.0...v4.0.1) (2025-01-13)
 
 
