@@ -2,6 +2,34 @@
 
 All notable changes to this project will be documented in this file.
 
+## [4.0.2](https://github.com/Fdawgs/fastify-disablecache/compare/v4.0.1...v4.0.2) (2025-04-29)
+
+
+### Continuous integration
+
+* **.github:** pin actions to commit-hash; set permissions at job level ([97dca82](https://github.com/Fdawgs/fastify-disablecache/commit/97dca82f583df91c6d0c4844aab960bbd9c50fa8))
+* add top-level workflow permissions ([#308](https://github.com/Fdawgs/fastify-disablecache/issues/308)) ([e97a91e](https://github.com/Fdawgs/fastify-disablecache/commit/e97a91e93ab3e13230bd6ecdef7e217ce6fe3830))
+* **automerge:** flush buffer to disk ([b0ff268](https://github.com/Fdawgs/fastify-disablecache/commit/b0ff268df615a0cff9d1311039b5cbf9a90c70b1))
+* **codeql:** analyse github actions ([8c04d4d](https://github.com/Fdawgs/fastify-disablecache/commit/8c04d4d84b86942d91840546e8ee222b14a811ec))
+* **deps:** bump actions/dependency-review-action from 4.5.0 to 4.6.0 ([#309](https://github.com/Fdawgs/fastify-disablecache/issues/309)) ([4ff3a1e](https://github.com/Fdawgs/fastify-disablecache/commit/4ff3a1eee003c831e77beee0293d31a20e48e757))
+* **deps:** bump github/codeql-action from 3.28.12 to 3.28.13 ([#310](https://github.com/Fdawgs/fastify-disablecache/issues/310)) ([3e7d694](https://github.com/Fdawgs/fastify-disablecache/commit/3e7d694b30b544d257ec0699523e7544ed1c2e79))
+* use latest node lts version for unit tests ([#311](https://github.com/Fdawgs/fastify-disablecache/issues/311)) ([fb677fa](https://github.com/Fdawgs/fastify-disablecache/commit/fb677fa62cb6a79dca1d3d9d9124655af2bced10))
+
+
+### Dependencies
+
+* **deps-dev:** remove upath ([cf16f95](https://github.com/Fdawgs/fastify-disablecache/commit/cf16f9595f4e2ea55c401f16338bb3e7fd9f7b88))
+
+
+### Documentation
+
+* **readme:** change tense ([97be76b](https://github.com/Fdawgs/fastify-disablecache/commit/97be76b658a1192926d86a0e99bdfea6b847eea5))
+
+
+### Miscellaneous
+
+* use impersonal language ([a371c73](https://github.com/Fdawgs/fastify-disablecache/commit/a371c73b6b51facf9a913f856478c65eca0bf9e5))
+
 ## [4.0.1](https://github.com/Fdawgs/fastify-disablecache/compare/v4.0.0...v4.0.1) (2025-01-13)
 
 
