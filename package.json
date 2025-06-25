@@ -34,7 +34,7 @@
 	"scripts": {
 		"lint": "eslint . --cache --ext js,jsx --ignore-path .gitignore",
 		"lint:fix": "npm run lint -- --fix",
-		"lint:licenses": "node scripts/license-checker.js",
+		"lint:licenses": "licensee --errors-only --production",
 		"lint:prettier": "prettier . -c -u",
 		"lint:prettier:fix": "prettier . -w -u",
 		"prepare": "husky",
@@ -62,9 +62,8 @@
 		"eslint-plugin-security": "^3.0.1",
 		"fastify": "^5.0.0",
 		"husky": "^9.1.7",
-		"license-checker": "^25.0.1",
-		"prettier": "^3.4.2",
-		"spdx-copyleft": "^1.0.0"
+		"licensee": "^11.1.1",
+		"prettier": "^3.4.2"
 	},
 	"dependencies": {
 		"fastify-plugin": "^5.0.1"
