@@ -16,7 +16,7 @@ const CACHE_HEADERS = {
  * @param {import("fastify").FastifyInstance} server - Fastify instance.
  */
 async function fastifyDisablecache(server) {
-	server.addHook("onRequest", async (_req, res) => {
+	server.addHook("onRequest", async function setCacheHeaders(_req, res) {
 		res.headers(CACHE_HEADERS);
 	});
 }
