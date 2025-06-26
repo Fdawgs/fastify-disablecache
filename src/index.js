@@ -2,6 +2,13 @@
 
 const fp = require("fastify-plugin");
 
+const CACHE_HEADERS = {
+	"Cache-Control": "no-store, max-age=0, must-revalidate",
+	Expires: "0",
+	Pragma: "no-cache",
+	"Surrogate-Control": "no-store",
+};
+
 /**
  * @author Frazer Smith
  * @description Simple plugin that adds an `onRequest` hook to disable client-side caching
@@ -10,12 +17,7 @@ const fp = require("fastify-plugin");
  */
 async function fastifyDisablecache(server) {
 	server.addHook("onRequest", async (_req, res) => {
-		res.headers({
-			"Cache-Control": "no-store, max-age=0, must-revalidate",
-			Expires: "0",
-			Pragma: "no-cache",
-			"Surrogate-Control": "no-store",
-		});
+		res.headers(CACHE_HEADERS);
 	});
 }
 
