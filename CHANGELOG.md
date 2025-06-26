@@ -2,6 +2,51 @@
 
 All notable changes to this project will be documented in this file.
 
+## [4.0.2](https://github.com/Fdawgs/fastify-disablecache/compare/v4.0.1...v4.0.2) (2025-06-26)
+
+
+### Continuous integration
+
+* **.github:** pin actions to commit-hash; set permissions at job level ([97dca82](https://github.com/Fdawgs/fastify-disablecache/commit/97dca82f583df91c6d0c4844aab960bbd9c50fa8))
+* add top-level workflow permissions ([#308](https://github.com/Fdawgs/fastify-disablecache/issues/308)) ([e97a91e](https://github.com/Fdawgs/fastify-disablecache/commit/e97a91e93ab3e13230bd6ecdef7e217ce6fe3830))
+* **automerge:** flush buffer to disk ([b0ff268](https://github.com/Fdawgs/fastify-disablecache/commit/b0ff268df615a0cff9d1311039b5cbf9a90c70b1))
+* **cd:** grant issue write permissions for tags ([#318](https://github.com/Fdawgs/fastify-disablecache/issues/318)) ([9e9b998](https://github.com/Fdawgs/fastify-disablecache/commit/9e9b998d1fcee9a6a4f44d14c822bf7488e3f8f7))
+* **ci:** add node 24 to test matrix ([#314](https://github.com/Fdawgs/fastify-disablecache/issues/314)) ([a754a6f](https://github.com/Fdawgs/fastify-disablecache/commit/a754a6f183abfbd835806a539c159fbe399ea3c1))
+* **codeql:** analyse github actions ([8c04d4d](https://github.com/Fdawgs/fastify-disablecache/commit/8c04d4d84b86942d91840546e8ee222b14a811ec))
+* **deps:** bump actions/dependency-review-action from 4.5.0 to 4.6.0 ([#309](https://github.com/Fdawgs/fastify-disablecache/issues/309)) ([4ff3a1e](https://github.com/Fdawgs/fastify-disablecache/commit/4ff3a1eee003c831e77beee0293d31a20e48e757))
+* **deps:** bump actions/dependency-review-action from 4.6.0 to 4.7.1 ([#315](https://github.com/Fdawgs/fastify-disablecache/issues/315)) ([031fd2c](https://github.com/Fdawgs/fastify-disablecache/commit/031fd2c1a73e2cc41ed6d209f4801d6272849b84))
+* **deps:** bump actions/setup-node from 4.3.0 to 4.4.0 ([#313](https://github.com/Fdawgs/fastify-disablecache/issues/313)) ([58ca307](https://github.com/Fdawgs/fastify-disablecache/commit/58ca307306a22d8a9eb973a0801027f27dc5dc79))
+* **deps:** bump github/codeql-action from 3.28.12 to 3.28.13 ([#310](https://github.com/Fdawgs/fastify-disablecache/issues/310)) ([3e7d694](https://github.com/Fdawgs/fastify-disablecache/commit/3e7d694b30b544d257ec0699523e7544ed1c2e79))
+* **deps:** bump github/codeql-action from 3.28.13 to 3.28.16 ([#312](https://github.com/Fdawgs/fastify-disablecache/issues/312)) ([73d1ff7](https://github.com/Fdawgs/fastify-disablecache/commit/73d1ff7b9728090a5dd2116fd576444e1ea367c4))
+* **deps:** bump github/codeql-action from 3.28.16 to 3.28.18 ([#316](https://github.com/Fdawgs/fastify-disablecache/issues/316)) ([0b97068](https://github.com/Fdawgs/fastify-disablecache/commit/0b97068ef2810aa9e56b3e7cd076ce2d64f08e17))
+* use latest node lts version for unit tests ([#311](https://github.com/Fdawgs/fastify-disablecache/issues/311)) ([fb677fa](https://github.com/Fdawgs/fastify-disablecache/commit/fb677fa62cb6a79dca1d3d9d9124655af2bced10))
+* use tags for immutable github actions ([#317](https://github.com/Fdawgs/fastify-disablecache/issues/317)) ([0b2785e](https://github.com/Fdawgs/fastify-disablecache/commit/0b2785e3d85414f9aaef44fedc1232201b69f14b))
+
+
+### Dependencies
+
+* **deps-dev:** bump dev dependencies ([#324](https://github.com/Fdawgs/fastify-disablecache/issues/324)) ([6d79336](https://github.com/Fdawgs/fastify-disablecache/commit/6d7933626d67d2bd7d03d894e49cf4fd9807f64d))
+* **deps-dev:** migrate to eslint flat config ([#321](https://github.com/Fdawgs/fastify-disablecache/issues/321)) ([7f05d2f](https://github.com/Fdawgs/fastify-disablecache/commit/7f05d2f560a513c3a80a0d7f864ee5ecfd6b1953))
+* **deps-dev:** remove upath ([cf16f95](https://github.com/Fdawgs/fastify-disablecache/commit/cf16f9595f4e2ea55c401f16338bb3e7fd9f7b88))
+* **deps-dev:** replace license-checker with licensee ([#320](https://github.com/Fdawgs/fastify-disablecache/issues/320)) ([a71f769](https://github.com/Fdawgs/fastify-disablecache/commit/a71f7696f0cd177f9039b93cf92384db4bc152af))
+
+
+### Documentation
+
+* **readme:** change tense ([97be76b](https://github.com/Fdawgs/fastify-disablecache/commit/97be76b658a1192926d86a0e99bdfea6b847eea5))
+
+
+### Improvements
+
+* **index:** cache header object ([#322](https://github.com/Fdawgs/fastify-disablecache/issues/322)) ([e1e8f1f](https://github.com/Fdawgs/fastify-disablecache/commit/e1e8f1f2ca5335191840720bdc809e1163457b6f))
+* **index:** name hook function ([#323](https://github.com/Fdawgs/fastify-disablecache/issues/323)) ([458ec42](https://github.com/Fdawgs/fastify-disablecache/commit/458ec42222001a9d7f8d7f0ca6531ffa1ba2c1c6))
+
+
+### Miscellaneous
+
+* **license:** replace date range with `-present` ([#319](https://github.com/Fdawgs/fastify-disablecache/issues/319)) ([9d1e579](https://github.com/Fdawgs/fastify-disablecache/commit/9d1e5797f80571a44bfa5373e136963ce3e621ff))
+* use impersonal language ([a371c73](https://github.com/Fdawgs/fastify-disablecache/commit/a371c73b6b51facf9a913f856478c65eca0bf9e5))
+
 ## [4.0.1](https://github.com/Fdawgs/fastify-disablecache/compare/v4.0.0...v4.0.1) (2025-01-13)
 
 
