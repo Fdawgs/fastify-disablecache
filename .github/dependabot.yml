@@ -21,6 +21,7 @@ updates:
           eslint:
               patterns:
                   - "@eslint*"
+                  - "*eslint-config*"
                   - "eslint*"
           fastify-core:
               patterns:
