@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [4.0.3](https://github.com/Fdawgs/fastify-disablecache/compare/v4.0.2...v4.0.3) (2025-07-07)
+
+
+### Continuous integration
+
+* **dependabot:** add eslint config to eslint group ([#327](https://github.com/Fdawgs/fastify-disablecache/issues/327)) ([088d284](https://github.com/Fdawgs/fastify-disablecache/commit/088d2842a0bdeedb20953d2306913a9bce2663ba))
+
+
+### Documentation
+
+* **readme:** add compatibility table ([#325](https://github.com/Fdawgs/fastify-disablecache/issues/325)) ([e8a1303](https://github.com/Fdawgs/fastify-disablecache/commit/e8a13037c40f9ede177c1cbb2f00b6607b115664))
+
 ## [4.0.2](https://github.com/Fdawgs/fastify-disablecache/compare/v4.0.1...v4.0.2) (2025-06-26)
 
 
