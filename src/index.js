@@ -13,12 +13,14 @@ const CACHE_HEADERS = {
  * @author Frazer Smith
  * @description Simple plugin that adds an `onRequest` hook to disable client-side caching
  * by setting the relevant response headers.
- * @param {import("fastify").FastifyInstance} server - Fastify instance.
+ * @type {import("fastify").FastifyPluginCallback}
  */
-async function fastifyDisablecache(server) {
-	server.addHook("onRequest", async function setCacheHeaders(_req, res) {
+function fastifyDisablecache(server, _opts, done) {
+	server.addHook("onRequest", (_req, res, next) => {
 		res.headers(CACHE_HEADERS);
+		next();
 	});
+	done();
 }
 
 module.exports = fp(fastifyDisablecache, {
