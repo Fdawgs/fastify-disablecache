@@ -14,9 +14,9 @@ const CACHE_HEADERS = {
  * @description Adds cache disabling headers to the response.
  * @type {import("fastify").onRequestHookHandler}
  */
-function setCacheHeaders(_req, res, next) {
+function setCacheHeaders(_req, res, done) {
 	res.headers(CACHE_HEADERS);
-	next();
+	done();
 }
 
 /**
