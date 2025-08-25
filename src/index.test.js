@@ -6,6 +6,8 @@ const { after, before, describe, it } = require("node:test");
 const Fastify = require("fastify");
 const plugin = require(".");
 
+/** @typedef {import('node:test').TestContext} TestContext */
+
 /**
  * @author Frazer Smith
  * @description Check if an object contains a subset of properties.
@@ -41,7 +43,7 @@ describe("Disablecache plugin", () => {
 
 		after(async () => server.close());
 
-		it("Sets relevant cache response headers", async (t) => {
+		it("Sets relevant cache response headers", async (/** @type {TestContext} */ t) => {
 			const response = await server.inject({
 				method: "GET",
 				url: "/",
