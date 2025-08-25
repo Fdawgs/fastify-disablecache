@@ -15,7 +15,7 @@ const CACHE_HEADERS = {
  * by setting the relevant response headers.
  * @type {import("fastify").FastifyPluginCallback}
  */
-function fastifyDisablecache(server, _opts, done) {
+function fastifyDisablecache(server, _options, done) {
 	server.addHook("onRequest", (_req, res, next) => {
 		res.headers(CACHE_HEADERS);
 		next();
