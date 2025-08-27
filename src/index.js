@@ -3,10 +3,10 @@
 const fp = require("fastify-plugin");
 
 const CACHE_HEADERS = {
-	"Cache-Control": "no-store, max-age=0, must-revalidate",
-	Expires: "0",
-	Pragma: "no-cache",
-	"Surrogate-Control": "no-store",
+	"cache-control": "no-store, max-age=0, must-revalidate",
+	expires: "0",
+	pragma: "no-cache",
+	"surrogate-control": "no-store",
 };
 
 /**
