@@ -1,0 +1,30 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/javascript-node
+{
+	"$schema": "https://raw.githubusercontent.com/devcontainers/spec/main/schemas/devContainer.schema.json",
+
+	"name": "Node.js",
+	"image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+
+	"customizations": {
+		"vscode": {
+			// Devcontainers do not automatically install recommended extensions
+			// from .vscode/extensions.json
+			"extensions": [
+				"bierner.github-markdown-preview",
+				"dbaeumer.vscode-eslint",
+				"eamodio.gitlens",
+				"esbenp.prettier-vscode",
+				"redhat.vscode-yaml"
+			]
+		}
+	},
+	// Features to add to the dev container. More info: https://containers.dev/features.
+	"features": {
+		"ghcr.io/devcontainers/features/git:1": {},
+		"ghcr.io/devcontainers/features/github-cli:1": {}
+	},
+	// Use 'postCreateCommand' to run commands after the container is created.
+	"postCreateCommand": "npm i",
+	"remoteUser": "node"
+}
