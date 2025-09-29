@@ -40,7 +40,8 @@
 		"prepare": "husky",
 		"test:unit:coverage": "c8 --100 --all --src='src/' -r=lcovonly -r=text npm run test:unit",
 		"test:unit": "node --test",
-		"test": "npm run lint && npm run lint:prettier && npm run test:unit"
+		"test": "npm run lint && npm run lint:prettier && npm run test:unit",
+		"typecheck": "tsc"
 	},
 	"commitlint": {
 		"extends": [
@@ -52,12 +53,14 @@
 		"@commitlint/config-conventional": "^19.8.1",
 		"@eslint/compat": "^1.3.1",
 		"@fdawgs/eslint-config": "^1.0.3",
+		"@types/node": "^24.5.2",
 		"c8": "^10.1.3",
 		"eslint": "^9.29.0",
 		"fastify": "^5.4.0",
 		"husky": "^9.1.7",
 		"licensee": "^11.1.1",
-		"prettier": "^3.6.1"
+		"prettier": "^3.6.1",
+		"typescript": "~5.9.2"
 	},
 	"dependencies": {
 		"fastify-plugin": "^5.0.1"
