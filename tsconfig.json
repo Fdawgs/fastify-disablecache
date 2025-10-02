@@ -1,12 +1,17 @@
 {
-	"$schema": "https://json.schemastore.org/jsconfig",
+	"$schema": "https://json.schemastore.org/tsconfig",
 	"compilerOptions": {
+		"allowJs": true,
 		"checkJs": true,
+		"lib": ["ES2024"],
 		"module": "NodeNext",
 		"moduleResolution": "NodeNext",
+		"noEmit": true,
 		"resolveJsonModule": true,
+		"skipLibCheck": true,
 		"strict": true,
-		"target": "ES2023"
+		"target": "ES2024",
+		"types": ["node"]
 	},
 	"exclude": ["dist", "node_modules"]
 }
