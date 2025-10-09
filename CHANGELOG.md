@@ -2,6 +2,64 @@
 
 All notable changes to this project will be documented in this file.
 
+## [5.0.0](https://github.com/Fdawgs/fastify-disablecache/compare/v4.0.2...v5.0.0) (2025-10-09)
+
+
+### ⚠ BREAKING CHANGES
+
+* **index:** switch to callback style to remove Promise overhead ([#333](https://github.com/Fdawgs/fastify-disablecache/issues/333))
+
+### Continuous integration
+
+* **cd:** only scope package if it is not already ([#329](https://github.com/Fdawgs/fastify-disablecache/issues/329)) ([f39a79c](https://github.com/Fdawgs/fastify-disablecache/commit/f39a79c96b053bdf35051546476709cef23bf4ac))
+* **cd:** protect against cache poisoning ([#349](https://github.com/Fdawgs/fastify-disablecache/issues/349)) ([3eb8e03](https://github.com/Fdawgs/fastify-disablecache/commit/3eb8e03bc417f09be139b97d85fc8a67ca16dbd0))
+* **cd:** use oicd for publishing to npm ([#332](https://github.com/Fdawgs/fastify-disablecache/issues/332)) ([1e2a629](https://github.com/Fdawgs/fastify-disablecache/commit/1e2a62964dc17592b0455d0180f90eaa6054a706))
+* **ci:** add typecheck to lint job ([#350](https://github.com/Fdawgs/fastify-disablecache/issues/350)) ([006b483](https://github.com/Fdawgs/fastify-disablecache/commit/006b483d3dd05dc0dcb2bb75e421676f756362c4))
+* **ci:** check dependabot prs originate from repo ([#347](https://github.com/Fdawgs/fastify-disablecache/issues/347)) ([2c06b8b](https://github.com/Fdawgs/fastify-disablecache/commit/2c06b8baacdb27e7f9fa03ad616a9dd38ea921a8))
+* **ci:** ignore dependabot prs in coverage updates ([#354](https://github.com/Fdawgs/fastify-disablecache/issues/354)) ([29d417c](https://github.com/Fdawgs/fastify-disablecache/commit/29d417c20102b996a11700f17e7be55bc7efaf1d))
+* **dependabot:** add eslint config to eslint group ([#327](https://github.com/Fdawgs/fastify-disablecache/issues/327)) ([088d284](https://github.com/Fdawgs/fastify-disablecache/commit/088d2842a0bdeedb20953d2306913a9bce2663ba))
+* **deps:** bump actions/checkout from 4 to 5 ([#339](https://github.com/Fdawgs/fastify-disablecache/issues/339)) ([c2eb6b1](https://github.com/Fdawgs/fastify-disablecache/commit/c2eb6b19988389ef08cf522c38ec7be476d1ccd9))
+* **deps:** bump actions/dependency-review-action from 4.7.1 to 4.7.3 ([#340](https://github.com/Fdawgs/fastify-disablecache/issues/340)) ([ab1582c](https://github.com/Fdawgs/fastify-disablecache/commit/ab1582c4cea7884d2edcc3cd2c0d0f4879892628))
+* **deps:** bump actions/dependency-review-action from 4.7.3 to 4.8.0 ([#351](https://github.com/Fdawgs/fastify-disablecache/issues/351)) ([5b66ffa](https://github.com/Fdawgs/fastify-disablecache/commit/5b66ffaf7452584948f4fd15e12b29fe9beb296a))
+* **deps:** bump actions/setup-node from 4 to 5 ([#344](https://github.com/Fdawgs/fastify-disablecache/issues/344)) ([d959ec9](https://github.com/Fdawgs/fastify-disablecache/commit/d959ec963288f2e3cf00de8aa36620c49756932c))
+* **deps:** bump googleapis/release-please-action from 4.2.0 to 4.3.0 ([#341](https://github.com/Fdawgs/fastify-disablecache/issues/341)) ([02ddd79](https://github.com/Fdawgs/fastify-disablecache/commit/02ddd79e381517ff43f30f4350fc3309a92e8494))
+* **link-check:** retry on 429 response ([#331](https://github.com/Fdawgs/fastify-disablecache/issues/331)) ([e0734d9](https://github.com/Fdawgs/fastify-disablecache/commit/e0734d9f913482ec47d068a5477493fca0f29824))
+* tidy conditional checks ([#348](https://github.com/Fdawgs/fastify-disablecache/issues/348)) ([4f4dcff](https://github.com/Fdawgs/fastify-disablecache/commit/4f4dcff472c6e66ab516215b78f585491d724b6f))
+* use `.nvmrc` for node-version ([#353](https://github.com/Fdawgs/fastify-disablecache/issues/353)) ([b98f873](https://github.com/Fdawgs/fastify-disablecache/commit/b98f87308e7ccd7a0743888910b5ec0bd206ffea))
+
+
+### Dependencies
+
+* **dependabot:** add cooldowns ([#343](https://github.com/Fdawgs/fastify-disablecache/issues/343)) ([1a69ffa](https://github.com/Fdawgs/fastify-disablecache/commit/1a69ffa54e1bf02072b12b149bb8e6eb02b01d8b))
+* **deps-dev:** bump the commitlint group with 2 updates ([#352](https://github.com/Fdawgs/fastify-disablecache/issues/352)) ([0f3afe6](https://github.com/Fdawgs/fastify-disablecache/commit/0f3afe6151074ab5bd0cc1ad47ab144969014e04))
+* **deps:** bump dependencies ([#355](https://github.com/Fdawgs/fastify-disablecache/issues/355)) ([e892d33](https://github.com/Fdawgs/fastify-disablecache/commit/e892d334ea2ce16d92694423519b34c6af3aa651))
+
+
+### Documentation
+
+* **readme:** add compatibility table ([#325](https://github.com/Fdawgs/fastify-disablecache/issues/325)) ([e8a1303](https://github.com/Fdawgs/fastify-disablecache/commit/e8a13037c40f9ede177c1cbb2f00b6607b115664))
+
+
+### Improvements
+
+* **index:** hoist `setCacheHeaders` to module scope ([#336](https://github.com/Fdawgs/fastify-disablecache/issues/336)) ([b2fd7b9](https://github.com/Fdawgs/fastify-disablecache/commit/b2fd7b9099a691b9df1dd649f312f1ea27da50da))
+* **index:** switch to callback style to remove Promise overhead ([#333](https://github.com/Fdawgs/fastify-disablecache/issues/333)) ([a255770](https://github.com/Fdawgs/fastify-disablecache/commit/a255770d59dc395613d30b3a0afea5a0406a1097))
+
+
+### Miscellaneous
+
+* **.devcontainer:** add devcontainer ([#345](https://github.com/Fdawgs/fastify-disablecache/issues/345)) ([508dc72](https://github.com/Fdawgs/fastify-disablecache/commit/508dc725aff598fbf19bdedde4bc504de11e071a))
+* **.npmrc:** ignore scripts ([#346](https://github.com/Fdawgs/fastify-disablecache/issues/346)) ([de4e32d](https://github.com/Fdawgs/fastify-disablecache/commit/de4e32de0a128ef4412757bc2f8e7dafd2f85a21))
+* add `.nvmrc` file ([#342](https://github.com/Fdawgs/fastify-disablecache/issues/342)) ([06ae71c](https://github.com/Fdawgs/fastify-disablecache/commit/06ae71cc6027eeff411fceb95e7317636022d2ca))
+* **index:** lowercase headers to reflect node's output ([#338](https://github.com/Fdawgs/fastify-disablecache/issues/338)) ([9be1af8](https://github.com/Fdawgs/fastify-disablecache/commit/9be1af8db6f50f28220a542f64095963e6e5c201))
+* **index:** use `done` over `next` for callback name ([#337](https://github.com/Fdawgs/fastify-disablecache/issues/337)) ([b142ca7](https://github.com/Fdawgs/fastify-disablecache/commit/b142ca769a04ea952018e2ada0e15f787fc3253f))
+* **index:** use `options` over `opts` for param name ([#335](https://github.com/Fdawgs/fastify-disablecache/issues/335)) ([c29af01](https://github.com/Fdawgs/fastify-disablecache/commit/c29af01d78ebda04b78a04dcbe047b8db427d43f))
+
+
+### Tests
+
+* **index:** add testcontext jsdoc to satisfy ts2775 on assertions ([#334](https://github.com/Fdawgs/fastify-disablecache/issues/334)) ([1e9dc39](https://github.com/Fdawgs/fastify-disablecache/commit/1e9dc39f4a6a9e8308a358dcbd962f83d8a21144))
+
 ## [4.0.2](https://github.com/Fdawgs/fastify-disablecache/compare/v4.0.1...v4.0.2) (2025-06-26)
 
 
