@@ -32,11 +32,13 @@
 		"node": ">=20"
 	},
 	"scripts": {
-		"lint:fix": "npm run lint -- --fix",
+		"lint:eslint:fix": "npm run lint:eslint -- --fix",
+		"lint:eslint": "eslint . --cache",
+		"lint:fix": "npm run lint:eslint:fix && npm run lint:prettier:fix",
 		"lint:licenses": "licensee --errors-only --production",
 		"lint:prettier:fix": "prettier . -w -u",
 		"lint:prettier": "prettier . -c -u",
-		"lint": "eslint . --cache",
+		"lint": "npm run lint:eslint && npm run lint:prettier && npm run lint:licenses",
 		"prepare": "husky",
 		"test:unit:coverage": "c8 --100 --all --src='src/' -r=lcovonly -r=text npm run test:unit",
 		"test:unit": "node --test",
