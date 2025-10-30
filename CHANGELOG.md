@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [5.0.1](https://github.com/Fdawgs/fastify-disablecache/compare/v5.0.0...v5.0.1) (2025-10-30)
+
+
+### Miscellaneous
+
+* rename lint scripts to reflect use ([#356](https://github.com/Fdawgs/fastify-disablecache/issues/356)) ([6e28758](https://github.com/Fdawgs/fastify-disablecache/commit/6e2875889cfd2227a400a806be3629a9f7e5e11a))
+
 ## [5.0.0](https://github.com/Fdawgs/fastify-disablecache/compare/v4.0.2...v5.0.0) (2025-10-09)
 
 
