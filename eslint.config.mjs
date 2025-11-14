@@ -11,7 +11,7 @@ const config = defineConfig([
 	// Include ignore file to prevent linting of files in .gitignore
 	includeIgnoreFile(gitignorePath),
 	{
-		files: ["**/*.js", "**/*.jsx"],
+		files: ["**/*.js"],
 		extends: [fdawgs],
 	},
 ]);
