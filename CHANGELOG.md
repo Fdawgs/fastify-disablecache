@@ -2,6 +2,35 @@
 
 All notable changes to this project will be documented in this file.
 
+## [5.0.1](https://github.com/Fdawgs/fastify-disablecache/compare/v5.0.0...v5.0.1) (2025-11-15)
+
+
+### Continuous integration
+
+* add lock-threads workflow; fix concurrency groups ([#370](https://github.com/Fdawgs/fastify-disablecache/issues/370)) ([d7565a3](https://github.com/Fdawgs/fastify-disablecache/commit/d7565a341699f5f4ab9050ad1038269ef02432e6))
+* **ci:** only send coverage to coveralls on main ([#365](https://github.com/Fdawgs/fastify-disablecache/issues/365)) ([1da01eb](https://github.com/Fdawgs/fastify-disablecache/commit/1da01eb8db3034ec15c92c0f5dec9754ec394360))
+* **deps:** bump actions/dependency-review-action from 4.8.0 to 4.8.1 ([#359](https://github.com/Fdawgs/fastify-disablecache/issues/359)) ([64dddd1](https://github.com/Fdawgs/fastify-disablecache/commit/64dddd17272bf8c294325a3f11d40ddd72fd73dd))
+* **deps:** bump actions/setup-node from 5 to 6 ([#360](https://github.com/Fdawgs/fastify-disablecache/issues/360)) ([3f7285d](https://github.com/Fdawgs/fastify-disablecache/commit/3f7285d354868601c9c2e3ef5c49414873288eb1))
+* **deps:** bump fastify/github-action-merge-dependabot ([#363](https://github.com/Fdawgs/fastify-disablecache/issues/363)) ([0340515](https://github.com/Fdawgs/fastify-disablecache/commit/03405154f36c6de9892d40883dd97d3b1a6dce09))
+* **deps:** bump github/codeql-action from 3 to 4 ([#361](https://github.com/Fdawgs/fastify-disablecache/issues/361)) ([de9c165](https://github.com/Fdawgs/fastify-disablecache/commit/de9c1658817b97806a5f999f81f40e2fa5509cc0))
+* **deps:** bump googleapis/release-please-action from 4.3.0 to 4.4.0 ([#362](https://github.com/Fdawgs/fastify-disablecache/issues/362)) ([b48c933](https://github.com/Fdawgs/fastify-disablecache/commit/b48c9338e85a3e4f76e68d0fcecb850f71feed07))
+* **deps:** bump JustinBeckwith/linkinator-action from 1.11.0 to 2.3 ([#358](https://github.com/Fdawgs/fastify-disablecache/issues/358)) ([a5dbd8e](https://github.com/Fdawgs/fastify-disablecache/commit/a5dbd8ea9904ae3ae93e7b808d694fb895d1eb9d))
+* **link-check:** use reusable workflow ([#372](https://github.com/Fdawgs/fastify-disablecache/issues/372)) ([c9aa277](https://github.com/Fdawgs/fastify-disablecache/commit/c9aa2770aa878455f3351a0d71bc4b5330f5d492))
+* **lock-threads:** set cron to every day ([#371](https://github.com/Fdawgs/fastify-disablecache/issues/371)) ([06d6732](https://github.com/Fdawgs/fastify-disablecache/commit/06d67320ff5acfb30b6abdbc8690f1e936adf22b))
+
+
+### Dependencies
+
+* **deps-dev:** bump @fdawgs/eslint-config in the eslint group ([#364](https://github.com/Fdawgs/fastify-disablecache/issues/364)) ([70206f7](https://github.com/Fdawgs/fastify-disablecache/commit/70206f74be5a5c81d7c37a3d60a5d6a6b15f6e7a))
+
+
+### Miscellaneous
+
+* **.editorconfig:** add file to enforce consistent coding styles ([#366](https://github.com/Fdawgs/fastify-disablecache/issues/366)) ([3641b4f](https://github.com/Fdawgs/fastify-disablecache/commit/3641b4f88916f3fd7e2f941d7409aff41b47e7b5))
+* **.editorconfig:** use spaces for yml file indentation ([#369](https://github.com/Fdawgs/fastify-disablecache/issues/369)) ([1a0a552](https://github.com/Fdawgs/fastify-disablecache/commit/1a0a552c7b270fe48b00c67afcc32c6050563bcc))
+* **eslint.config:** stop applying to jsx files ([#368](https://github.com/Fdawgs/fastify-disablecache/issues/368)) ([e27b1e8](https://github.com/Fdawgs/fastify-disablecache/commit/e27b1e83cb955dd7095503df92badaaf80975fbc))
+* rename lint scripts to reflect use ([#356](https://github.com/Fdawgs/fastify-disablecache/issues/356)) ([6e28758](https://github.com/Fdawgs/fastify-disablecache/commit/6e2875889cfd2227a400a806be3629a9f7e5e11a))
+
 ## [5.0.0](https://github.com/Fdawgs/fastify-disablecache/compare/v4.0.2...v5.0.0) (2025-10-09)
 
 
