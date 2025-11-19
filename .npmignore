@@ -2,5 +2,5 @@
 # Removing the `files` key and replacing it with this `.npmignore` saves some bytes, which
 # should improve installation performance slightly
 *
-!src/index.js
+!src/**
 !types/index.d.ts
