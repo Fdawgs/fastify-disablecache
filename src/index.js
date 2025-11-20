@@ -2,12 +2,13 @@
 
 const fp = require("fastify-plugin");
 
-const CACHE_HEADERS = {
+/** @type {Readonly<Record<string, string>>} */
+const CACHE_HEADERS = Object.freeze({
 	"cache-control": "no-store, max-age=0, must-revalidate",
 	expires: "0",
 	pragma: "no-cache",
 	"surrogate-control": "no-store",
-};
+});
 
 /**
  * @author Frazer Smith
