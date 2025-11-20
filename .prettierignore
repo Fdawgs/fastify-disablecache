@@ -3,7 +3,8 @@
 CHANGELOG.md
 package.json
 package-lock.json
-types/
+# Types are static in this repo
+# types/
 
 # Test files
 test/__snapshots__/
