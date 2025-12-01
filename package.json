@@ -52,7 +52,7 @@
 	"devDependencies": {
 		"@commitlint/cli": "^20.1.0",
 		"@commitlint/config-conventional": "^20.0.0",
-		"@eslint/compat": "^1.4.0",
+		"@eslint/compat": "^2.0.0",
 		"@fdawgs/eslint-config": "^2.0.0",
 		"@types/node": "^24.7.0",
 		"c8": "^10.1.3",
