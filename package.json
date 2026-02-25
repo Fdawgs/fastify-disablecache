@@ -41,7 +41,7 @@
 		"lint": "npm run lint:eslint && npm run lint:prettier && npm run lint:licenses",
 		"test:unit:coverage": "c8 --100 --all --src='src/' -r=lcovonly -r=text npm run test:unit",
 		"test:unit": "node --test",
-		"test": "npm run lint && npm run lint:prettier && npm run test:unit",
+		"test": "npm run lint && npm run test:unit",
 		"typecheck": "tsc"
 	},
 	"commitlint": {
