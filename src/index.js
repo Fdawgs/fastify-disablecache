@@ -4,7 +4,7 @@ const fp = require("fastify-plugin");
 
 /** @type {Readonly<Record<string, string>>} */
 const CACHE_HEADERS = Object.freeze({
-	"cache-control": "no-store, max-age=0, must-revalidate",
+	"cache-control": "no-store, max-age=0, must-revalidate, proxy-revalidate",
 	expires: "0",
 	pragma: "no-cache",
 	"surrogate-control": "no-store",

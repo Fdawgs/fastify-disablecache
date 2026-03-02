@@ -12,8 +12,8 @@ const plugin = require("../src");
  * @author Frazer Smith
  * @description Check if an object contains a subset of properties.
  * @todo Replace with `assert.partialDeepStrictEqual` when available.
- * @param {Record<string, any>} actual - The actual object.
- * @param {Record<string, any>} expected - The expected subset of properties.
+ * @param {Record<string, unknown>} actual - The actual object.
+ * @param {Record<string, unknown>} expected - The expected subset of properties.
  */
 function matchObject(actual, expected) {
 	for (const [key, value] of Object.entries(expected)) {
@@ -52,7 +52,8 @@ describe("Disablecache plugin", () => {
 			t.plan(2);
 			t.assert.strictEqual(response.body, "ok");
 			matchObject(response.headers, {
-				"cache-control": "no-store, max-age=0, must-revalidate",
+				"cache-control":
+					"no-store, max-age=0, must-revalidate, proxy-revalidate",
 				expires: "0",
 				pragma: "no-cache",
 				"surrogate-control": "no-store",
