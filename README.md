@@ -32,7 +32,7 @@ This plugin was created out of a need for an easy way to disable client-side cac
 
 Install using `npm`:
 
-```bash
+```sh
 npm i fastify-disablecache
 ```
 
