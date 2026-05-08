@@ -10,7 +10,7 @@ const plugin = require("../src");
 
 /**
  * @author Frazer Smith
- * @description Check if an object contains a subset of properties.
+ * @description Checks if an object contains a subset of properties.
  * @todo Replace with `assert.partialDeepStrictEqual` when available.
  * @param {Record<string, unknown>} actual - The actual object.
  * @param {Record<string, unknown>} expected - The expected subset of properties.
