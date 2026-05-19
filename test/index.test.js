@@ -1,29 +1,10 @@
 "use strict";
 
-const assert = require("node:assert");
-// eslint-disable-next-line n/no-unsupported-features/node-builtins -- Tests, not in distributed code
 const { after, before, describe, it } = require("node:test");
 const Fastify = require("fastify");
 const plugin = require("../src");
 
 /** @typedef {import('node:test').TestContext} TestContext */
-
-/**
- * @author Frazer Smith
- * @description Checks if an object contains a subset of properties.
- * @todo Replace with `assert.partialDeepStrictEqual` when available.
- * @param {Record<string, unknown>} actual - The actual object.
- * @param {Record<string, unknown>} expected - The expected subset of properties.
- */
-function matchObject(actual, expected) {
-	for (const [key, value] of Object.entries(expected)) {
-		assert.deepStrictEqual(
-			actual[key],
-			value,
-			`Expected ${key} to be ${value}, but got ${actual[key]}`
-		);
-	}
-}
 
 describe("Disablecache plugin", () => {
 	describe("Response headers", () => {
@@ -49,9 +30,9 @@ describe("Disablecache plugin", () => {
 				url: "/",
 			});
 
-			t.plan(2);
+			t.plan(3);
 			t.assert.strictEqual(response.body, "ok");
-			matchObject(response.headers, {
+			t.assert.partialDeepStrictEqual(response.headers, {
 				"cache-control":
 					"no-store, max-age=0, must-revalidate, proxy-revalidate",
 				expires: "0",
