@@ -4,6 +4,10 @@ updates:
       commit-message:
           include: scope
           prefix: build
+      cooldown:
+          include:
+              - "*"
+          default-days: 7
       directory: /
       groups:
           devcontainers:
@@ -17,45 +21,21 @@ updates:
       commit-message:
           include: scope
           prefix: ci
+      cooldown:
+          include:
+              - "*"
+          default-days: 7
       directory: /
       groups:
+          fdawgs-owned:
+              patterns:
+                  - "@fdawgs/*"
+                  - "fdawgs/*"
           github-owned:
               patterns:
                   - "actions/*"
                   - "github/*"
                   - "octokit/*"
-      open-pull-requests-limit: 20
-      schedule:
-          interval: monthly
-
-    - package-ecosystem: npm
-      commit-message:
-          include: scope
-          prefix: build
-      cooldown:
-          include:
-              - "*"
-          semver-major-days: 60
-          semver-minor-days: 21
-          semver-patch-days: 7
-      directory: /
-      groups:
-          commitlint:
-              patterns:
-                  - "@commitlint*"
-          eslint:
-              patterns:
-                  - "@eslint*"
-                  - "*eslint-config*"
-                  - "eslint*"
-          fastify-core:
-              patterns:
-                  - "@fastify*"
-                  - "fastify"
-                  - "fastify-plugin"
-                  - "fluent-json-schema"
-                  - "env-schema"
-                  - "secure-json-parse"
       open-pull-requests-limit: 20
       schedule:
           interval: monthly
