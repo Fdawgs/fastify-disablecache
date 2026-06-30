@@ -1,10 +1,10 @@
 # fastify-disablecache
 
-[![GitHub Release](https://img.shields.io/github/release/Fdawgs/fastify-disablecache.svg)](https://github.com/Fdawgs/fastify-disablecache/releases/latest/)
-[![npm version](https://img.shields.io/npm/v/fastify-disablecache)](https://npmjs.com/package/fastify-disablecache)
+[![GitHub Release](https://img.shields.io/github/v/release/Fdawgs/fastify-disablecache)](https://github.com/Fdawgs/fastify-disablecache/releases/latest)
+[![npm version](https://img.shields.io/npm/v/fastify-disablecache)](https://www.npmjs.com/package/fastify-disablecache)
 [![CI](https://github.com/Fdawgs/fastify-disablecache/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Fdawgs/fastify-disablecache/actions/workflows/ci.yml)
 [![Coverage status](https://coveralls.io/repos/github/Fdawgs/fastify-disablecache/badge.svg?branch=main)](https://coveralls.io/github/Fdawgs/fastify-disablecache?branch=main)
-[![code style: Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat)](https://github.com/prettier/prettier)
+[![code style: Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4?style=flat)](https://github.com/prettier/prettier)
 [![OSSF Scorecard](https://api.scorecard.dev/projects/github.com/Fdawgs/fastify-disablecache/badge)](https://scorecard.dev/viewer/?uri=github.com/Fdawgs/fastify-disablecache)
 
 > Fastify plugin to disable client-side caching
@@ -25,9 +25,9 @@ This plugin was created out of a need for an easy way to disable client-side cac
 ### Why these headers?
 
 - `Cache-Control` - Primary response header for configuring cache controls [since HTTP/1.1](https://httpwg.org/specs/rfc7234.html#header.cache-control); whilst `no-store` is the directive to disable caching, clients such as [Internet Explorer](https://learn.microsoft.com/en-us/troubleshoot/developer/browsers/connectivity-navigation/how-to-prevent-caching#the-cache-control-header) did not use it, thus the addition of `max-age=0, must-revalidate`; `proxy-revalidate` is added to ensure legacy proxies that only partially implemented support for `must-revalidate` also revalidate the response
-- `Expires` - Included for backwards compatibility with [HTTP/1.0 caches](https://w3.org/Protocols/HTTP/1.0/spec.html#Expires)
-- `Pragma` - Included for backwards compatibility with [HTTP/1.0 caches](https://w3.org/Protocols/HTTP/1.0/spec.html#Pragma), is [used by Internet Explorer](https://docs.microsoft.com/en-us/troubleshoot/developer/browsers/connectivity-navigation/how-to-prevent-caching#the-pragma-no-cache-header)
-- `Surrogate-Control` - Not a standardised response header but is [used by CDNs and reverse proxies](https://w3.org/TR/edge-arch/) for cache control
+- `Expires` - Included for backwards compatibility with [HTTP/1.0 caches](https://www.w3.org/Protocols/HTTP/1.0/spec.html#Expires)
+- `Pragma` - Included for backwards compatibility with [HTTP/1.0 caches](https://www.w3.org/Protocols/HTTP/1.0/spec.html#Pragma), is [used by Internet Explorer](https://learn.microsoft.com/en-us/previous-versions/troubleshoot/browsers/connectivity-navigation/how-to-prevent-caching#the-pragma-no-cache-header)
+- `Surrogate-Control` - Not a standardised response header but is [used by CDNs and reverse proxies](https://www.w3.org/TR/edge-arch/) for cache control
 
 ## Installation
 
