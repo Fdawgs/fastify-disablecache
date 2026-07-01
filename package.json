@@ -50,8 +50,8 @@
 		]
 	},
 	"devDependencies": {
-		"@commitlint/cli": "^20.1.0",
-		"@commitlint/config-conventional": "^20.0.0",
+		"@commitlint/cli": "^21.1.0",
+		"@commitlint/config-conventional": "^21.1.0",
 		"@fdawgs/eslint-config": "^3.0.0",
 		"@types/node": "^25.0.3",
 		"c8": "^11.0.0",
