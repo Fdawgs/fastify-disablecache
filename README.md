@@ -1,6 +1,6 @@
 # fastify-disablecache
 
-[![GitHub Release](https://img.shields.io/github/v/release/Fdawgs/fastify-disablecache)](https://github.com/Fdawgs/fastify-disablecache/releases/latest)
+[![GitHub release](https://img.shields.io/github/v/release/Fdawgs/fastify-disablecache)](https://github.com/Fdawgs/fastify-disablecache/releases/latest)
 [![npm version](https://img.shields.io/npm/v/fastify-disablecache)](https://www.npmjs.com/package/fastify-disablecache)
 [![CI](https://github.com/Fdawgs/fastify-disablecache/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Fdawgs/fastify-disablecache/actions/workflows/ci.yml)
 [![Coverage status](https://coveralls.io/repos/github/Fdawgs/fastify-disablecache/badge.svg?branch=main)](https://coveralls.io/github/Fdawgs/fastify-disablecache?branch=main)
@@ -52,6 +52,8 @@ See [Fastify's LTS policy](https://github.com/fastify/fastify/blob/main/docs/Ref
 ## Example usage
 
 ```js
+"use strict";
+
 const Fastify = require("fastify");
 const disableCache = require("fastify-disablecache");
 
