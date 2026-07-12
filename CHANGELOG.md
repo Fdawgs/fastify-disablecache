@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [5.0.2](https://github.com/Fdawgs/fastify-disablecache/compare/v5.0.1...v5.0.2) (2026-07-12)
+
+
+### Continuous integration
+
+* **ci:** add node 26 to test matrix ([#405](https://github.com/Fdawgs/fastify-disablecache/issues/405)) ([aed0e0f](https://github.com/Fdawgs/fastify-disablecache/commit/aed0e0fd806fccf01b7d26819819f6d5d06caf50))
+
 ## [5.0.1](https://github.com/Fdawgs/fastify-disablecache/compare/v5.0.0...v5.0.1) (2026-07-12)
 
 
