@@ -64,7 +64,7 @@ server.get("/", (_req, res) => {
 	res.send("ok");
 });
 
-server.listen(3000, (err) => {
+server.listen({ port: 3000 }, (err) => {
 	if (err) throw err;
 	console.log("Server listening on 3000");
 });
