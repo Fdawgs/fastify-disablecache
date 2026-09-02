@@ -2,6 +2,33 @@
 
 All notable changes to this project will be documented in this file.
 
+## [5.0.2](https://github.com/Fdawgs/fastify-disablecache/compare/v5.0.1...v5.0.2) (2026-09-02)
+
+
+### Continuous integration
+
+* **ci:** add node 26 to test matrix ([#405](https://github.com/Fdawgs/fastify-disablecache/issues/405)) ([aed0e0f](https://github.com/Fdawgs/fastify-disablecache/commit/aed0e0fd806fccf01b7d26819819f6d5d06caf50))
+* **deps:** bump coverallsapp/github-action from 2.3.7 to 2.3.8 ([#443](https://github.com/Fdawgs/fastify-disablecache/issues/443)) ([1feedda](https://github.com/Fdawgs/fastify-disablecache/commit/1feedda6ef2ea31c06157127cac0e51460e0d7fb))
+* **deps:** bump the github-owned group with 2 updates ([#442](https://github.com/Fdawgs/fastify-disablecache/issues/442)) ([edd740d](https://github.com/Fdawgs/fastify-disablecache/commit/edd740d4621f614256f7e6862af6d8a267ba69e7))
+* **deps:** bump the github-owned group with 4 updates ([#439](https://github.com/Fdawgs/fastify-disablecache/issues/439)) ([fca8454](https://github.com/Fdawgs/fastify-disablecache/commit/fca845449371aff2a1d53b016d7d2140e2a82e65))
+
+
+### Dependencies
+
+* **deps-dev:** bump c8 from 11.0.0 to 12.0.0 ([#437](https://github.com/Fdawgs/fastify-disablecache/issues/437)) ([31117e7](https://github.com/Fdawgs/fastify-disablecache/commit/31117e797d5284359b3bb5378959078763c93cb8))
+* **deps-dev:** bump prettier from 3.8.5 to 3.9.5 ([#438](https://github.com/Fdawgs/fastify-disablecache/issues/438)) ([d430ca5](https://github.com/Fdawgs/fastify-disablecache/commit/d430ca5a19a61d4ff76aa476b26128dae80d2eb0))
+* **deps:** bump ghcr.io/devcontainers/features/github-cli ([#444](https://github.com/Fdawgs/fastify-disablecache/issues/444)) ([8ad9d56](https://github.com/Fdawgs/fastify-disablecache/commit/8ad9d56a74906f9bf15fc739f7fe8a9ec2480b3b))
+
+
+### Documentation
+
+* **readme:** correct listen params for fastify v5 ([#445](https://github.com/Fdawgs/fastify-disablecache/issues/445)) ([f80052c](https://github.com/Fdawgs/fastify-disablecache/commit/f80052c16f41c24263cb4a75975c11356775bd92))
+
+
+### Tests
+
+* **index:** remove disabled plugin timeout ([#440](https://github.com/Fdawgs/fastify-disablecache/issues/440)) ([6482094](https://github.com/Fdawgs/fastify-disablecache/commit/6482094896f9c2e9e138f99facaf202d966a1f13))
+
 ## [5.0.1](https://github.com/Fdawgs/fastify-disablecache/compare/v5.0.0...v5.0.1) (2026-07-12)
 
 
